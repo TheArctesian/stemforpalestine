@@ -1,0 +1,59 @@
+/* STEM4Palestine Color Palette */
+:root {
+  /* Palestinian Green Primary Colors */
+  --color-primary: #059669;
+  --color-primary-light: #10b981;
+  --color-primary-dark: #047857;
+  --color-primary-darker: #065f46;
+  
+  /* Complementary Colors */
+  --color-secondary: #dc2626; /* Red for accents */
+  --color-secondary-light: #ef4444;
+  --color-secondary-dark: #b91c1c;
+  
+  /* Header Color (Different complementary) */
+  --color-header: #1e40af; /* Blue for header contrast */
+  --color-header-light: #3b82f6;
+  --color-header-dark: #1d4ed8;
+  
+  /* Neutral Colors */
+  --color-text-primary: #2d3748;
+  --color-text-secondary: #4a5568;
+  --color-text-light: #718096;
+  --color-text-white: #ffffff;
+  
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f7fafc;
+  --color-bg-dark: #1a202c;
+  --color-bg-darker: #2d3748;
+  
+  /* Border Colors */
+  --color-border-light: #e2e8f0;
+  --color-border-medium: #cbd5e0;
+  --color-border-dark: #4a5568;
+  
+  /* Status Colors */
+  --color-success: #38a169;
+  --color-warning: #d69e2e;
+  --color-error: #e53e3e;
+  --color-info: #3182ce;
+}
+
+/* Base styling that inherits colors */
+.primary-color { color: var(--color-primary); }
+.primary-bg { background-color: var(--color-primary); }
+.primary-border { border-color: var(--color-primary); }
+
+.secondary-color { color: var(--color-secondary); }
+.secondary-bg { background-color: var(--color-secondary); }
+.secondary-border { border-color: var(--color-secondary); }
+
+.header-color { color: var(--color-header); }
+.header-bg { background-color: var(--color-header); }
+.header-border { border-color: var(--color-header); }
+
+/* Hover states */
+.primary-hover:hover { background-color: var(--color-primary-dark); }
+.secondary-hover:hover { background-color: var(--color-secondary-dark); }
+.header-hover:hover { background-color: var(--color-header-dark); }
