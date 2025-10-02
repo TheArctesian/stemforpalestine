@@ -6,10 +6,19 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
 </svelte:head>
 
 <div class="app">
@@ -18,12 +27,10 @@
 			<div class="nav-container">
 				<a href="/" class="logo">STEM4Palestine</a>
 				<div class="nav-links">
-					<a href="/about">About</a>
-					<a href="/get-involved">Get Involved</a>
-					<a href="/events">Events</a>
-					<a href="/resources">Resources</a>
-					<a href="/mutual-aid">Mutual Aid</a>
-					<a href="/contact">Contact</a>
+					<a href="https://www.shorturl.at/eYEIn" target="_blank" rel="noopener noreferrer"
+						>Get Involved</a
+					>
+					<a href="#projects">Projects</a>
 				</div>
 			</div>
 		</nav>
@@ -40,21 +47,9 @@
 					<h3>Contact</h3>
 					<p>info@stem4pal.org</p>
 				</div>
-				<div class="footer-section">
-					<h3>Follow Us</h3>
-					<div class="social-links">
-						<a href="https://www.instagram.com/reel/DOuObdDjga6/?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">Instagram</a>
-						<a href="https://m.youtube.com/watch?v=wf63XKv77Mo" target="_blank" rel="noopener noreferrer">YouTube</a>
-					</div>
-				</div>
-				<div class="footer-section">
-					<h3>Solidarity</h3>
-					<p>Free Palestine</p>
-					<p>Liberation for all oppressed peoples</p>
-				</div>
 			</div>
 			<div class="footer-bottom">
-				<p>&copy; 2024 STEM4Palestine. Liberation through collective action.</p>
+				<p>&copy; 2025 STEM4Palestine. Liberation through collective action.</p>
 			</div>
 		</div>
 	</footer>
@@ -63,29 +58,29 @@
 <style>
 	/* Color Variables */
 	:root {
-		/* Palestinian Green Primary Colors */
-		--color-primary: #059669;
-		--color-primary-light: #10b981;
-		--color-primary-dark: #047857;
-		--color-primary-darker: #065f46;
-		
+		/* Palestinian Flag Green Primary Colors */
+		--color-primary: #009639;
+		--color-primary-light: #00b849;
+		--color-primary-dark: #007a2e;
+		--color-primary-darker: #005f23;
+
 		/* Header Color (Blue complement) */
 		--color-header: #1e40af;
 		--color-header-light: #3b82f6;
 		--color-header-dark: #1d4ed8;
-		
+
 		/* Neutral Colors */
 		--color-text-primary: #2d3748;
 		--color-text-secondary: #4a5568;
 		--color-text-light: #718096;
 		--color-text-white: #ffffff;
-		
+
 		/* Background Colors */
 		--color-bg-primary: #ffffff;
 		--color-bg-secondary: #f7fafc;
 		--color-bg-dark: #1a202c;
 		--color-bg-darker: #2d3748;
-		
+
 		/* Border Colors */
 		--color-border-light: #e2e8f0;
 		--color-border-medium: #cbd5e0;
@@ -127,12 +122,12 @@
 	}
 
 	header {
-		background-color: var(--color-header);
+		background-color: var(--color-primary);
 		color: #ffffff;
 		position: sticky;
 		top: 0;
 		z-index: 100;
-		border-bottom: 3px solid var(--color-primary);
+		box-shadow: 0 2px 10px rgba(0, 150, 57, 0.3);
 	}
 
 	.nav {
@@ -169,7 +164,8 @@
 	}
 
 	.nav-links a:hover {
-		background-color: var(--color-header-dark);
+		background-color: var(--color-primary-dark);
+		transform: translateY(-1px);
 	}
 
 	main {
