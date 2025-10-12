@@ -35,7 +35,7 @@
 						<i class="fab fa-youtube"></i> YouTube
 					</a>
 					<a
-						href="https://www.shorturl.at/eYEIn"
+						href="shorturl.at/mF9wk"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="social-link join-us"
@@ -51,21 +51,12 @@
 		<div class="container">
 			<h2>Get Involved</h2>
 			<div class="action-grid">
-				<div class="action-card">
-					<h3>RSVP for Organizing Teach-In</h3>
-					<p>Join our Tech Workplace Organizing Teach-In this Thursday 10/2</p>
-					<a
-						href="https://airtable.com/apponsecnOdBK82JC/paglaJXWeDswRISwC/form"
-						class="action-link"
-						target="_blank"
-						rel="noopener noreferrer">RSVP Now →</a
-					>
 				</div>
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
 					<a
-						href="https://www.shorturl.at/eYEIn"
+						href="shorturl.at/mF9wk"
 						class="action-link"
 						target="_blank"
 						rel="noopener noreferrer">Sign Up →</a
