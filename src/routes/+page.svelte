@@ -51,7 +51,6 @@
 		<div class="container">
 			<h2>Get Involved</h2>
 			<div class="action-grid">
-				</div>
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
