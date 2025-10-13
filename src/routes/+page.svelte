@@ -273,7 +273,7 @@
 
 	<section class="videos" id="videos">
 		<div class="container">
-			<h2>Educational Videos</h2>
+			<h2>Our Videos</h2>
 			<div class="videos-grid">
 				<div class="video-card">
 					<h3>What it took for Microsoft to cut ties with Israeli Unit 8200</h3>
