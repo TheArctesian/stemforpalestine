@@ -35,7 +35,7 @@
 						<i class="fab fa-youtube"></i> YouTube
 					</a>
 					<a
-						href="shorturl.at/mF9wk"
+						href="https://shorturl.at/mF9wk"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="social-link join-us"
@@ -54,11 +54,8 @@
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
-					<a
-						href="shorturl.at/mF9wk"
-						class="action-link"
-						target="_blank"
-						rel="noopener noreferrer">Sign Up →</a
+					<a href="shorturl.at/mF9wk" class="action-link" target="_blank" rel="noopener noreferrer"
+						>Sign Up →</a
 					>
 				</div>
 				<div class="action-card">
