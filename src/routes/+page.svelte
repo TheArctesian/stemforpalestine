@@ -113,7 +113,8 @@
 					<h3>Does My Code Kill Palestinians?</h3>
 					<p>A letter to workers at Google, Amazon, and Microsoft</p>
 					<blockquote>
-						"When I first learned about Project Nimbus while I was at Google, I initially tried to convince myself that the code I wrote had nothing to do with the contract."
+						"When I first learned about Project Nimbus while I was at Google, I initially tried to
+						convince myself that the code I wrote had nothing to do with the contract."
 					</blockquote>
 					<a
 						href="https://hasanibraheem.substack.com/p/does-my-code-kill"
@@ -126,7 +127,11 @@
 					<h3>Google Employee's Dissent to Project Nimbus</h3>
 					<p>How Google employees have fought against military contracts</p>
 					<blockquote>
-						"Dissent at Google is neither rare nor ineffective. Employee opposition to controversial military contracts has previously pushed the company to drop plans to help with the Pentagon's drone warfare program and a planned Chinese version of Google Search that would filter out results unwanted by the Chinese government. Nimbus, however, has managed to survive."
+						"Dissent at Google is neither rare nor ineffective. Employee opposition to controversial
+						military contracts has previously pushed the company to drop plans to help with the
+						Pentagon's drone warfare program and a planned Chinese version of Google Search that
+						would filter out results unwanted by the Chinese government. Nimbus, however, has
+						managed to survive."
 					</blockquote>
 					<a
 						href="https://theintercept.com/2023/11/15/google-israel-gaza-nimbus-protest/"
@@ -139,7 +144,12 @@
 					<h3>The Making of the Tech Worker Movement</h3>
 					<p>Understanding the history and evolution of tech worker organizing</p>
 					<blockquote>
-						"On November 1, 2018, more than twenty thousand employees and contractors of Google walked out of their offices. They walked out in fifty cities around the world: in Silicon Valley and Sydney, Dublin and São Paulo. They were enraged by a story in the New York Times reporting that Andy Rubin, creator of the Android mobile operating system, had been protected by Google management—and given a $90 million exit package—despite allegations of sexual harassment that management itself had found credible."
+						"On November 1, 2018, more than twenty thousand employees and contractors of Google
+						walked out of their offices. They walked out in fifty cities around the world: in
+						Silicon Valley and Sydney, Dublin and São Paulo. They were enraged by a story in the New
+						York Times reporting that Andy Rubin, creator of the Android mobile operating system,
+						had been protected by Google management—and given a $90 million exit package—despite
+						allegations of sexual harassment that management itself had found credible."
 					</blockquote>
 					<a
 						href="https://logicmag.io/the-making-of-the-tech-worker-movement/full-text/"
@@ -266,35 +276,36 @@
 			<h2>Educational Videos</h2>
 			<div class="videos-grid">
 				<div class="video-card">
-					<h3>UC Investments Explained</h3>
-					<p>Understanding how UC invests student and public funds</p>
+					<h3>What it took for Microsoft to cut ties with Israeli Unit 8200</h3>
 					<a
 						href="https://www.youtube.com/watch?v=ly1_DZBlJvo"
 						class="video-link"
 						target="_blank"
-						rel="noopener noreferrer">
+						rel="noopener noreferrer"
+					>
 						<i class="fab fa-youtube"></i> Watch Video
 					</a>
 				</div>
 				<div class="video-card">
-					<h3>Divestment Movement Analysis</h3>
-					<p>Breaking down the divestment movement and its impact</p>
+					<h3>Ecocide in Gaza & The Silent War in the West Bank</h3>
+					<p>Teach-in by Abel Butmeh</p>
 					<a
 						href="https://www.youtube.com/watch?v=p27i6bKVxZE"
 						class="video-link"
 						target="_blank"
-						rel="noopener noreferrer">
+						rel="noopener noreferrer"
+					>
 						<i class="fab fa-youtube"></i> Watch Video
 					</a>
 				</div>
 				<div class="video-card">
-					<h3>Financial Justice Research</h3>
-					<p>Research methods and findings on institutional investments</p>
+					<h3>Being Anti-Genocide in the Tech Industry</h3>
 					<a
 						href="https://www.youtube.com/watch?v=E62y6lnJIJQ"
 						class="video-link"
 						target="_blank"
-						rel="noopener noreferrer">
+						rel="noopener noreferrer"
+					>
 						<i class="fab fa-youtube"></i> Watch Video
 					</a>
 				</div>
