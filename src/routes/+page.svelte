@@ -54,8 +54,11 @@
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
-					<a href="shorturl.at/mF9wk" class="action-link" target="_blank" rel="noopener noreferrer"
-						>Sign Up →</a
+					<a
+						href="https://shorturl.at/mF9wk"
+						class="action-link"
+						target="_blank"
+						rel="noopener noreferrer">Sign Up →</a
 					>
 				</div>
 				<div class="action-card">
@@ -98,14 +101,74 @@
 						rel="noopener noreferrer">Sign Pledge →</a
 					>
 				</div>
-				<div class="action-card">
+			</div>
+		</div>
+	</section>
+
+	<section class="solidarity" id="solidarity">
+		<div class="container">
+			<h2>Tech Worker Solidarity</h2>
+			<div class="solidarity-grid">
+				<div class="solidarity-card">
 					<h3>Does My Code Kill Palestinians?</h3>
-					<p>A letter to Google, Amazon, & Microsoft workers</p>
+					<p>A letter to workers at Google, Amazon, and Microsoft</p>
+					<blockquote>
+						"When I first learned about Project Nimbus while I was at Google, I initially tried to convince myself that the code I wrote had nothing to do with the contract."
+					</blockquote>
 					<a
 						href="https://hasanibraheem.substack.com/p/does-my-code-kill"
-						class="action-link"
+						class="solidarity-link"
 						target="_blank"
 						rel="noopener noreferrer">Read Article →</a
+					>
+				</div>
+				<div class="solidarity-card">
+					<h3>Google Employee's Dissent to Project Nimbus</h3>
+					<p>How Google employees have fought against military contracts</p>
+					<blockquote>
+						"Dissent at Google is neither rare nor ineffective. Employee opposition to controversial military contracts has previously pushed the company to drop plans to help with the Pentagon's drone warfare program and a planned Chinese version of Google Search that would filter out results unwanted by the Chinese government. Nimbus, however, has managed to survive."
+					</blockquote>
+					<a
+						href="https://theintercept.com/2023/11/15/google-israel-gaza-nimbus-protest/"
+						class="solidarity-link"
+						target="_blank"
+						rel="noopener noreferrer">Read Article →</a
+					>
+				</div>
+				<div class="solidarity-card">
+					<h3>The Making of the Tech Worker Movement</h3>
+					<p>Understanding the history and evolution of tech worker organizing</p>
+					<blockquote>
+						"On November 1, 2018, more than twenty thousand employees and contractors of Google walked out of their offices. They walked out in fifty cities around the world: in Silicon Valley and Sydney, Dublin and São Paulo. They were enraged by a story in the New York Times reporting that Andy Rubin, creator of the Android mobile operating system, had been protected by Google management—and given a $90 million exit package—despite allegations of sexual harassment that management itself had found credible."
+					</blockquote>
+					<a
+						href="https://logicmag.io/the-making-of-the-tech-worker-movement/full-text/"
+						class="solidarity-link"
+						target="_blank"
+						rel="noopener noreferrer">Read Article →</a
+					>
+				</div>
+			</div>
+			<div class="movement-resources">
+				<h3>Movement Resources</h3>
+				<div class="resource-links">
+					<a
+						href="https://noazureforapartheid.com/"
+						class="resource-link"
+						target="_blank"
+						rel="noopener noreferrer">No Azure for Apartheid</a
+					>
+					<a
+						href="https://www.notechforapartheid.com/"
+						class="resource-link"
+						target="_blank"
+						rel="noopener noreferrer">No Tech for Apartheid</a
+					>
+					<a
+						href="https://techworkerscoalition.org/"
+						class="resource-link"
+						target="_blank"
+						rel="noopener noreferrer">Tech Workers Coalition</a
 					>
 				</div>
 			</div>
@@ -193,6 +256,47 @@
 						target="_blank"
 						rel="noopener noreferrer">Browse Issues →</a
 					>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="videos" id="videos">
+		<div class="container">
+			<h2>Educational Videos</h2>
+			<div class="videos-grid">
+				<div class="video-card">
+					<h3>UC Investments Explained</h3>
+					<p>Understanding how UC invests student and public funds</p>
+					<a
+						href="https://www.youtube.com/watch?v=ly1_DZBlJvo"
+						class="video-link"
+						target="_blank"
+						rel="noopener noreferrer">
+						<i class="fab fa-youtube"></i> Watch Video
+					</a>
+				</div>
+				<div class="video-card">
+					<h3>Divestment Movement Analysis</h3>
+					<p>Breaking down the divestment movement and its impact</p>
+					<a
+						href="https://www.youtube.com/watch?v=p27i6bKVxZE"
+						class="video-link"
+						target="_blank"
+						rel="noopener noreferrer">
+						<i class="fab fa-youtube"></i> Watch Video
+					</a>
+				</div>
+				<div class="video-card">
+					<h3>Financial Justice Research</h3>
+					<p>Research methods and findings on institutional investments</p>
+					<a
+						href="https://www.youtube.com/watch?v=E62y6lnJIJQ"
+						class="video-link"
+						target="_blank"
+						rel="noopener noreferrer">
+						<i class="fab fa-youtube"></i> Watch Video
+					</a>
 				</div>
 			</div>
 		</div>
@@ -457,6 +561,154 @@
 		color: var(--color-primary-dark);
 	}
 
+	.solidarity {
+		padding: 4rem 0;
+		background: linear-gradient(135deg, #fdf2f8 0%, #fef7ff 100%);
+		position: relative;
+	}
+
+	.solidarity::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image:
+			radial-gradient(circle at 30% 70%, rgba(156, 39, 176, 0.06) 0%, transparent 50%),
+			radial-gradient(circle at 70% 30%, rgba(236, 72, 153, 0.04) 0%, transparent 50%),
+			radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.03) 0%, transparent 50%);
+		pointer-events: none;
+	}
+
+	.solidarity h2 {
+		text-align: center;
+		font-size: 2.5rem;
+		color: #2d3748;
+		margin-bottom: 3rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	.solidarity-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 2rem;
+		margin-bottom: 3rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	.solidarity-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 12px;
+		border: 2px solid #e2e8f0;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	}
+
+	.solidarity-card::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 4px;
+		background: linear-gradient(90deg, #ec4899, #a855f7);
+		transform: scaleX(0);
+		transform-origin: left;
+		transition: transform 0.3s ease;
+	}
+
+	.solidarity-card:hover::before {
+		transform: scaleX(1);
+	}
+
+	.solidarity-card:hover {
+		border-color: #ec4899;
+		transform: translateY(-8px);
+		box-shadow: 0 20px 40px rgba(236, 72, 153, 0.15);
+	}
+
+	.solidarity-card h3 {
+		color: #ec4899;
+		font-size: 1.4rem;
+		margin-bottom: 0.5rem;
+		font-weight: 600;
+	}
+
+	.solidarity-card p {
+		color: #4a5568;
+		margin-bottom: 1rem;
+		font-weight: 500;
+	}
+
+	.solidarity-card blockquote {
+		background: #f8fafc;
+		border-left: 4px solid #ec4899;
+		padding: 1rem;
+		margin: 1rem 0;
+		font-style: italic;
+		color: #2d3748;
+		border-radius: 0 8px 8px 0;
+	}
+
+	.solidarity-link {
+		color: #ec4899;
+		font-weight: 600;
+		text-decoration: none;
+		transition: color 0.2s;
+		margin-top: auto;
+	}
+
+	.solidarity-link:hover {
+		color: #be185d;
+	}
+
+	.movement-resources {
+		text-align: center;
+		position: relative;
+		z-index: 1;
+	}
+
+	.movement-resources h3 {
+		color: #2d3748;
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+		font-weight: 600;
+	}
+
+	.resource-links {
+		display: flex;
+		gap: 1.5rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.resource-link {
+		display: inline-block;
+		padding: 0.75rem 1.5rem;
+		background: linear-gradient(135deg, #ec4899, #a855f7);
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: 600;
+		transition: all 0.2s;
+		box-shadow: 0 4px 6px rgba(236, 72, 153, 0.2);
+	}
+
+	.resource-link:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(236, 72, 153, 0.3);
+		background: linear-gradient(135deg, #be185d, #9333ea);
+	}
+
 	.projects {
 		padding: 4rem 0;
 		background: linear-gradient(135deg, #f0fdf4 0%, #f7fafc 100%);
@@ -585,6 +837,120 @@
 		color: var(--color-primary);
 	}
 
+	.videos {
+		padding: 4rem 0;
+		background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+		position: relative;
+	}
+
+	.videos::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image:
+			radial-gradient(circle at 25% 75%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
+			radial-gradient(circle at 75% 25%, rgba(251, 191, 36, 0.06) 0%, transparent 50%),
+			radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.04) 0%, transparent 50%);
+		pointer-events: none;
+	}
+
+	.videos h2 {
+		text-align: center;
+		font-size: 2.5rem;
+		color: #2d3748;
+		margin-bottom: 3rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	.videos-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 1.5rem;
+		position: relative;
+		z-index: 1;
+	}
+
+	.video-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 12px;
+		border: 2px solid #e2e8f0;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	}
+
+	.video-card::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 4px;
+		background: linear-gradient(90deg, #f59e0b, #d97706);
+		transform: scaleX(0);
+		transform-origin: left;
+		transition: transform 0.3s ease;
+	}
+
+	.video-card:hover::before {
+		transform: scaleX(1);
+	}
+
+	.video-card:hover {
+		border-color: #f59e0b;
+		transform: translateY(-6px);
+		box-shadow: 0 15px 30px rgba(245, 158, 11, 0.15);
+	}
+
+	.video-card h3 {
+		color: #f59e0b;
+		font-size: 1.3rem;
+		margin-bottom: 0.5rem;
+		font-weight: 600;
+	}
+
+	.video-card p {
+		color: #4a5568;
+		margin-bottom: 1rem;
+		flex-grow: 1;
+		line-height: 1.5;
+	}
+
+	.video-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		color: white;
+		background: linear-gradient(135deg, #dc2626, #ef4444);
+		padding: 0.75rem 1.5rem;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: 600;
+		transition: all 0.2s;
+		margin: 0 auto;
+		box-shadow: 0 4px 6px rgba(220, 38, 38, 0.2);
+	}
+
+	.video-link:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(220, 38, 38, 0.3);
+		background: linear-gradient(135deg, #b91c1c, #dc2626);
+	}
+
+	.video-link i {
+		font-size: 1.1rem;
+	}
+
 	@media (max-width: 768px) {
 		.hero-title {
 			font-size: 2rem;
@@ -600,8 +966,15 @@
 		}
 
 		.action-grid,
-		.projects-grid {
+		.solidarity-grid,
+		.projects-grid,
+		.videos-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.resource-links {
+			flex-direction: column;
+			align-items: center;
 		}
 	}
 </style>
