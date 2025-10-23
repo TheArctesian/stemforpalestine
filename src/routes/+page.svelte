@@ -35,7 +35,7 @@
 						<i class="fab fa-youtube"></i> YouTube
 					</a>
 					<a
-						href="https://shorturl.at/mF9wk"
+						href="https://stem4pal.fillout.com/interest"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="social-link join-us"
@@ -55,7 +55,7 @@
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
 					<a
-						href="https://shorturl.at/mF9wk"
+						href="https://stem4pal.fillout.com/interest"
 						class="action-link"
 						target="_blank"
 						rel="noopener noreferrer">Sign Up →</a
@@ -500,8 +500,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image:
-			radial-gradient(circle at 25% 25%, rgba(0, 150, 57, 0.05) 0%, transparent 50%),
+		background-image: radial-gradient(circle at 25% 25%, rgba(0, 150, 57, 0.05) 0%, transparent 50%),
 			radial-gradient(circle at 75% 75%, rgba(0, 150, 57, 0.05) 0%, transparent 50%);
 		pointer-events: none;
 	}
@@ -585,8 +584,11 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image:
-			radial-gradient(circle at 30% 70%, rgba(156, 39, 176, 0.06) 0%, transparent 50%),
+		background-image: radial-gradient(
+				circle at 30% 70%,
+				rgba(156, 39, 176, 0.06) 0%,
+				transparent 50%
+			),
 			radial-gradient(circle at 70% 30%, rgba(236, 72, 153, 0.04) 0%, transparent 50%),
 			radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.03) 0%, transparent 50%);
 		pointer-events: none;
@@ -733,8 +735,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image:
-			radial-gradient(circle at 20% 80%, rgba(0, 150, 57, 0.08) 0%, transparent 50%),
+		background-image: radial-gradient(circle at 20% 80%, rgba(0, 150, 57, 0.08) 0%, transparent 50%),
 			radial-gradient(circle at 80% 20%, rgba(0, 184, 73, 0.06) 0%, transparent 50%),
 			radial-gradient(circle at 40% 40%, rgba(0, 150, 57, 0.04) 0%, transparent 50%);
 		pointer-events: none;
@@ -861,8 +862,11 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image:
-			radial-gradient(circle at 25% 75%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
+		background-image: radial-gradient(
+				circle at 25% 75%,
+				rgba(245, 158, 11, 0.08) 0%,
+				transparent 50%
+			),
 			radial-gradient(circle at 75% 25%, rgba(251, 191, 36, 0.06) 0%, transparent 50%),
 			radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.04) 0%, transparent 50%);
 		pointer-events: none;

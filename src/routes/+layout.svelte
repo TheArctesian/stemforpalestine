@@ -32,7 +32,7 @@
 			<div class="nav-container">
 				<a href="/" class="logo">STEM4Palestine</a>
 				<div class="nav-links">
-					<a href="https://shorturl.at/mF9wk" target="_blank" rel="noopener noreferrer"
+					<a href="https://stem4pal.fillout.com/interest" target="_blank" rel="noopener noreferrer"
 						>Get Involved</a
 					>
 					<a href="#projects">Projects</a>
