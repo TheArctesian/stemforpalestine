@@ -288,7 +288,7 @@
 				</div>
 				<div class="video-card">
 					<h3>Ecocide in Gaza & The Silent War in the West Bank</h3>
-					<p>Teach-in by Abel Butmeh</p>
+					<p>Teach-in by Abeer Butmeh</p>
 					<a
 						href="https://www.youtube.com/watch?v=p27i6bKVxZE"
 						class="video-link"
