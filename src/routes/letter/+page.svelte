@@ -64,6 +64,9 @@
 				<a href={SIGN_FORM_URL} target="_blank" rel="noopener noreferrer" class="cta-button primary">
 					<i class="fas fa-pen"></i> Sign the Letter
 				</a>
+				<a href="https://medium.com/@stem4pal/letter-8d5fdda940b0" target="_blank" rel="noopener noreferrer" class="cta-button secondary">
+					<i class="fas fa-file-alt"></i> Read the Open Letter
+				</a>
 			</div>
 		</div>
 	</section>
@@ -229,14 +232,14 @@
 	}
 
 	.cta-button.primary {
-		background: var(--color-primary, #009639);
-		color: white;
+		background: white;
+		color: #ce1126;
 	}
 
 	.cta-button.primary:hover {
-		background: var(--color-primary-dark, #007a2e);
+		background: #f5f5f5;
 		transform: translateY(-2px);
-		box-shadow: 0 8px 20px rgba(0, 150, 57, 0.3);
+		box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 	}
 
 	.cta-button.secondary {
