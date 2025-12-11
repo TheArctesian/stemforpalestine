@@ -6,6 +6,16 @@
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
+
+	let menuOpen = $state(false);
+
+	function toggleMenu() {
+		menuOpen = !menuOpen;
+	}
+
+	function closeMenu() {
+		menuOpen = false;
+	}
 </script>
 
 <svelte:head>
@@ -31,11 +41,19 @@
 		<nav class="nav">
 			<div class="nav-container">
 				<a href="/" class="logo">STEM4Palestine</a>
-				<div class="nav-links">
-					<a href="https://stem4pal.fillout.com/interest" target="_blank" rel="noopener noreferrer"
-						>Get Involved</a
-					>
-					<a href="#projects">Projects</a>
+
+				<!-- Hamburger Button (mobile only) -->
+				<button class="hamburger" onclick={toggleMenu} aria-label="Toggle menu" aria-expanded={menuOpen}>
+					<span class="hamburger-line" class:open={menuOpen}></span>
+					<span class="hamburger-line" class:open={menuOpen}></span>
+					<span class="hamburger-line" class:open={menuOpen}></span>
+				</button>
+
+				<!-- Navigation Links -->
+				<div class="nav-links" class:open={menuOpen}>
+					<a href="/letter" onclick={closeMenu}>Open Letter</a>
+					<a href="https://stem4pal.fillout.com/interest" target="_blank" rel="noopener noreferrer" onclick={closeMenu}>Get Involved</a>
+					<a href="/#projects" onclick={closeMenu}>Projects</a>
 				</div>
 			</div>
 		</nav>
@@ -173,6 +191,39 @@
 		transform: translateY(-1px);
 	}
 
+	/* Hamburger Button */
+	.hamburger {
+		display: none;
+		flex-direction: column;
+		justify-content: center;
+		gap: 5px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 0.5rem;
+		z-index: 101;
+	}
+
+	.hamburger-line {
+		width: 24px;
+		height: 3px;
+		background-color: #ffffff;
+		border-radius: 2px;
+		transition: all 0.3s ease;
+	}
+
+	.hamburger-line.open:nth-child(1) {
+		transform: rotate(45deg) translate(5px, 6px);
+	}
+
+	.hamburger-line.open:nth-child(2) {
+		opacity: 0;
+	}
+
+	.hamburger-line.open:nth-child(3) {
+		transform: rotate(-45deg) translate(5px, -6px);
+	}
+
 	main {
 		flex: 1;
 	}
@@ -228,14 +279,36 @@
 
 	@media (max-width: 768px) {
 		.nav-container {
-			flex-direction: column;
-			gap: 1rem;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.hamburger {
+			display: flex;
 		}
 
 		.nav-links {
-			gap: 1rem;
-			flex-wrap: wrap;
-			justify-content: center;
+			display: none;
+			flex-direction: column;
+			width: 100%;
+			gap: 0;
+			padding-top: 1rem;
+		}
+
+		.nav-links.open {
+			display: flex;
+		}
+
+		.nav-links a {
+			padding: 1rem;
+			text-align: center;
+			border-top: 1px solid var(--color-primary-dark);
+		}
+
+		.nav-links a:hover {
+			background-color: var(--color-primary-dark);
+			transform: none;
 		}
 
 		.footer-content {

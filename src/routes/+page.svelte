@@ -47,6 +47,21 @@
 		</div>
 	</section>
 
+	<!-- Open Letter Banner -->
+	<section class="open-letter-banner">
+		<div class="container">
+			<a
+				href="https://forms.gle/umUk5kkvfvPdoeCF8"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="banner-link"
+			>
+				<span class="banner-text">Sign the Open Letter for Peyrin's Reinstatement!</span>
+				<i class="fas fa-arrow-right"></i>
+			</a>
+		</div>
+	</section>
+
 	<section class="actions">
 		<div class="container">
 			<h2>Get Involved</h2>
@@ -323,6 +338,46 @@
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 1rem;
+	}
+
+	/* Open Letter Banner */
+	.open-letter-banner {
+		background: #dc2626;
+		padding: 1rem 0;
+	}
+
+	.banner-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.75rem;
+		color: white;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1.25rem;
+		transition: all 0.2s;
+	}
+
+	.banner-link:hover {
+		transform: scale(1.02);
+	}
+
+	.banner-link:hover i {
+		transform: translateX(4px);
+	}
+
+	.banner-link i {
+		transition: transform 0.2s;
+	}
+
+	.banner-text {
+		text-align: center;
+	}
+
+	@media (max-width: 768px) {
+		.banner-link {
+			font-size: 1rem;
+		}
 	}
 
 	.hero {
