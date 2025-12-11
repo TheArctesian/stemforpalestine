@@ -356,7 +356,7 @@
 	/* All Signatories Section */
 	.all-signatories {
 		padding: 4rem 0;
-		background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+		background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
 	}
 
 	.section-header {
@@ -367,7 +367,7 @@
 	.all-signatories h2 {
 		text-align: center;
 		font-size: 2rem;
-		color: #1e40af;
+		color: var(--color-primary, #009639);
 		margin-bottom: 0.5rem;
 	}
 
@@ -381,7 +381,7 @@
 		background: white;
 		padding: 1.5rem;
 		border-radius: 12px;
-		border: 2px solid #bfdbfe;
+		border: 2px solid #bbf7d0;
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
@@ -389,15 +389,15 @@
 	}
 
 	.signatory-card:hover {
-		border-color: #3b82f6;
+		border-color: var(--color-primary, #009639);
 		transform: translateY(-4px);
-		box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
+		box-shadow: 0 10px 25px rgba(0, 150, 57, 0.15);
 	}
 
 	.signatory-name {
 		font-weight: 700;
 		font-size: 1.1rem;
-		color: #1e40af;
+		color: #166534;
 	}
 
 	.signatory-roles {
@@ -408,8 +408,8 @@
 	.signatory-comment {
 		margin: 0.75rem 0 0;
 		padding: 1rem;
-		background: #f8fafc;
-		border-left: 4px solid #3b82f6;
+		background: #f0fdf4;
+		border-left: 4px solid var(--color-primary, #009639);
 		border-radius: 0 8px 8px 0;
 		font-style: italic;
 		color: #475569;
@@ -426,13 +426,14 @@
 
 	.last-updated {
 		text-align: center;
-		color: #64748b;
+		color: var(--color-primary, #009639);
 		font-size: 0.9rem;
 		margin: 0;
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 		gap: 0.5rem;
+		font-weight: 500;
 	}
 
 	/* Pagination */
@@ -451,18 +452,18 @@
 		gap: 0.5rem;
 		padding: 0.5rem 1rem;
 		background: white;
-		border: 2px solid #bfdbfe;
+		border: 2px solid #bbf7d0;
 		border-radius: 6px;
-		color: #1e40af;
+		color: var(--color-primary, #009639);
 		font-weight: 500;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 
 	.page-btn:hover:not(:disabled) {
-		background: #1e40af;
+		background: var(--color-primary, #009639);
 		color: white;
-		border-color: #1e40af;
+		border-color: var(--color-primary, #009639);
 	}
 
 	.page-btn:disabled {
@@ -479,24 +480,24 @@
 	.page-num {
 		width: 36px;
 		height: 36px;
-		border: 2px solid #bfdbfe;
+		border: 2px solid #bbf7d0;
 		background: white;
 		border-radius: 6px;
-		color: #1e40af;
+		color: var(--color-primary, #009639);
 		font-weight: 500;
 		cursor: pointer;
 		transition: all 0.2s;
 	}
 
 	.page-num:hover {
-		background: #eff6ff;
-		border-color: #1e40af;
+		background: #f0fdf4;
+		border-color: var(--color-primary, #009639);
 	}
 
 	.page-num.active {
-		background: #1e40af;
+		background: var(--color-primary, #009639);
 		color: white;
-		border-color: #1e40af;
+		border-color: var(--color-primary, #009639);
 	}
 
 	.ellipsis {
