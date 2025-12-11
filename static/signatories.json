@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T17:58:26.970019+00:00",
-  "totalCount": 14,
+  "lastUpdated": "2025-12-11T18:49:50.661113+00:00",
+  "totalCount": 20,
   "signatories": [
     {
       "displayName": "Hasan Ibraheem",
@@ -71,6 +71,36 @@
       "displayName": "Stephen Okita",
       "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
       "comment": "What Provost Benjamin E. Hermalin is a gross violation of civil rights, it is emblematic of the UC Admin's impotency. History will absolve Peyrin, and remember him as a hero. Ben Hermalin will be catalogued as a Judas of all that education and humanity stand for. I would highly encourage him to resign, stand up for something or sit down!"
+    },
+    {
+      "displayName": "Owen Hill",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Brianna",
+      "roles": "UC Berkeley Undergrad Student, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "M. M.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Abigail Brooks-Ramirez",
+      "roles": "Worked with Peyrin on Course Staff, EECS/CS Grad Student",
+      "comment": "UC Berkeley EECS is one of the largest producers of tech workers, to punish free speech in such a department teaches our students that their education and future work is separable from social contexts, which is inherently untrue. Shame on UC Berkeley and the EECS department for attempting to hide ugly truths from their students and for punishing one of the top lecturers in an already understaffed department."
+    },
+    {
+      "displayName": "Kevin",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
     }
   ]
 }
