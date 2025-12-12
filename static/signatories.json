@@ -1,11 +1,901 @@
 {
-  "lastUpdated": "2025-12-11T23:25:29.351909+00:00",
-  "totalCount": 327,
+  "lastUpdated": "2025-12-12T01:29:25.228537+00:00",
+  "totalCount": 376,
   "signatories": [
+    {
+      "displayName": "K. S.",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "C. J.",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Aarynn Harris",
+      "roles": "Community Member",
+      "comment": "UC Berkeley please do better and stop demonizing your fellow staff/students for standing up for what’s right and using his voice for good. Don’t wear your “activism” as a badge of honor only when it benefits you, stick to the truth and speak proudly against ALL injustices. Also your CS department will go to hell without Peyrin let’s be real."
+    },
+    {
+      "displayName": "Ghazala Anwar",
+      "roles": "Community Member",
+      "comment": "Peyrin will be remembered as among the few with a conscience who stood on the right side of history.  Not reinstating him will be yet another sign that the UCB administration has completely lost its conscience"
+    },
+    {
+      "displayName": "Ariana Cohen",
+      "roles": "Community Member",
+      "comment": "Peyton did nothing wrong"
+    },
+    {
+      "displayName": "K. D.",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Ely",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Jessie",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Roshanak Gonzalez",
+      "roles": "Community Member, Former UC Berkeley grad student",
+      "comment": null
+    },
+    {
+      "displayName": "Emaan Haseem",
+      "roles": "Community Member, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Jonathan",
+      "roles": "Community Member, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "L. G.",
+      "roles": "Community Member, Tech Worker",
+      "comment": "I've always respected UC Berkeley as an institution committed to intellectual freedom and progressive politics. This is clearly an outdated impression. I'm deeply disappointed and angry to see these actions against a faculty member who acted with integrity. That the university is doing this is shameful, but especially so given that is further complicity in genocide. Make a better choice, and exist with a fraction of the courage that Peyrin has demonstrated."
+    },
+    {
+      "displayName": "Mark",
+      "roles": "Community Member, Tech Worker",
+      "comment": "Shame on UC Berkeley, shame on the administration!"
+    },
+    {
+      "displayName": "R. A.",
+      "roles": "Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ann Marie Krulick",
+      "roles": "Constituent of Berkeley",
+      "comment": null
+    },
+    {
+      "displayName": "Wesley",
+      "roles": "Current Peyrin Student (CS 61B / CS 188)",
+      "comment": null
+    },
+    {
+      "displayName": "Alex Liu",
+      "roles": "Current Peyrin Student (CS 61B / CS 188)",
+      "comment": "peyrin's political beliefs haven't affected his teaching or the experience of students in CS61B at all. he mentioned it maybe once or twice for 10 seconds in class and never talked about it again. I don't think its fair at all to suspend him, since he's also one of the best lecturers on campus."
+    },
+    {
+      "displayName": null,
+      "roles": "Current Peyrin Student (CS 61B / CS 188)",
+      "comment": null
+    },
+    {
+      "displayName": "K. N.",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), EECS/CS Undergrad Student",
+      "comment": "You made us sign this:\n\nUC Berkeley's core principles emphasize diversity, integrity, dignity, freedom of expression, and active engagement.\n\nYet you are undermining those who seek the freedom to actively express injustice and indignity within our society."
+    },
+    {
+      "displayName": "Kevin",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Malaika",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. S.",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": "My first class with Peyrin was CS61B during the Fall of 2023. Throughout that class, he\nwas nothing but professional. He explained concepts in ways that were easy to\nunderstand and had a very big impact on me in furthering my pursuit of CS. When the\nOctober 7th attacks occurred, as a Jewish student, Peyrin’s class was the class I felt the\nmost heard and the safest in.\n\nSince CS61B I have taken two other classes from Peyrin and he has been nothing but\nan excellent instructor. It is shameful that the university has decided to suspend him\nwhen he is one of the best instructors in the department and has kept his classroom a\nsafe and productive environment for all students."
+    },
+    {
+      "displayName": "A. C.",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Roderick",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": "Peyrin never once mentioned Palestine on class time. I once asked him during class why he was on hunger strike, and he told me I could learn more on his website and that he wouldn’t talk about it during class. The words “Palestine” or “Gaza” was never uttered during class. Peyrin is a fantastic lecturer and a kind individual, he has been wrongfully suspended for a crime he did not commit."
+    },
+    {
+      "displayName": "Daniel",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Marilyn",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Isabel Liu",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": "It’s so important that educators in cs courses speak to the complicity of tech industries in the Palestinian genocide and violence worldwide. It’s disappointing that the university can claim CDSS is an ethics-oriented cs/ds/stats college while simultaneously silencing and punishing educators who attempt to spread awareness on humanitarian crises happening right now, that students in said college are participating in as they enter the industry as interns for complicit companies. I was a Public Health student first, then decided to double major in Data Science, and it shocked me that fellow CS/DS majors told me they “don’t believe in the genocide”, “don’t believe protest works”, or are interning at Raytheon or something with no consideration to the implications of their career. Does that not alarm the university which goes on to have so many cs/ds students in important positions in the world? Peyrin is a great teacher and example. I took CS61B when he wasn’t teaching and dropped the class, took it again this semester and he helped a lot. I’m sure the university will look back in 50 years and preach the power and importance of students and staff who spoke up against genocide, reaping the benefits of a “progressive” and “free speech” university, but for now prefer to keep their hands bloody for the sake of money. I chose this university for its supposed values and I’m ashamed to be made a fool."
+    },
+    {
+      "displayName": null,
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "EECS/CS Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "S. M.",
+      "roles": "EECS/CS Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "EECS/CS Grad Student, UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Michael Ball",
+      "roles": "EECS/CS Lecturer, EECS/CS Faculty, UC Berkeley Faculty, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "J. T.",
+      "roles": "EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Victoria Phelps",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Staff, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "F. G.",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Zoe Xu",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Alexandra Bergseid",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "N. C.",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "D. B.",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Liam Newsam",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Sarveshan",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "E. B.",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": "Peyrin was the only faculty that took time to actually talk to students when invited to a minorities in CS faculty lunch. He actually cares about his students."
+    },
+    {
+      "displayName": "Devika Sharma",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "I. C.",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, Community Member, University Undergrad/Grad Student",
+      "comment": "Free Palestine! And free Peyrin, huge inspiration to all of us CS or not!"
+    },
+    {
+      "displayName": "Sarika Pasumarthy",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, EECS/CS Faculty, UC Berkeley Undergrad Student, UC Berkeley Staff, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, EECS/CS Grad Student, UC Berkeley Undergrad Student, UC Berkeley Grad Student, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Stephen Okita",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": "What Provost Benjamin E. Hermalin is a gross violation of civil rights, it is emblematic of the UC Admin's impotency. History will absolve Peyrin, and remember him as a hero. Ben Hermalin will be catalogued as a Judas of all that education and humanity stand for. I would highly encourage him to resign, stand up for something or sit down!"
+    },
+    {
+      "displayName": "Joshua",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Rajoshi Basu",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "J. Y.",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Janice",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student, Tech Worker",
+      "comment": "I am extremely grateful to Peyrin for using his voice to make minority students feel heard\nand safe. As we rarely hear professors from our departments speak to us about the\nvalue behind our work, Peyrin has been so valuable to shaping our education and\nmaking us feel heard on campus."
+    },
+    {
+      "displayName": "Hannah Li",
+      "roles": "Former Peyrin Student, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "J. S.",
+      "roles": "Former Peyrin Student, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "S. G.",
+      "roles": "Former Peyrin Student, UC Alum",
+      "comment": "Peyrin is an amazing lecturer and takes his role as a teacher and a mentor incredibly seriously. When I was having trouble with a student bullying other students during office hours I informed Peyrin and he immediately took action and did everything he could to ensure that the affected students were okay and that the proper campus authorities were notified of said student’s behavior. Peyrin is one of the most capable instructors in the EECS/CS department, his teaching capabilities far outshine those of a vast majority of the professors currently tenured at this university. It is shameful that a university that prides itself on its history of supporting free speech is silencing the voices of its faculty and students alike."
+    },
+    {
+      "displayName": "Sage",
+      "roles": "Former Peyrin Student, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Megan",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "L. A.",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. R.",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. K.",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Nalini",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Akansha",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Juwairia",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student, UC Berkeley Staff, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Erik Nelson",
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Rebecca Dang",
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, Tech Worker",
+      "comment": "I have worked with Peyrin, and I can say he is unequivocally the backbone of the CS department right now. This situation is particularly upsetting to me because he genuinely cares about his students, staff, and the university, quite possibly more than any other lecturer or professor I know. He is the reason why so many courses on this campus are even able to run at all. His suspension, outside of being blatantly unconstitutional, is a huge detriment to the quality of education CS students will receive. \n\nUC Berkeley, when you boast your CS ranking to the general public, know that it is only good as it is because of a man whose rights you have freely and publicly violated. When you see your TAs and students struggling next semester, remember that you had the ability to put your those people as well as your constitution and morals first, and chose not to. And when you read an article citing your university as the birth of the Free Speech Movement, or when FSM cafe re-opens and you read those stories and quotes on the wall, remember that you have disgraced that legacy and every single person who fought for it.  \n\nI am beyond disappointed in you."
+    },
+    {
+      "displayName": "Jonah Bedouch",
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": "As someone who has worked very closely with Peyrin on course staff AND taken multiple classes taught by him, he is clearly not someone who forces his opinion on others. During his hunger strike, he never even told members of his staff that he was undertaking it, and only mentioned it briefly in class, without addressing the cause.\n\nIn choosing to suspend Peyrin, Vice Chancellor Hermalin and the university are clearly choosing to exercise personal bias in an attempt to appease the Trump Administration, in flagrant violation of university policy and the first amendment. Even the EE and CS chairs admit that it is unclear that this action constitutes a violation of any university policy (as per The Daily Cal).\n\nThis is NOT acceptable behavior from a university which champions itself as a bastion of free speech, nor is it an acceptable way to treat a lecturer who consistently goes above and beyond, both for his students and his department."
+    },
+    {
+      "displayName": "Kenny Wang",
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": "I had Peyrin as an instructor for CS 161, CS 188, and CS 168, and worked with Peyrin for 4 semesters as a TA for CS 188. Peyrin's contributions to CS at Berkeley are nothing short of a miracle for the department, and to be frank, losing Peyrin will be a disaster. The department needs to be made aware.\n\nNever have I ever seen someone as devoted or hardworking as Peyrin. Myself and/or my friends have directly seen him:\n\n- Sleep in Soda Hall after working long into the night\n- With the help of a few TA's, grade an exam literally overnight, by staying up past midnight\n- Answer so many students' Ed questions that he started to post them as invisible-to-students so that other TA's could copy-paste his responses and take the credit\n- Bail out overflowing office hours queues when TA's were swamped--even though he wasn't officially teaching that class that semester\n- Be actively working at 12AM on New Year's Day\n\nPeyrin has the unique ability to run multiple classes smoothly in a way that absolutely no professor or head TA ever could. In every semester I've worked with him, he has been majorly involved in running logistics for at the bare minimum, 3 or 4 different courses, often without even officially being an instructor. No task is too menial or too complex for him--he isn't afraid to go print exams at 3 in the morning, but has the knowledge and experience to write exam questions and deal with far-reaching course policies.\n\nWhile TA's and instructors certainly work hard, Peyrin is an incredible force multiplier and his loss would directly torpedo the effectiveness of, at minimum, 4 different key courses (CS 61B, CS 161, CS 188, CS 168). With less capacity to handle students in these classes, and with students less prepared and more stressed for follow-on courses, the effects will propagate throughout the entire department like a tsunami.\n\nAny insinuation that Peyrin's activism or hunger strike have negatively impacted his teaching abilities and student learning is preposterous, because he's always done so much more than has been expected of him. Even if he was 1/2 as productive as he is, he would still be as effective as a particularly hardworking teaching professor--and leagues beyond many of my professors, to be honest.\n\nI'll leave it to my peers to speak about other factors. But from a pedagogical standpoint, suspending Peyrin would be the biggest mistake the department could make."
+    },
+    {
+      "displayName": "Isabel Dong",
+      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Elizabeth Stucki",
+      "roles": "Former staff",
+      "comment": null
+    },
+    {
+      "displayName": "Jean Halley",
+      "roles": "Graduate Center and the College of Staten Island of the City University of New York Faculty",
+      "comment": null
+    },
+    {
+      "displayName": "L. C.",
+      "roles": "none",
+      "comment": null
+    },
+    {
+      "displayName": "Michaela Blount",
+      "roles": "Sam Houston State University Student",
+      "comment": null
+    },
+    {
+      "displayName": "hunter manley",
+      "roles": "sfsu student",
+      "comment": null
+    },
     {
       "displayName": "Hasan Ibraheem",
       "roles": "Tech Worker",
       "comment": "This is a flagrant violation of free speech and mimics big tech's repression pro-Palestine, the same repression that Peyrin was talking about to begin with. The same tactics that lead to dozens of workers at Google, Amazon, and Microsoft being fired are also being used here because Peyrin dared to speak out for what he believes in.\n\nIt's clear UC Berkeley is specifically coming after pro-Palestine speech. STEM studies are too often depoliticized and sanitized, but the truth is that nothing we study and none of the work we do can be free of politics. We need to be having more of the discussions that Peyrin was starting, not less."
+    },
+    {
+      "displayName": "Wil Mullen",
+      "roles": "Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Kanishka",
+      "roles": "Tech Worker",
+      "comment": "Free speech is not a crime."
+    },
+    {
+      "displayName": null,
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Aliya Ehde",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Cynthia Gómez",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "J. L.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "H. T.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Morgan",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Ellen Thompson",
+      "roles": "UC Alum",
+      "comment": "Through his actions for Palestine, Peyrin Kao has consistently set the example for ethics in STEM. I have had the pleasure of organizing with him, and I am inspired by his humility and steadfastness. During his hunger strike, he constantly stated that this action is about the genocide in Palestine - not about him - and he rigorously promoted humanitarian aid efforts for individuals and families in Gaza. Peyrin's humanity has restored my previously lost hope that it is possible to be a person of conscience within the STEM community. This hope is key to my personal and professional identity, as I studied Astrophysics at Cal. In my recent-grad years, I worked as a Planetarium Educator at The Lawrence Hall of Science, where I integrated my politics of liberation into my teaching. The University's shameful attempt to silence Peyrin inspires me to speak louder - this suspension is evidence that our voices are working to bring truth to power."
+    },
+    {
+      "displayName": "B. M.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "George McIntire",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Maile Kim",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Jeremiah OConnor",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "K. A.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "E. K.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Alex Ottley",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Sarah",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Ellis",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Liza Gak",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Albert",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Noelle Davis",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "C. L.",
+      "roles": "UC Alum",
+      "comment": "fuck the fundamentalist zionist murderers"
+    },
+    {
+      "displayName": "Thanh Thai",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Brandon Gonzalez",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Samantha Good",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Samuel",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Habiba",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "J. D.",
+      "roles": "UC Alum",
+      "comment": "Free Palestine"
+    },
+    {
+      "displayName": "Samuel",
+      "roles": "UC Alum",
+      "comment": "In the stairwell of MLK Student Union, a plaque reads: “You, in a real sense, have been the conscience of the academic community and our nation.” Dr. King said those words to Berkeley students on the steps of Sproul Hall in 1967, and that spirit is what makes me proud to be a Berkeley alum. I, like many others, am proud of Peyrin for carrying on that spirit so courageously. The administration should be ashamed of actions that betray the deepest values of our academic community."
+    },
+    {
+      "displayName": "C. D.",
+      "roles": "UC Alum",
+      "comment": "Berkeley is the home of the Free Speech Movement, a movement led by Cal students that has changed universities and higher education in the decades since. Peyrin is upholding this legacy, even as the University itself shirks it."
+    },
+    {
+      "displayName": "Jason",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "A. Y.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Nayla Latic",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "A. C.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Spencer Jenkins",
+      "roles": "UC Alum",
+      "comment": "Peyrin has consistently acted in line with his contractual obligations as a teacher. His dedication to UC Berkeley students and to causes he believes in, in the face of constant hostility from his own employers, is seriously commendable. Peyrin works tirelessly to help his students grow and learn. Peyrin does not brainwash or indoctrinate his students; he encourages them to approach their careers with concern for the broader picture. \n\nThe administration of UC Berkeley has clearly demonstrated their opposition to free speech about the ongoing genocide, ethnic cleansing and war crimes in Palestine, funded and laundered by the US government. We as community members, students, and student staff support Peyrin Kao's immediate reinstatement and we stand ironclad in support of a free Palestine."
+    },
+    {
+      "displayName": "Mansi",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Lindsey",
+      "roles": "UC Alum",
+      "comment": "As a UC Berkeley student, I remember walking the grounds of campus and seeing officially displays around the university celebrating Berkeley’s critical role in anti-war free speech and protest in the 60s. I urge UC Berkeley to uphold that pride in free speech in higher education now at a time when it is extraordinarily important."
+    },
+    {
+      "displayName": "Michelle Chen",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Janny Zhang",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "T. E.",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "C. B.",
+      "roles": "UC Alum,",
+      "comment": "Free speech!"
+    },
+    {
+      "displayName": "Carol Allen",
+      "roles": "UC Alum, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Andrew Palmer",
+      "roles": "UC Alum, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "S. S.",
+      "roles": "UC Alum, Community Member, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Tamara",
+      "roles": "UC Alum, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Andrew",
+      "roles": "UC Alum, Tech Worker",
+      "comment": "UC Berkeley should be ashamed of its treatment of Peyrin. Cal claims to have 7 principles of community, yet the university’s treatment clearly illustrates how it fails to take them seriously, especially Free Speech, Honesty/Integrity, Just Community, and Civility/Respect. Until the university reinstates Peyrin, it will be an embarrassment to claim UC Berkeley as my alma mater."
+    },
+    {
+      "displayName": "Rawan",
+      "roles": "UC Alum, Tech Worker",
+      "comment": "Peyrin’s suspension is a disturbing infringement on ethical standards and free speech. By disregarding the complicity and active role of tech and US institutions in an ongoing genocide, UC Berkeley risks eroding its standing as a university grounded in critical inquiry, moral clarity, and academic integrity. This is a profound moral failure and I am deeply disappointed in my Alma Mater, I sincerely hope that UC Berkeley makes the correct decision to reinstate Peyrin and issue a full apology to him and the student body."
+    },
+    {
+      "displayName": "D. S.",
+      "roles": "UC Alum, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "S. L.",
+      "roles": "UC Alum, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Alum, Tech Worker",
+      "comment": "Absolute disgrace to the institution for discharging such a hardworking lecturer based on their political views while marketing themselves as “pro free speech university”"
+    },
+    {
+      "displayName": "Shayna",
+      "roles": "UC Alum, Tech Worker, Peyrin was a UGSI for a class I took in Spring 2020 (CS 161)",
+      "comment": "I am a Berkeley EECS alum (Fall 2020) and I currently work in the tech industry. When I think about Berkeley, I think about the way that free speech was touted as an important part of the university's legacy. To throw that legacy - and what makes Berkeley so special - away over ongoing support for a genocide is laughable. \n\nThe EECS major at Berkeley required students to complete an ethics course to graduate because despite the purpotedly \"neutral\" nature of engineering and computer science, nothing about engineering is neutral. The products we make have real-world impact. However, it seems like the EECS department has forgotten its own teachings - when faced with an actual moral dilemma, they have failed spectacularly.\n\nI am in full support of Peyrin and believe he should be reinstated."
+    },
+    {
+      "displayName": "M. H.",
+      "roles": "UC Alum, UC Berkeley Alum, class of 2018",
+      "comment": "As an undergraduate student at UC Berkeley, my professors made political statements in class, particularly after the first election of Donald Trump in 2016, and were not punished or retaliated against. This is clearly retaliation for Peyrin’s activism and speech in support of Palestinians and against the genocide in Gaza, and a first amendment violation. It is all the more disappointing coming from a university that claims to pride itself on its role in the free speech movement."
+    },
+    {
+      "displayName": "M. H.",
+      "roles": "UC Alum, UC Berkeley Alum, class of 2018",
+      "comment": "As an undergraduate student at UC Berkeley, my professors made political statements in class, particularly after the first election of Donald Trump in 2016, and were not punished or retaliated against. This is clearly retaliation for Peyrin’s activism and speech in support of Palestinians and against the genocide in Gaza, and a first amendment violation. It is all the more disappointing coming from a university that claims to pride itself on its role in the free speech movement."
+    },
+    {
+      "displayName": "Nina",
+      "roles": "UC Alum, UCSF grad student",
+      "comment": null
+    },
+    {
+      "displayName": "Cynthia Franklin",
+      "roles": "UC Alum, University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "David Klein",
+      "roles": "UC Alum, University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "McKane Andrus",
+      "roles": "UC Alum, University Undergrad/Grad Student",
+      "comment": "If there was ever a clear line to be drawn for what 'ethical' technology is, it is whether or not the tech supports genocide. In my time at Berkeley (CS + ISF BA, EECS MS), I learned about the IBM punch cards that enabled the holocaust, and it was ok for my professors to say \"never again should our discipline be complicit in something like this.\" This was the absolute bare minimum of our \"tech ethics\" training. The AI and computing technologies being used to surveil Palestinians and mark them for death are most certainly built upon Berkeley innovations in computer vision, databases, etc. At the very least, then, now is the time for us computer scientists to recognize the evil our contributions are being used for and to stand against it. It is damning that the administration would choose to punish and silence the member of CS faculty with the greatest moral clarity around this, and I'm deeply ashamed of my alma mater. (And I'm sure when I visit campus in 30 years I'll be able to drop in on the \"Free Palestine\" Cafe, where there'll be a plaque honoring Peyrin's bravery so the administration can reap the reputational rewards of having always been against genocide once it is again politically convenient.)"
+    },
+    {
+      "displayName": "Stephanie",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Meg Mills-Novoa",
+      "roles": "UC Berkeley Faculty",
+      "comment": "The assertion that students’ seeing the impact of a hunger strike on Peyrin was a violation of Regents Policy 2301 is a dangerous interpretation of that policy. Furthermore, Peyrin’s comments regarding Palestine were made following class. The action against Peyrin seems aimed at limiting free speech and sanctioning a highly visible pro-Palestine voice in campus. Our job as STEM faculty is to encourage our colleagues and students to reckon with the ethical implications of science and technology. I see Peyrin’s actions as doing just that."
+    },
+    {
+      "displayName": "Juana María Rodríguez",
+      "roles": "UC Berkeley Faculty",
+      "comment": "Provost Hermalin—your letter speaks against everything this campus represents—free speech, a commitment to teaching and learning, and our supposed share mission for creating a more just and ethical world."
+    },
+    {
+      "displayName": "Anneka Lenssen",
+      "roles": "UC Berkeley Faculty",
+      "comment": null
+    },
+    {
+      "displayName": "Milagros Galeana",
+      "roles": "UC Berkeley Grad Student",
+      "comment": "The suspension of this instructor is a direct violation of his right to free speech. There was harm done on any faculty member during his hunger strike and therefore should be no reason to suspend him."
+    },
+    {
+      "displayName": "A. W.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Annabelle",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Davis",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Satvik Reddy",
+      "roles": "UC Berkeley Grad Student",
+      "comment": "You wouldn’t have done this if he did the exact same actions for any cause beyond Palestine. Is that normal or just?"
+    },
+    {
+      "displayName": "Zaid Yousef",
+      "roles": "UC Berkeley Grad Student",
+      "comment": "As a law student, I've witnessed some of highest-ranking administrators and faculty make egregious comments supporting the genocide in Gaza--both inside and outside the classroom--with no repercussions.  One professor even took time out of his seminar on theories of governance to rant about how a map of Palestine is akin to a Confederate flag and how supporting Palestinian liberation is a call to \"kill all Jews.\" The professor in question was never reprimanded, and Provost Hermalin even called him to tell him that he \"acted appropriately.\" Shame on this university; history will not look kindly to the lengths you've gone in defense of the slaughter of tens of thousands of my people. Palestine will be free and you will discarded in the dustbins of history."
+    },
+    {
+      "displayName": "Gabriel Woolls",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Madi McCloud",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Jordan",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ryan Sherod",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Leila Mire",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ivy",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "E. C.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Y. P.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "K. L.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. M.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Antony",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ori Loewinger",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Alyssa Gomez",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Anya",
+      "roles": "UC Berkeley Grad Student",
+      "comment": "Such a stain on UC Berkeley’s pathetic excuse for a reputation as “free speech university”, freedom of speech for WHO?! This is the most repressive hellscape of an institution I have ever attended. I feel nothing but shame to say I attended Cal."
+    },
+    {
+      "displayName": "Jared Cheatham",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Aidan",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Taylor Waddell",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ben Rose",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Emily Martin",
+      "roles": "UC Berkeley Grad Student",
+      "comment": "As a historian who studies the history of science, technology, and medicine, I am concerned about the wide implication of the UC's indefensible choice to discipline and suspend Prof. Kao. My own research and scholarly discipline is predicated on the idea that science, technology, and medicine, are not neutral scientific enterprises. I teach undergrads-- frequently, those in the college of engineering and the new college of CS-- that science is a social process, and that the choices they make as scientists have profound historical, cultural, and ethical dimensions. UCVP Hermalin's letter is not merely an affront to academic freedom of speech. It also serves only to marginalize scholarship that affirms with Prof. Kao shared with his class: that being a scientist does not make you immune from ethical inquiry. My own ability to teach UC Berkeley undergrads is undermined by the insistence from the highest level of the university that there is no appropriate consideration of ethics or politics that can be allowed in the STEM classroom. It makes it actively more difficult to engage with students when University messaging positions STEM as neutral, empirical, and apolitical. Why would we want to send graduates into the world who are encouraged to dodge difficult questions about the impact they want their work to have in the world?"
+    },
+    {
+      "displayName": "D. A.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "S. L.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Matthew Kovac",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "S. T.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Anthony",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Jenny Xiong",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "J. L.",
+      "roles": "UC Berkeley Grad Student, UC Alum, Former UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Jay",
+      "roles": "UC Berkeley Grad Student, UC Alum, Former UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Muhammad",
+      "roles": "UC Berkeley Grad Student, UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Amber Kerr",
+      "roles": "UC Berkeley Lecturer",
+      "comment": "Berkeley is world-famous for its role in the Free Speech Movement. Its current effort to chill free speech in accordance with the current federal government's priorities is deeply disappointing.  As a Berkeley lecturer myself, and also a PhD alum (ERG 2012), I intend to speak up against this new and unwelcome trend at every step."
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Parents",
+      "comment": null
     },
     {
       "displayName": "B. B.",
@@ -13,14 +903,89 @@
       "comment": null
     },
     {
+      "displayName": "Marc Abizeid",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Charlotte Taylor",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Nicole",
+      "roles": "UC Berkeley Staff",
+      "comment": "Peyrin’s voice should be amplified, not silenced. By putting him on unpaid leave, the university is showing how complicit they are in the genocide. Free speech, and free Palestine"
+    },
+    {
+      "displayName": "Stephen",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Caroline Nguyen",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Alex Sanchez",
+      "roles": "UC Berkeley Staff",
+      "comment": "UC Berkeley is just digging itself deeper into fascism and I support any Berkeley student, staff, or faculty who speaks out for the liberation of Palestinian and the end of our university’s material, academic, and financial support of Israel."
+    },
+    {
+      "displayName": "Antonio Soto",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "H. S.",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Charlotte O'Keefe Stralka",
+      "roles": "UC Berkeley Staff",
+      "comment": "Its a shame that a school that touts itself for being the 'home of the free speech' movement continually goes against free speech"
+    },
+    {
+      "displayName": "Cecilie Surasky",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Shadrick Small",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Corinna Burrell",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": "Peyrin Kao has shown exceptional commitment to justice and peace and is an incredibly selfless and compassionate person. He has never wavered in his ethical commitments to his students and should not be punished for the humane act of protest, on his own time, against oppression and genocide. Peyrin represents the best of us."
+    },
+    {
+      "displayName": "Annie Price",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Lisa",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Jasmine Valenzuela",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
       "displayName": "Leela",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "As the letter states, technology is not ethically neutral. I did not set out on my intended career path indifferent to the impact I would make in the world. I imagine many Berkeley students arrived here excited to change people's lives for the better through excellent training... and I believe the university (outwardly) encourages that mindset. Why, then, are we expected not to care about the impact of the institution in which we participate?"
-    },
-    {
-      "displayName": "K. S.",
-      "roles": "Community Member",
-      "comment": null
     },
     {
       "displayName": "Gianna",
@@ -30,16 +995,6 @@
     {
       "displayName": "Fiona",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Milagros Galeana",
-      "roles": "UC Berkeley Grad Student",
-      "comment": "The suspension of this instructor is a direct violation of his right to free speech. There was harm done on any faculty member during his hunger strike and therefore should be no reason to suspend him."
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Undergrad Student, Community Member",
       "comment": null
     },
     {
@@ -53,11 +1008,6 @@
       "comment": null
     },
     {
-      "displayName": "Kathy Le",
-      "roles": "University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": null,
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
@@ -68,18 +1018,8 @@
       "comment": null
     },
     {
-      "displayName": "Stephen Okita",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": "What Provost Benjamin E. Hermalin is a gross violation of civil rights, it is emblematic of the UC Admin's impotency. History will absolve Peyrin, and remember him as a hero. Ben Hermalin will be catalogued as a Judas of all that education and humanity stand for. I would highly encourage him to resign, stand up for something or sit down!"
-    },
-    {
       "displayName": "Owen Hill",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Brianna",
-      "roles": "UC Berkeley Undergrad Student, Community Member",
       "comment": null
     },
     {
@@ -88,38 +1028,8 @@
       "comment": null
     },
     {
-      "displayName": "Abigail Brooks-Ramirez",
-      "roles": "Worked with Peyrin on Course Staff, EECS/CS Grad Student",
-      "comment": "UC Berkeley EECS is one of the largest producers of tech workers, to punish free speech in such a department teaches our students that their education and future work is separable from social contexts, which is inherently untrue. Shame on UC Berkeley and the EECS department for attempting to hide ugly truths from their students and for punishing one of the top lecturers in an already understaffed department."
-    },
-    {
-      "displayName": "Kevin",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
       "displayName": "Rithika Ramesh",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "A. W.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "J. L.",
-      "roles": "UC Berkeley Grad Student, UC Alum, Former UC Berkeley Undergrad Student",
       "comment": null
     },
     {
@@ -128,43 +1038,8 @@
       "comment": null
     },
     {
-      "displayName": "Nina",
-      "roles": "UC Alum, UCSF grad student",
-      "comment": null
-    },
-    {
-      "displayName": "Annabelle",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Rajoshi Basu",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": null,
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Erik Nelson",
-      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Aliya Ehde",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Gabriela",
-      "roles": "UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Marc Abizeid",
-      "roles": "UC Berkeley Staff",
       "comment": null
     },
     {
@@ -173,44 +1048,14 @@
       "comment": null
     },
     {
-      "displayName": "Jay",
-      "roles": "UC Berkeley Grad Student, UC Alum, Former UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Hannah Li",
-      "roles": "Former Peyrin Student, UC Alum",
-      "comment": null
-    },
-    {
       "displayName": "Kathleen McLoughlin",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Essie Tuerk-Levy",
-      "roles": "University Undergrad/Grad Student",
       "comment": null
     },
     {
       "displayName": "Elliot",
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
-    },
-    {
-      "displayName": "M. H.",
-      "roles": "UC Alum, UC Berkeley Alum, class of 2018",
-      "comment": "As an undergraduate student at UC Berkeley, my professors made political statements in class, particularly after the first election of Donald Trump in 2016, and were not punished or retaliated against. This is clearly retaliation for Peyrin’s activism and speech in support of Palestinians and against the genocide in Gaza, and a first amendment violation. It is all the more disappointing coming from a university that claims to pride itself on its role in the free speech movement."
-    },
-    {
-      "displayName": "Cynthia Gómez",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Shayna",
-      "roles": "UC Alum, Tech Worker, Peyrin was a UGSI for a class I took in Spring 2020 (CS 161)",
-      "comment": "I am a Berkeley EECS alum (Fall 2020) and I currently work in the tech industry. When I think about Berkeley, I think about the way that free speech was touted as an important part of the university's legacy. To throw that legacy - and what makes Berkeley so special - away over ongoing support for a genocide is laughable. \n\nThe EECS major at Berkeley required students to complete an ethics course to graduate because despite the purpotedly \"neutral\" nature of engineering and computer science, nothing about engineering is neutral. The products we make have real-world impact. However, it seems like the EECS department has forgotten its own teachings - when faced with an actual moral dilemma, they have failed spectacularly.\n\nI am in full support of Peyrin and believe he should be reinstated."
     },
     {
       "displayName": "J. I.",
@@ -223,54 +1068,9 @@
       "comment": null
     },
     {
-      "displayName": "Megan",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "Mackena Weber",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "Academic freedom for all."
-    },
-    {
-      "displayName": "C. J.",
-      "roles": "Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Tamara",
-      "roles": "UC Alum, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "Denise",
-      "roles": "UC Berkeley Undergrad Student, Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Elizabeth Stucki",
-      "roles": "Former staff",
-      "comment": null
-    },
-    {
-      "displayName": "J. L.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Oton De Souza",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Grad Student, UC Alum",
-      "comment": "Peyrin spoke up when he saw wrong when the world around him stood silent. And rather than being on the right side of history UC Berkeley continues to suppress speech while claiming itself to be a bastion of freedom of speech. Peyrin chose bravery and humanity, continuing to stand with oppressed people and our community will stand with him."
-    },
-    {
-      "displayName": "Isabel Liu",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student, University Undergrad/Grad Student",
-      "comment": "It’s so important that educators in cs courses speak to the complicity of tech industries in the Palestinian genocide and violence worldwide. It’s disappointing that the university can claim CDSS is an ethics-oriented cs/ds/stats college while simultaneously silencing and punishing educators who attempt to spread awareness on humanitarian crises happening right now, that students in said college are participating in as they enter the industry as interns for complicit companies. I was a Public Health student first, then decided to double major in Data Science, and it shocked me that fellow CS/DS majors told me they “don’t believe in the genocide”, “don’t believe protest works”, or are interning at Raytheon or something with no consideration to the implications of their career. Does that not alarm the university which goes on to have so many cs/ds students in important positions in the world? Peyrin is a great teacher and example. I took CS61B when he wasn’t teaching and dropped the class, took it again this semester and he helped a lot. I’m sure the university will look back in 50 years and preach the power and importance of students and staff who spoke up against genocide, reaping the benefits of a “progressive” and “free speech” university, but for now prefer to keep their hands bloody for the sake of money. I chose this university for its supposed values and I’m ashamed to be made a fool."
-    },
-    {
-      "displayName": "Meg Mills-Novoa",
-      "roles": "UC Berkeley Faculty",
-      "comment": "The assertion that students’ seeing the impact of a hunger strike on Peyrin was a violation of Regents Policy 2301 is a dangerous interpretation of that policy. Furthermore, Peyrin’s comments regarding Palestine were made following class. The action against Peyrin seems aimed at limiting free speech and sanctioning a highly visible pro-Palestine voice in campus. Our job as STEM faculty is to encourage our colleagues and students to reckon with the ethical implications of science and technology. I see Peyrin’s actions as doing just that."
     },
     {
       "displayName": "Julianne Tenorio",
@@ -278,29 +1078,9 @@
       "comment": null
     },
     {
-      "displayName": "Wil Mullen",
-      "roles": "Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "Charlotte Taylor",
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
       "displayName": "J. C.",
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
-    },
-    {
-      "displayName": "H. T.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Andrew",
-      "roles": "UC Alum, Tech Worker",
-      "comment": "UC Berkeley should be ashamed of its treatment of Peyrin. Cal claims to have 7 principles of community, yet the university’s treatment clearly illustrates how it fails to take them seriously, especially Free Speech, Honesty/Integrity, Just Community, and Civility/Respect. Until the university reinstates Peyrin, it will be an embarrassment to claim UC Berkeley as my alma mater."
     },
     {
       "displayName": "Henry",
@@ -318,58 +1098,8 @@
       "comment": null
     },
     {
-      "displayName": "Nicole",
-      "roles": "UC Berkeley Staff",
-      "comment": "Peyrin’s voice should be amplified, not silenced. By putting him on unpaid leave, the university is showing how complicit they are in the genocide. Free speech, and free Palestine"
-    },
-    {
-      "displayName": "Aarynn Harris",
-      "roles": "Community Member",
-      "comment": "UC Berkeley please do better and stop demonizing your fellow staff/students for standing up for what’s right and using his voice for good. Don’t wear your “activism” as a badge of honor only when it benefits you, stick to the truth and speak proudly against ALL injustices. Also your CS department will go to hell without Peyrin let’s be real."
-    },
-    {
-      "displayName": "Morgan",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "M. S.",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student",
-      "comment": "My first class with Peyrin was CS61B during the Fall of 2023. Throughout that class, he\nwas nothing but professional. He explained concepts in ways that were easy to\nunderstand and had a very big impact on me in furthering my pursuit of CS. When the\nOctober 7th attacks occurred, as a Jewish student, Peyrin’s class was the class I felt the\nmost heard and the safest in.\n\nSince CS61B I have taken two other classes from Peyrin and he has been nothing but\nan excellent instructor. It is shameful that the university has decided to suspend him\nwhen he is one of the best instructors in the department and has kept his classroom a\nsafe and productive environment for all students."
-    },
-    {
-      "displayName": "Rawan",
-      "roles": "UC Alum, Tech Worker",
-      "comment": "Peyrin’s suspension is a disturbing infringement on ethical standards and free speech. By disregarding the complicity and active role of tech and US institutions in an ongoing genocide, UC Berkeley risks eroding its standing as a university grounded in critical inquiry, moral clarity, and academic integrity. This is a profound moral failure and I am deeply disappointed in my Alma Mater, I sincerely hope that UC Berkeley makes the correct decision to reinstate Peyrin and issue a full apology to him and the student body."
-    },
-    {
       "displayName": "E. S.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Janice",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student, Tech Worker",
-      "comment": "I am extremely grateful to Peyrin for using his voice to make minority students feel heard\nand safe. As we rarely hear professors from our departments speak to us about the\nvalue behind our work, Peyrin has been so valuable to shaping our education and\nmaking us feel heard on campus."
-    },
-    {
-      "displayName": "Shadrick Small",
-      "roles": "UC Berkeley Staff, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Sarika Pasumarthy",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, EECS/CS Faculty, UC Berkeley Undergrad Student, UC Berkeley Staff, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Davis",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Stephen",
-      "roles": "UC Berkeley Staff",
       "comment": null
     },
     {
@@ -388,43 +1118,13 @@
       "comment": null
     },
     {
-      "displayName": "J. Y.",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Corinna Burrell",
-      "roles": "UC Berkeley Staff, UC Alum",
-      "comment": "Peyrin Kao has shown exceptional commitment to justice and peace and is an incredibly selfless and compassionate person. He has never wavered in his ethical commitments to his students and should not be punished for the humane act of protest, on his own time, against oppression and genocide. Peyrin represents the best of us."
-    },
-    {
-      "displayName": "Annie Price",
-      "roles": "UC Berkeley Staff, UC Alum",
-      "comment": null
-    },
-    {
       "displayName": "R. V.",
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
     },
     {
-      "displayName": "Ellen Thompson",
-      "roles": "UC Alum",
-      "comment": "Through his actions for Palestine, Peyrin Kao has consistently set the example for ethics in STEM. I have had the pleasure of organizing with him, and I am inspired by his humility and steadfastness. During his hunger strike, he constantly stated that this action is about the genocide in Palestine - not about him - and he rigorously promoted humanitarian aid efforts for individuals and families in Gaza. Peyrin's humanity has restored my previously lost hope that it is possible to be a person of conscience within the STEM community. This hope is key to my personal and professional identity, as I studied Astrophysics at Cal. In my recent-grad years, I worked as a Planetarium Educator at The Lawrence Hall of Science, where I integrated my politics of liberation into my teaching. The University's shameful attempt to silence Peyrin inspires me to speak louder - this suspension is evidence that our voices are working to bring truth to power."
-    },
-    {
       "displayName": "Kaleigha Easterly",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "B. M.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Cynthia Franklin",
-      "roles": "UC Alum, University Faculty/Staff",
       "comment": null
     },
     {
@@ -433,63 +1133,8 @@
       "comment": null
     },
     {
-      "displayName": "Liam Newsam",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Michael Drexler",
-      "roles": "University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Daniel Segal",
-      "roles": "University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": "George McIntire",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Rachel Rubin, MD, MPH",
-      "roles": "University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Jamie Finale",
-      "roles": "UC Berkeley Undergrad Student, Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Satvik Reddy",
-      "roles": "UC Berkeley Grad Student",
-      "comment": "You wouldn’t have done this if he did the exact same actions for any cause beyond Palestine. Is that normal or just?"
-    },
-    {
-      "displayName": "Stephanie",
-      "roles": "UC Berkeley Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Jonah Bedouch",
-      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": "As someone who has worked very closely with Peyrin on course staff AND taken multiple classes taught by him, he is clearly not someone who forces his opinion on others. During his hunger strike, he never even told members of his staff that he was undertaking it, and only mentioned it briefly in class, without addressing the cause.\n\nIn choosing to suspend Peyrin, Vice Chancellor Hermalin and the university are clearly choosing to exercise personal bias in an attempt to appease the Trump Administration, in flagrant violation of university policy and the first amendment. Even the EE and CS chairs admit that it is unclear that this action constitutes a violation of any university policy (as per The Daily Cal).\n\nThis is NOT acceptable behavior from a university which champions itself as a bastion of free speech, nor is it an acceptable way to treat a lecturer who consistently goes above and beyond, both for his students and his department."
-    },
-    {
-      "displayName": "Maile Kim",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
       "displayName": "B. C.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jeremiah OConnor",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -498,59 +1143,14 @@
       "comment": null
     },
     {
-      "displayName": "Michael Ball",
-      "roles": "EECS/CS Lecturer, EECS/CS Faculty, UC Berkeley Faculty, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "K. A.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "A. L.",
-      "roles": "UC Berkeley Undergrad Student, UC Alum",
-      "comment": "I chose UC Berkeley above all other schools because it had always held a special place in my mind as the home of progressivism and free speech protests. The actions of the administration since Trump's election have been antithetical to everything the Berkeley name means to the world."
-    },
-    {
-      "displayName": "E. K.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, EECS/CS Grad Student, UC Berkeley Undergrad Student, UC Berkeley Grad Student, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Emaan Haseem",
-      "roles": "Community Member, Tech Worker",
-      "comment": null
-    },
-    {
       "displayName": "N. D.",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "Peyrin's suspension is entirely nonsensical and disgusting, yet unsurprising. UC Berkeley shows time and time again that they are amoral, oppressive, corporate, and a loyal cog in the war machine. Free Palestine, free Congo, free Sudan."
     },
     {
-      "displayName": "D. S.",
-      "roles": "UC Alum, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "F. G.",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "S. C.",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "Shameful of the UC to do this and continually invest in genocide while punishing its students and faculty."
-    },
-    {
-      "displayName": "Connor Green",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member",
-      "comment": null
     },
     {
       "displayName": "Catherine Boland",
@@ -559,37 +1159,7 @@
     },
     {
       "displayName": null,
-      "roles": "EECS/CS Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Alex Ottley",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "I. C.",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, Community Member, University Undergrad/Grad Student",
-      "comment": "Free Palestine! And free Peyrin, huge inspiration to all of us CS or not!"
-    },
-    {
-      "displayName": "Benji Kapelke",
-      "roles": "UC Berkeley Undergrad Student, Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Sarah",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -598,48 +1168,8 @@
       "comment": "Even if UC Berkeley claims it's not a political issue and a lecture issue, this is still a gross overreach and exaggeration of issue in order to fire a staff member. Clearly, according to student statements, the hunger strike was not impacting Professor Kao's ability to teach well, and I keep hearing people say that the department will actually be significantly worse without him. So any apolitical justification makes 0 sense.\nHowever, a political justification forms this as a first amendment rights violation - if it wasn't impacting his ability to do his job, it wasn't affecting or hurting other people, than he should not be fired."
     },
     {
-      "displayName": "Ellis",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "H. F.",
-      "roles": "University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jonathan",
-      "roles": "Community Member, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "J. S.",
-      "roles": "Former Peyrin Student, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "S. L.",
-      "roles": "UC Alum, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "Liza Gak",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Zaid Yousef",
-      "roles": "UC Berkeley Grad Student",
-      "comment": "As a law student, I've witnessed some of highest-ranking administrators and faculty make egregious comments supporting the genocide in Gaza--both inside and outside the classroom--with no repercussions.  One professor even took time out of his seminar on theories of governance to rant about how a map of Palestine is akin to a Confederate flag and how supporting Palestinian liberation is a call to \"kill all Jews.\" The professor in question was never reprimanded, and Provost Hermalin even called him to tell him that he \"acted appropriately.\" Shame on this university; history will not look kindly to the lengths you've gone in defense of the slaughter of tens of thousands of my people. Palestine will be free and you will discarded in the dustbins of history."
-    },
-    {
       "displayName": "Kai",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "F. K.",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff",
       "comment": null
     },
     {
@@ -648,58 +1178,8 @@
       "comment": "Even as a student who hasn't taken a class with Peyrin, I can see how hard working and caring he is. My friends who have taken classes with him tell me how available he is for support and how he puts his students first. We need professors like that at Berkeley. He has done nothing wrong, other than express his right to free speech at the university where the free speech movement was founded."
     },
     {
-      "displayName": "Gabriel Woolls",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Albert",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "M. K.",
-      "roles": "University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Zoe Xu",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Madi McCloud",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jordan",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "M. G.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Wesley",
-      "roles": "Current Peyrin Student (CS 61B / CS 188)",
-      "comment": null
-    },
-    {
-      "displayName": "Ryan Sherod",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Noelle Davis",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -708,63 +1188,8 @@
       "comment": "an educator who cares as much about his students as Peyrin should not be punished for exercising his first amendment rights. Why do we allow TPUSA and hateful organizations to harass students on sproul, but suspend Peyrin who does not harass, hurt, or push his belief on others? He is participating in peaceful activity, and is being turned into a martyr by a cowardly institution that parades as a bastion of free speech but is really strangled by foreign divestment and political fear."
     },
     {
-      "displayName": "Leila Mire",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Amber Kerr",
-      "roles": "UC Berkeley Lecturer",
-      "comment": "Berkeley is world-famous for its role in the Free Speech Movement. Its current effort to chill free speech in accordance with the current federal government's priorities is deeply disappointing.  As a Berkeley lecturer myself, and also a PhD alum (ERG 2012), I intend to speak up against this new and unwelcome trend at every step."
-    },
-    {
-      "displayName": "Ivy",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "C. L.",
-      "roles": "UC Alum",
-      "comment": "fuck the fundamentalist zionist murderers"
-    },
-    {
-      "displayName": "A. D.",
-      "roles": "UC Berkeley Undergrad Student, UC Alum, Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Ghazala Anwar",
-      "roles": "Community Member",
-      "comment": "Peyrin will be remembered as among the few with a conscience who stood on the right side of history.  Not reinstating him will be yet another sign that the UCB administration has completely lost its conscience"
-    },
-    {
-      "displayName": "E. C.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "M. H.",
-      "roles": "UC Alum, UC Berkeley Alum, class of 2018",
-      "comment": "As an undergraduate student at UC Berkeley, my professors made political statements in class, particularly after the first election of Donald Trump in 2016, and were not punished or retaliated against. This is clearly retaliation for Peyrin’s activism and speech in support of Palestinians and against the genocide in Gaza, and a first amendment violation. It is all the more disappointing coming from a university that claims to pride itself on its role in the free speech movement."
-    },
-    {
-      "displayName": "L. Z.",
-      "roles": "UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "J. H.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Kenny Wang",
-      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": "I had Peyrin as an instructor for CS 161, CS 188, and CS 168, and worked with Peyrin for 4 semesters as a TA for CS 188. Peyrin's contributions to CS at Berkeley are nothing short of a miracle for the department, and to be frank, losing Peyrin will be a disaster. The department needs to be made aware.\n\nNever have I ever seen someone as devoted or hardworking as Peyrin. Myself and/or my friends have directly seen him:\n\n- Sleep in Soda Hall after working long into the night\n- With the help of a few TA's, grade an exam literally overnight, by staying up past midnight\n- Answer so many students' Ed questions that he started to post them as invisible-to-students so that other TA's could copy-paste his responses and take the credit\n- Bail out overflowing office hours queues when TA's were swamped--even though he wasn't officially teaching that class that semester\n- Be actively working at 12AM on New Year's Day\n\nPeyrin has the unique ability to run multiple classes smoothly in a way that absolutely no professor or head TA ever could. In every semester I've worked with him, he has been majorly involved in running logistics for at the bare minimum, 3 or 4 different courses, often without even officially being an instructor. No task is too menial or too complex for him--he isn't afraid to go print exams at 3 in the morning, but has the knowledge and experience to write exam questions and deal with far-reaching course policies.\n\nWhile TA's and instructors certainly work hard, Peyrin is an incredible force multiplier and his loss would directly torpedo the effectiveness of, at minimum, 4 different key courses (CS 61B, CS 161, CS 188, CS 168). With less capacity to handle students in these classes, and with students less prepared and more stressed for follow-on courses, the effects will propagate throughout the entire department like a tsunami.\n\nAny insinuation that Peyrin's activism or hunger strike have negatively impacted his teaching abilities and student learning is preposterous, because he's always done so much more than has been expected of him. Even if he was 1/2 as productive as he is, he would still be as effective as a particularly hardworking teaching professor--and leagues beyond many of my professors, to be honest.\n\nI'll leave it to my peers to speak about other factors. But from a pedagogical standpoint, suspending Peyrin would be the biggest mistake the department could make."
-    },
-    {
-      "displayName": "Thanh Thai",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -773,28 +1198,8 @@
       "comment": null
     },
     {
-      "displayName": "Y. P.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Alex Liu",
-      "roles": "Current Peyrin Student (CS 61B / CS 188)",
-      "comment": "peyrin's political beliefs haven't affected his teaching or the experience of students in CS61B at all. he mentioned it maybe once or twice for 10 seconds in class and never talked about it again. I don't think its fair at all to suspend him, since he's also one of the best lecturers on campus."
-    },
-    {
       "displayName": "C. S.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "K. L.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Isabel Dong",
-      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, Tech Worker",
       "comment": null
     },
     {
@@ -804,47 +1209,12 @@
     },
     {
       "displayName": null,
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Brandon Gonzalez",
-      "roles": "UC Alum",
+      "roles": "UC Berkeley Undergrad Student",
       "comment": null
     },
     {
       "displayName": null,
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Samantha Good",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "S. G.",
-      "roles": "Former Peyrin Student, UC Alum",
-      "comment": "Peyrin is an amazing lecturer and takes his role as a teacher and a mentor incredibly seriously. When I was having trouble with a student bullying other students during office hours I informed Peyrin and he immediately took action and did everything he could to ensure that the affected students were okay and that the proper campus authorities were notified of said student’s behavior. Peyrin is one of the most capable instructors in the EECS/CS department, his teaching capabilities far outshine those of a vast majority of the professors currently tenured at this university. It is shameful that a university that prides itself on its history of supporting free speech is silencing the voices of its faculty and students alike."
-    },
-    {
-      "displayName": "M. M.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Caroline Nguyen",
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Lia Le-Nguyen",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
       "comment": null
     },
     {
@@ -853,69 +1223,9 @@
       "comment": null
     },
     {
-      "displayName": null,
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Lia Le-Nguyen",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Lia Le-Nguyen",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "Kat Yi",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "He's the only faculty member with any respectability on this campus"
-    },
-    {
-      "displayName": "Antony",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Ori Loewinger",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Alyssa Gomez",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Anya",
-      "roles": "UC Berkeley Grad Student",
-      "comment": "Such a stain on UC Berkeley’s pathetic excuse for a reputation as “free speech university”, freedom of speech for WHO?! This is the most repressive hellscape of an institution I have ever attended. I feel nothing but shame to say I attended Cal."
-    },
-    {
-      "displayName": "Juana María Rodríguez",
-      "roles": "UC Berkeley Faculty",
-      "comment": "Provost Hermalin—your letter speaks against everything this campus represents—free speech, a commitment to teaching and learning, and our supposed share mission for creating a more just and ethical world."
-    },
-    {
-      "displayName": "S. A.",
-      "roles": "Worked with Peyrin on Course Staff, EECS/CS Grad Student, UC Berkeley Grad Student, Community Member, University Undergrad/Grad Student, Tech Worker",
-      "comment": "Peyrin is one of the most important assets & leaders to the CS61 series community, invaluable to the other course staffs for not just 61B but A and C and data science courses as well. How horrifically embarrassing and demoralizing it is to see our institution repay his already undervalued service and labor with abject betrayal."
-    },
-    {
-      "displayName": "Lisa",
-      "roles": "UC Berkeley Staff, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Jasmine Valenzuela",
-      "roles": "UC Berkeley Staff, UC Alum",
-      "comment": null
     },
     {
       "displayName": "A. W.",
@@ -928,38 +1238,8 @@
       "comment": null
     },
     {
-      "displayName": "A. C.",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "K. F.",
-      "roles": "UC Berkeley Undergrad Student, UC Berkeley Faculty",
-      "comment": null
-    },
-    {
       "displayName": "Collette Wilson",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Samuel",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Victoria Phelps",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Staff, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "Jared Cheatham",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Habiba",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -988,103 +1268,13 @@
       "comment": null
     },
     {
-      "displayName": "L. A.",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "EECS/CS Grad Student, UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Alexandra Bergseid",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "Finn McGreevy",
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
     },
     {
-      "displayName": "J. D.",
-      "roles": "UC Alum",
-      "comment": "Free Palestine"
-    },
-    {
-      "displayName": "Ariana Cohen",
-      "roles": "Community Member",
-      "comment": "Peyton did nothing wrong"
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Juwairia",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student, UC Berkeley Staff, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Aidan",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Anneka Lenssen",
-      "roles": "UC Berkeley Faculty",
-      "comment": null
-    },
-    {
-      "displayName": "K. D.",
-      "roles": "Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Alex Sanchez",
-      "roles": "UC Berkeley Staff",
-      "comment": "UC Berkeley is just digging itself deeper into fascism and I support any Berkeley student, staff, or faculty who speaks out for the liberation of Palestinian and the end of our university’s material, academic, and financial support of Israel."
-    },
-    {
-      "displayName": "Samuel",
-      "roles": "UC Alum",
-      "comment": "In the stairwell of MLK Student Union, a plaque reads: “You, in a real sense, have been the conscience of the academic community and our nation.” Dr. King said those words to Berkeley students on the steps of Sproul Hall in 1967, and that spirit is what makes me proud to be a Berkeley alum. I, like many others, am proud of Peyrin for carrying on that spirit so courageously. The administration should be ashamed of actions that betray the deepest values of our academic community."
-    },
-    {
-      "displayName": "David Klein",
-      "roles": "UC Alum, University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "R. A.",
-      "roles": "Community Member, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "S. M.",
-      "roles": "EECS/CS Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "C. D.",
-      "roles": "UC Alum",
-      "comment": "Berkeley is the home of the Free Speech Movement, a movement led by Cal students that has changed universities and higher education in the decades since. Peyrin is upholding this legacy, even as the University itself shirks it."
-    },
-    {
       "displayName": "T. M.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jason",
-      "roles": "UC Alum",
       "comment": null
     },
     {
@@ -1093,43 +1283,8 @@
       "comment": null
     },
     {
-      "displayName": "Antonio Soto",
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
-      "displayName": "A. Y.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Community Member",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "McKane Andrus",
-      "roles": "UC Alum, University Undergrad/Grad Student",
-      "comment": "If there was ever a clear line to be drawn for what 'ethical' technology is, it is whether or not the tech supports genocide. In my time at Berkeley (CS + ISF BA, EECS MS), I learned about the IBM punch cards that enabled the holocaust, and it was ok for my professors to say \"never again should our discipline be complicit in something like this.\" This was the absolute bare minimum of our \"tech ethics\" training. The AI and computing technologies being used to surveil Palestinians and mark them for death are most certainly built upon Berkeley innovations in computer vision, databases, etc. At the very least, then, now is the time for us computer scientists to recognize the evil our contributions are being used for and to stand against it. It is damning that the administration would choose to punish and silence the member of CS faculty with the greatest moral clarity around this, and I'm deeply ashamed of my alma mater. (And I'm sure when I visit campus in 30 years I'll be able to drop in on the \"Free Palestine\" Cafe, where there'll be a plaque honoring Peyrin's bravery so the administration can reap the reputational rewards of having always been against genocide once it is again politically convenient.)"
-    },
-    {
-      "displayName": "Taylor Waddell",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "N. W.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "S. G.",
-      "roles": "UC Berkeley Undergrad Student, Tech Worker",
       "comment": null
     },
     {
@@ -1138,18 +1293,8 @@
       "comment": null
     },
     {
-      "displayName": "Roderick",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
-      "comment": "Peyrin never once mentioned Palestine on class time. I once asked him during class why he was on hunger strike, and he told me I could learn more on his website and that he wouldn’t talk about it during class. The words “Palestine” or “Gaza” was never uttered during class. Peyrin is a fantastic lecturer and a kind individual, he has been wrongfully suspended for a crime he did not commit."
-    },
-    {
       "displayName": "Olivia Peterson",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Berkeley Parents",
       "comment": null
     },
     {
@@ -1168,48 +1313,8 @@
       "comment": null
     },
     {
-      "displayName": "Ely",
-      "roles": "Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Nayla Latic",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Melany Flores",
-      "roles": "UC Berkeley Undergrad Student, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jessie",
-      "roles": "Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "S. S.",
-      "roles": "UC Alum, Community Member, Tech Worker",
-      "comment": null
-    },
-    {
-      "displayName": "A. C.",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "G. C.",
-      "roles": "University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": null,
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "A. R.",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
       "comment": null
     },
     {
@@ -1228,33 +1333,13 @@
       "comment": null
     },
     {
-      "displayName": "Spencer Jenkins",
-      "roles": "UC Alum",
-      "comment": "Peyrin has consistently acted in line with his contractual obligations as a teacher. His dedication to UC Berkeley students and to causes he believes in, in the face of constant hostility from his own employers, is seriously commendable. Peyrin works tirelessly to help his students grow and learn. Peyrin does not brainwash or indoctrinate his students; he encourages them to approach their careers with concern for the broader picture. \n\nThe administration of UC Berkeley has clearly demonstrated their opposition to free speech about the ongoing genocide, ethnic cleansing and war crimes in Palestine, funded and laundered by the US government. We as community members, students, and student staff support Peyrin Kao's immediate reinstatement and we stand ironclad in support of a free Palestine."
-    },
-    {
-      "displayName": "Mansi",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
       "displayName": "M. N.",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "David Solomon, a professor has been reported to take his students to the MCC, introduce his own political beliefs into the classroom and even demand the current administration investigate the campus on claims of anti-semitism. Now he is on the patrol of the federal task force. Why isn’t he being sanctioned in the same way as Peyrin?"
     },
     {
-      "displayName": "H. S.",
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
       "displayName": "Matthew",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "A. K.",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
       "comment": null
     },
     {
@@ -1263,28 +1348,8 @@
       "comment": null
     },
     {
-      "displayName": "C. B.",
-      "roles": "UC Alum,",
-      "comment": "Free speech!"
-    },
-    {
       "displayName": "w. k.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Michaela Blount",
-      "roles": "Sam Houston State University Student",
-      "comment": null
-    },
-    {
-      "displayName": "Daniel",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Ben Rose",
-      "roles": "UC Berkeley Grad Student",
       "comment": null
     },
     {
@@ -1298,23 +1363,8 @@
       "comment": null
     },
     {
-      "displayName": "Emily Martin",
-      "roles": "UC Berkeley Grad Student",
-      "comment": "As a historian who studies the history of science, technology, and medicine, I am concerned about the wide implication of the UC's indefensible choice to discipline and suspend Prof. Kao. My own research and scholarly discipline is predicated on the idea that science, technology, and medicine, are not neutral scientific enterprises. I teach undergrads-- frequently, those in the college of engineering and the new college of CS-- that science is a social process, and that the choices they make as scientists have profound historical, cultural, and ethical dimensions. UCVP Hermalin's letter is not merely an affront to academic freedom of speech. It also serves only to marginalize scholarship that affirms with Prof. Kao shared with his class: that being a scientist does not make you immune from ethical inquiry. My own ability to teach UC Berkeley undergrads is undermined by the insistence from the highest level of the university that there is no appropriate consideration of ethics or politics that can be allowed in the STEM classroom. It makes it actively more difficult to engage with students when University messaging positions STEM as neutral, empirical, and apolitical. Why would we want to send graduates into the world who are encouraged to dodge difficult questions about the impact they want their work to have in the world?"
-    },
-    {
       "displayName": "N. M.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "L. G.",
-      "roles": "Community Member, Tech Worker",
-      "comment": "I've always respected UC Berkeley as an institution committed to intellectual freedom and progressive politics. This is clearly an outdated impression. I'm deeply disappointed and angry to see these actions against a faculty member who acted with integrity. That the university is doing this is shameful, but especially so given that is further complicity in genocide. Make a better choice, and exist with a fraction of the courage that Peyrin has demonstrated."
-    },
-    {
-      "displayName": "Sarveshan",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
       "comment": null
     },
     {
@@ -1328,29 +1378,9 @@
       "comment": null
     },
     {
-      "displayName": "hunter manley",
-      "roles": "sfsu student",
-      "comment": null
-    },
-    {
-      "displayName": "A. L.",
-      "roles": "University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "Connor Chang",
       "roles": "UC Berkeley Undergrad Student",
       "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "UC Alum, Tech Worker",
-      "comment": "Absolute disgrace to the institution for discharging such a hardworking lecturer based on their political views while marketing themselves as “pro free speech university”"
-    },
-    {
-      "displayName": "Mark",
-      "roles": "Community Member, Tech Worker",
-      "comment": "Shame on UC Berkeley, shame on the administration!"
     },
     {
       "displayName": "Isabel",
@@ -1358,33 +1388,8 @@
       "comment": null
     },
     {
-      "displayName": null,
-      "roles": "Former Peyrin Student, Worked with Peyrin on Course Staff, EECS/CS Undergrad Student, Tech Worker",
-      "comment": "I have worked with Peyrin, and I can say he is unequivocally the backbone of the CS department right now. This situation is particularly upsetting to me because he genuinely cares about his students, staff, and the university, quite possibly more than any other lecturer or professor I know. He is the reason why so many courses on this campus are even able to run at all. His suspension, outside of being blatantly unconstitutional, is a huge detriment to the quality of education CS students will receive. \n\nUC Berkeley, when you boast your CS ranking to the general public, know that it is only good as it is because of a man whose rights you have freely and publicly violated. When you see your TAs and students struggling next semester, remember that you had the ability to put your those people as well as your constitution and morals first, and chose not to. And when you read an article citing your university as the birth of the Free Speech Movement, or when FSM cafe re-opens and you read those stories and quotes on the wall, remember that you have disgraced that legacy and every single person who fought for it.  \n\nI am beyond disappointed in you."
-    },
-    {
       "displayName": "Anirvan",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": null,
-      "roles": "Current Peyrin Student (CS 61B / CS 188)",
-      "comment": null
-    },
-    {
-      "displayName": "K. N.",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), EECS/CS Undergrad Student",
-      "comment": "You made us sign this:\n\nUC Berkeley's core principles emphasize diversity, integrity, dignity, freedom of expression, and active engagement.\n\nYet you are undermining those who seek the freedom to actively express injustice and indignity within our society."
-    },
-    {
-      "displayName": "Charlotte O'Keefe Stralka",
-      "roles": "UC Berkeley Staff",
-      "comment": "Its a shame that a school that touts itself for being the 'home of the free speech' movement continually goes against free speech"
-    },
-    {
-      "displayName": "D. A.",
-      "roles": "UC Berkeley Grad Student",
       "comment": null
     },
     {
@@ -1398,28 +1403,8 @@
       "comment": null
     },
     {
-      "displayName": "L. C.",
-      "roles": "none",
-      "comment": null
-    },
-    {
-      "displayName": "J. T.",
-      "roles": "EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "E. M.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Nalini",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Wes",
-      "roles": "University Undergrad/Grad Student",
       "comment": null
     },
     {
@@ -1428,44 +1413,9 @@
       "comment": null
     },
     {
-      "displayName": "E. B.",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
-      "comment": "Peyrin was the only faculty that took time to actually talk to students when invited to a minorities in CS faculty lunch. He actually cares about his students."
-    },
-    {
       "displayName": "D’Angelly Almodovar",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "His resignation means that our school has lost the very foundation it was built on, we should not be complacent in the face of tyranny"
-    },
-    {
-      "displayName": "Benjamin Robinson",
-      "roles": "University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": "D. B.",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "S. L.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Cecilie Surasky",
-      "roles": "UC Berkeley Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Sage",
-      "roles": "Former Peyrin Student, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Lindsey",
-      "roles": "UC Alum",
-      "comment": "As a UC Berkeley student, I remember walking the grounds of campus and seeing officially displays around the university celebrating Berkeley’s critical role in anti-war free speech and protest in the 60s. I urge UC Berkeley to uphold that pride in free speech in higher education now at a time when it is extraordinarily important."
     },
     {
       "displayName": "Felicia Tom",
@@ -1483,53 +1433,8 @@
       "comment": null
     },
     {
-      "displayName": "Akansha",
-      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "T. S.",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Carol Allen",
-      "roles": "UC Alum, Community Member",
-      "comment": null
-    },
-    {
-      "displayName": "Marilyn",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Benjamin Robinson",
-      "roles": "University Faculty/Staff",
-      "comment": null
-    },
-    {
-      "displayName": "Malaika",
-      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Muhammad",
-      "roles": "UC Berkeley Grad Student, UC Berkeley Staff, UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Ann Marie Krulick",
-      "roles": "Constituent of Berkeley",
-      "comment": null
-    },
-    {
-      "displayName": "Michelle Chen",
-      "roles": "UC Alum",
-      "comment": null
-    },
-    {
-      "displayName": "Roshanak Gonzalez",
-      "roles": "Community Member, Former UC Berkeley grad student",
       "comment": null
     },
     {
@@ -1538,38 +1443,8 @@
       "comment": null
     },
     {
-      "displayName": "Alexander DeRouen",
-      "roles": "Worked with Peyrin on Course Staff, EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Jean Halley",
-      "roles": "Graduate Center and the College of Staten Island of the City University of New York Faculty",
-      "comment": null
-    },
-    {
-      "displayName": "Isabella Durante Alpert",
-      "roles": "Worked with Peyrin on Course Staff, EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Matthew Kovac",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
       "displayName": "Katie Parisi",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "S. T.",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Alicia Guo",
-      "roles": "University Undergrad/Grad Student",
       "comment": null
     },
     {
@@ -1583,23 +1458,8 @@
       "comment": "Free Palestine!!! Don’t let them silence our voices, go out and take action."
     },
     {
-      "displayName": "Anthony",
-      "roles": "UC Berkeley Grad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Devika Sharma",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "Gabriella",
       "roles": "UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
-      "displayName": "Promise Li",
-      "roles": "University Faculty/Staff",
       "comment": null
     },
     {
@@ -1608,33 +1468,418 @@
       "comment": null
     },
     {
-      "displayName": "Kanishka",
-      "roles": "Tech Worker",
-      "comment": "Free speech is not a crime."
-    },
-    {
-      "displayName": "Joshua",
-      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
-      "comment": null
-    },
-    {
       "displayName": "Hanni Yu",
       "roles": "UC Berkeley Undergrad Student",
       "comment": "If Ron Hassner can sleep in his office without showering for weeks, hold class over Zoom and a seminar in his disheveled office with a mattress, without facing any disciplinary action, Peyrin should not be punished for simply going on a hunger strike and otherwise holding class as normal. \n\nHunger strike or not, he teaches at a higher quality than most other CS instructors at this school: just compare the course evaluation data to see if his hunger strike really made his teaching quality go down that much, or if he’s still clearly better than other professors who are still teaching!"
     },
     {
-      "displayName": "N. C.",
-      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "displayName": null,
+      "roles": "UC Berkeley Undergrad Student, Community Member",
       "comment": null
     },
     {
-      "displayName": "Andrew Palmer",
+      "displayName": "Brianna",
+      "roles": "UC Berkeley Undergrad Student, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Denise",
+      "roles": "UC Berkeley Undergrad Student, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Jamie Finale",
+      "roles": "UC Berkeley Undergrad Student, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Benji Kapelke",
+      "roles": "UC Berkeley Undergrad Student, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Gabriela",
+      "roles": "UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "L. Z.",
+      "roles": "UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "S. G.",
+      "roles": "UC Berkeley Undergrad Student, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "A. L.",
+      "roles": "UC Berkeley Undergrad Student, UC Alum",
+      "comment": "I chose UC Berkeley above all other schools because it had always held a special place in my mind as the home of progressivism and free speech protests. The actions of the administration since Trump's election have been antithetical to everything the Berkeley name means to the world."
+    },
+    {
+      "displayName": "A. D.",
+      "roles": "UC Berkeley Undergrad Student, UC Alum, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "K. F.",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Faculty",
+      "comment": null
+    },
+    {
+      "displayName": "Oton De Souza",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Grad Student, UC Alum",
+      "comment": "Peyrin spoke up when he saw wrong when the world around him stood silent. And rather than being on the right side of history UC Berkeley continues to suppress speech while claiming itself to be a bastion of freedom of speech. Peyrin chose bravery and humanity, continuing to stand with oppressed people and our community will stand with him."
+    },
+    {
+      "displayName": "F. K.",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Connor Green",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Lia Le-Nguyen",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Lia Le-Nguyen",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Lia Le-Nguyen",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Melany Flores",
+      "roles": "UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Michael Drexler",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Daniel Segal",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Rachel Rubin, MD, MPH",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Benjamin Robinson",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Benjamin Robinson",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Promise Li",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Kathy Le",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Essie Tuerk-Levy",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "H. F.",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. K.",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "G. C.",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. L.",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Wes",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Alicia Guo",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Abigail Brooks-Ramirez",
+      "roles": "Worked with Peyrin on Course Staff, EECS/CS Grad Student",
+      "comment": "UC Berkeley EECS is one of the largest producers of tech workers, to punish free speech in such a department teaches our students that their education and future work is separable from social contexts, which is inherently untrue. Shame on UC Berkeley and the EECS department for attempting to hide ugly truths from their students and for punishing one of the top lecturers in an already understaffed department."
+    },
+    {
+      "displayName": "S. A.",
+      "roles": "Worked with Peyrin on Course Staff, EECS/CS Grad Student, UC Berkeley Grad Student, Community Member, University Undergrad/Grad Student, Tech Worker",
+      "comment": "Peyrin is one of the most important assets & leaders to the CS61 series community, invaluable to the other course staffs for not just 61B but A and C and data science courses as well. How horrifically embarrassing and demoralizing it is to see our institution repay his already undervalued service and labor with abject betrayal."
+    },
+    {
+      "displayName": "Alexander DeRouen",
+      "roles": "Worked with Peyrin on Course Staff, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Isabella Durante Alpert",
+      "roles": "Worked with Peyrin on Course Staff, EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. H.",
+      "roles": "UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student, University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Aaron Bornstein",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Mateo C",
+      "roles": "UC Alum, Community Member, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "N. G.",
+      "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "B. L.",
+      "roles": "Former Peyrin Student, UC Alum, Tech Worker",
+      "comment": "My tata passed away before the start of the semester. I emailed all my professors/lecturers informing them I would be absent the first week. He is the only one who was genuine with condolences and even offered resources Incase the grief was too much to bare throughout the semester. I truly appreciate Peyrin and only have kind words to say. I cannot say the same for many of the other CS lecturers at UCB. The only thing he is guilty of is having courage and empathy. We have the freedom to protest and speech, but why is it no longer a right against a known genocide? These actions against Peyrin aren’t justified and simply wrong. He is a critical asset to the Computer Science department. Not many CS professors at CAL are meant to teach. Peyrin is the exception and should have been protected by this institution."
+    },
+    {
+      "displayName": "Emily",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Ariana Siordia",
+      "roles": "Former Peyrin Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "E. W.",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Mina",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Mona Wang",
+      "roles": "EECS Postdoc",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. C.",
+      "roles": "EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "L. J.",
+      "roles": "UC Berkeley Undergrad Student, UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": "C. L.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Leah McMillan",
+      "roles": "UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Viviana Melgoza",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. R.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. W.",
       "roles": "UC Alum, Community Member",
       "comment": null
     },
     {
-      "displayName": "Jenny Xiong",
+      "displayName": "N. M.",
+      "roles": "Community Member, University Faculty/Staff, Research Scientist",
+      "comment": null
+    },
+    {
+      "displayName": "Christopher Geary",
       "roles": "UC Berkeley Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "A. B.",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Madeleine Lees",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": "Unbelievably ridiculous that Peyrin is being suspended, just another show of force by Berkeley to discourage students and faculty from speaking out."
+    },
+    {
+      "displayName": "Vanessa Torres",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Angel Vargas",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Alyssa",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "M. B.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Deborah Armintor",
+      "roles": "Member of Jewish Vouce for Peace Academic Council",
+      "comment": null
+    },
+    {
+      "displayName": "A. V.",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": "Peyrin runs the entire CS department given how much work he puts in and how many classes he teaches. Despite the fact that I may not fully share his views, he should be allowed to express himself in his own way considering that it didn't disrupt the students or their learning. This is a violation of free speech and leaves the EECS/CS department in a very bad place staff and resources wise."
+    },
+    {
+      "displayName": "Justin Wang",
+      "roles": "EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "V. H.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Terri Ginsberg",
+      "roles": "University Faculty/Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Nicholas",
+      "roles": "UC Berkeley Undergrad Student, Community Member, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Edward Pierpont",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Current Peyrin Student (CS 61B / CS 188), EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "I. W.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "H. S.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "B. L.",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": "Peyrin is one of the best CS lecturers I’ve ever had — and the only one I’ve seen really grapple with the complex ways that tech interfaces with global issues. We need his voice in the Berkeley CS community. Shame on UC Berkeley and Benjamin Hermalin. Reinstate him now!"
+    },
+    {
+      "displayName": "Sadie Berger",
+      "roles": "University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Shellee Perez",
+      "roles": "UC Alum",
+      "comment": "This is the type of exercise of free speech indicative of CAL culture. Please protect him and do not punish peaceful protest."
+    },
+    {
+      "displayName": "J. R.",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "I. N.",
+      "roles": "SFSU Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Anthony",
+      "roles": "UC Alum, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": "Carolyn Sohn",
+      "roles": "UC Berkeley Staff, UC Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Jess",
+      "roles": "UC Alum, Tech Worker",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student",
+      "comment": "To believe that teaching people to care about others (especially those enduring genocide) is punishable by suspension in the institution where fighting for what’s right has always been enforced is so backwards. Peyrin taught me how to show up for my ethical responsibilities. He taught me to not give up. He believed in us and who we are capable to become in order to help the world be a better place."
+    },
+    {
+      "displayName": "Kimberly Bravo",
+      "roles": "UC Berkeley Undergrad Student, University Undergrad/Grad Student",
       "comment": null
     }
   ]
