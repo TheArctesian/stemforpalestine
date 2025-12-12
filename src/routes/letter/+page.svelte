@@ -108,6 +108,28 @@
 		</section>
 	{/if}
 
+	<!-- Organization Signatories Section -->
+	{#if data.orgSignatories && data.orgSignatories.length > 0}
+		<section class="org-signatories">
+			<div class="container">
+				<h2>Organization Endorsements ({data.orgSignatories.length})</h2>
+				<div class="org-signatories-grid">
+					{#each data.orgSignatories as org, i (org.organization_name ?? `org-${i}`)}
+						<div class="org-signatory-card">
+							<span class="org-signatory-name">{org.organization_name}</span>
+							{#if org.description}
+								<p class="org-description">{org.description}</p>
+							{/if}
+							{#if org.additional_testimony}
+								<blockquote class="org-testimony">"{org.additional_testimony}"</blockquote>
+							{/if}
+						</div>
+					{/each}
+				</div>
+			</div>
+		</section>
+	{/if}
+
 	<!-- All Signatories Section -->
 	<section class="all-signatories">
 		<div class="container">
@@ -356,6 +378,70 @@
 		font-style: italic;
 	}
 
+	/* Organization Signatories Section */
+	.org-signatories {
+		padding: 4rem 0;
+		background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+	}
+
+	.org-signatories h2 {
+		text-align: center;
+		font-size: 2rem;
+		color: #92400e;
+		margin-bottom: 2rem;
+	}
+
+	.org-signatories-grid {
+		column-count: 2;
+		column-gap: 1.5rem;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	.org-signatory-card {
+		background: white;
+		padding: 1.5rem;
+		border-radius: 12px;
+		border: 2px solid #fde68a;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		transition: all 0.3s;
+		break-inside: avoid;
+		margin-bottom: 1.5rem;
+	}
+
+	.org-signatory-card:hover {
+		border-color: #f59e0b;
+		transform: translateY(-4px);
+		box-shadow: 0 10px 25px rgba(245, 158, 11, 0.15);
+	}
+
+	.org-signatory-name {
+		font-weight: 700;
+		font-size: 1.2rem;
+		color: #92400e;
+	}
+
+	.org-description {
+		font-size: 0.95rem;
+		color: #4b5563;
+		margin: 0;
+		line-height: 1.5;
+	}
+
+	.org-testimony {
+		margin: 0.5rem 0 0;
+		padding: 1rem;
+		background: #fffbeb;
+		border-left: 4px solid #f59e0b;
+		border-radius: 0 8px 8px 0;
+		font-style: italic;
+		color: #475569;
+		font-size: 0.95rem;
+		line-height: 1.6;
+	}
+
 	/* All Signatories Section */
 	.all-signatories {
 		padding: 4rem 0;
@@ -375,9 +461,14 @@
 	}
 
 	.signatories-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-		gap: 1.5rem;
+		column-count: 3;
+		column-gap: 1.5rem;
+	}
+
+	@media (max-width: 1024px) {
+		.signatories-grid {
+			column-count: 2;
+		}
 	}
 
 	.signatory-card {
@@ -389,6 +480,8 @@
 		flex-direction: column;
 		gap: 0.5rem;
 		transition: all 0.3s;
+		break-inside: avoid;
+		margin-bottom: 1.5rem;
 	}
 
 	.signatory-card:hover {
@@ -549,9 +642,13 @@
 		}
 
 		.org-grid,
-		.notable-grid,
-		.signatories-grid {
+		.notable-grid {
 			grid-template-columns: 1fr;
+		}
+
+		.org-signatories-grid,
+		.signatories-grid {
+			column-count: 1;
 		}
 
 		.pagination {
