@@ -461,8 +461,14 @@
 	}
 
 	.signatories-grid {
-		column-count: 3;
+		column-count: 4;
 		column-gap: 1.5rem;
+	}
+
+	@media (max-width: 1200px) {
+		.signatories-grid {
+			column-count: 3;
+		}
 	}
 
 	@media (max-width: 1024px) {
@@ -509,8 +515,8 @@
 		border-radius: 0 8px 8px 0;
 		font-style: italic;
 		color: #475569;
-		font-size: 0.95rem;
-		line-height: 1.6;
+		font-size: 0.85rem;
+		line-height: 1.5;
 	}
 
 	.no-signatories {
