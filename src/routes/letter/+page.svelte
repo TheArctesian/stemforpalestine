@@ -108,28 +108,6 @@
 		</section>
 	{/if}
 
-	<!-- Organization Signatories Section -->
-	{#if data.orgSignatories && data.orgSignatories.length > 0}
-		<section class="org-signatories">
-			<div class="container">
-				<h2>Organization Endorsements ({data.orgSignatories.length})</h2>
-				<div class="org-signatories-grid">
-					{#each data.orgSignatories as org, i (org.organization_name ?? `org-${i}`)}
-						<div class="org-signatory-card">
-							<span class="org-signatory-name">{org.organization_name}</span>
-							{#if org.description}
-								<p class="org-description">{org.description}</p>
-							{/if}
-							{#if org.additional_testimony}
-								<blockquote class="org-testimony">"{org.additional_testimony}"</blockquote>
-							{/if}
-						</div>
-					{/each}
-				</div>
-			</div>
-		</section>
-	{/if}
-
 	<!-- All Signatories Section -->
 	<section class="all-signatories">
 		<div class="container">
@@ -188,6 +166,28 @@
 			{/if}
 		</div>
 	</section>
+
+	<!-- Organization Signatories Section -->
+	{#if data.orgSignatories && data.orgSignatories.length > 0}
+		<section class="org-signatories">
+			<div class="container">
+				<h2>Organization Endorsements ({data.orgSignatories.length})</h2>
+				<div class="org-signatories-grid">
+					{#each data.orgSignatories as org, i (org.organization_name ?? `org-${i}`)}
+						<div class="org-signatory-card">
+							<span class="org-signatory-name">{org.organization_name}</span>
+							{#if org.description}
+								<p class="org-description">{org.description}</p>
+							{/if}
+							{#if org.additional_testimony}
+								<blockquote class="org-testimony">"{org.additional_testimony}"</blockquote>
+							{/if}
+						</div>
+					{/each}
+				</div>
+			</div>
+		</section>
+	{/if}
 
 	<!-- Final CTA -->
 	<section class="final-cta">
@@ -392,10 +392,8 @@
 	}
 
 	.org-signatories-grid {
-		column-count: 2;
+		column-count: 4;
 		column-gap: 1.5rem;
-		max-width: 900px;
-		margin: 0 auto;
 	}
 
 	.org-signatory-card {
@@ -419,7 +417,7 @@
 
 	.org-signatory-name {
 		font-weight: 700;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: #92400e;
 	}
 
@@ -438,8 +436,8 @@
 		border-radius: 0 8px 8px 0;
 		font-style: italic;
 		color: #475569;
-		font-size: 0.95rem;
-		line-height: 1.6;
+		font-size: 0.85rem;
+		line-height: 1.5;
 	}
 
 	/* All Signatories Section */
@@ -466,13 +464,15 @@
 	}
 
 	@media (max-width: 1200px) {
-		.signatories-grid {
+		.signatories-grid,
+		.org-signatories-grid {
 			column-count: 3;
 		}
 	}
 
 	@media (max-width: 1024px) {
-		.signatories-grid {
+		.signatories-grid,
+		.org-signatories-grid {
 			column-count: 2;
 		}
 	}
