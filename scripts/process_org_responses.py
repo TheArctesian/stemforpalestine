@@ -12,9 +12,10 @@ from pathlib import Path
 def process_org_responses():
     """Process organization endorsement responses and create JSON output."""
 
-    # Define file paths
-    csv_file = Path("static/Organization Endorsement_ Sign the Open Letter to Reinstate Peyrin! (Responses) - Form responses 1.csv")
-    output_file = Path("static/org_signatories.json")
+    # Define file paths relative to project root
+    project_root = Path(__file__).parent.parent
+    csv_file = project_root / "static" / "Organization Endorsement_ Sign the Open Letter to Reinstate Peyrin! (Responses) - Form responses 1.csv"
+    output_file = project_root / "static" / "org_signatories.json"
 
     # Check if CSV file exists
     if not csv_file.exists():

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Move CSV response files from Downloads to static directory
 
-DOWNLOADS_DIR="/Downloads"
+DOWNLOADS_DIR="$HOME/Downloads"
 STATIC_DIR="/home/okita/Scripts/Organising/stemforpalestine/static"
 
 # Move organization endorsement file
