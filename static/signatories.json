@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-12T22:31:13.794776+00:00",
-  "totalCount": 654,
+  "lastUpdated": "2025-12-13T00:16:21.993682+00:00",
+  "totalCount": 672,
   "signatories": [
     {
       "displayName": "K. S.",
@@ -3271,6 +3271,96 @@
       "displayName": "Naoko Shibusawa",
       "roles": "UC Berkeley Alum, University Faculty",
       "comment": "I am disgusted by the inhumanity of my alma mater's decision to punish Peyrin Kao for his principled stand against genocide. As Olmar El Akkad says, \"One Day, Everyone Will Have Always Been Against This [genocide]. For shame, UC Berkeley. What cowards you are."
+    },
+    {
+      "displayName": "Hannah Nilsson",
+      "roles": "UC Berkeley Staff",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Current Peyrin Student (CS 61B / CS 188), EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Amir",
+      "roles": "EECS/CS Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Dheeraj Golla",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Community Member, Concurrent Enrollment Student",
+      "comment": "Peyrin is a good lecturer. He never used the classroom as a soap box for his views. Reprimanding him for his views is a direct attack on free speech and sets a dangerous legal precedent."
+    },
+    {
+      "displayName": "G. S.",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student, UC Berkeley Staff, University Undergrad/Grad Student, University Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Ednie Kaeh Garrison",
+      "roles": "faculty, CSU San Luis Obispo",
+      "comment": null
+    },
+    {
+      "displayName": "Samantha Iyer",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Michael Letwin",
+      "roles": "Community Member, Former President, UAW 2325",
+      "comment": null
+    },
+    {
+      "displayName": "S. N.",
+      "roles": "Former Peyrin Student",
+      "comment": null
+    },
+    {
+      "displayName": "Madison",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "S. C.",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Julia",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Michelle Dinh",
+      "roles": "UC Berkeley Alum, University Faculty, University Staff",
+      "comment": null
+    },
+    {
+      "displayName": "Alisar Aoun",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Michael Van Roy",
+      "roles": "Community Member",
+      "comment": null
     }
   ]
 }
