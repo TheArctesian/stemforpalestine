@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-15T19:39:40.505698+00:00",
-  "totalCount": 894,
+  "lastUpdated": "2025-12-16T04:47:15.662350+00:00",
+  "totalCount": 907,
   "signatories": [
     {
       "displayName": "K. S.",
@@ -4470,6 +4470,71 @@
     {
       "displayName": "B. N.",
       "roles": "Former Peyrin Student",
+      "comment": null
+    },
+    {
+      "displayName": "Alex Lei",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Owen",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": "Raquel Calara",
+      "roles": "UC Berkeley Alum",
+      "comment": null
+    },
+    {
+      "displayName": null,
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Quinn",
+      "roles": "UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Abdo",
+      "roles": "Tech Worker",
+      "comment": "As a former CS student and tech worker, it's time we all recognize how the technology we learn during our degree and develop at our workplaces form the digital infrastructure for injustice from ICE disappearances in our communities here in the US to the technological backbone for Israeli occupation, apartheid, and genocide against our people in Palestine. \nPeyrin's brave, powerful, and non-stop advocacy is a direct rejection to the weaponization of technology and a direct call-to-action to all students, faculty, and workers that we all must rise up to force all genocide-profiteering institutions like UC Berkeley to end their direct entanglement in the Israeli settler-colonial project of occupation & genocide!"
+    },
+    {
+      "displayName": "Oskar",
+      "roles": "Community Member",
+      "comment": null
+    },
+    {
+      "displayName": "Ontario Zeng",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student",
+      "comment": "A core element of Berkeley's Data Science curriculum has always been that data and computer science are inherently political. Regardless of your personal views, suspending a lecturer for reinforcing that our actions as programmers and scientists have human consequences completely subverts this message. In a hypothetical world where Peyrin spoke out in favor of Israel and got suspended, my response here would be the same. With our position at the forefront of big tech, Berkeley plays a vital role in shaping the narrative about what Data Science is. It's imperative for the future that we push it in the right direction. No matter how much easier our jobs would be if tech and data existed in a vacuum, we can't just ignore the human contexts of the technology we create or the data we gather: history has shown time and time again how this leads to strife, inequality, and disaster. The decision to suspend Peyrin--who has been nothing short of a stellar and incredibly hard-working teacher in all the classes I've taken with him--just for reminding students that their actions have consequences sends all the wrong messages in this regard."
+    },
+    {
+      "displayName": "Kahlil Karn",
+      "roles": "Community Member",
+      "comment": "What larger systemic purpose does punishing Peyrin's inspiring opposition to genocide serve? The administration successfully made an example, but of themselves."
+    },
+    {
+      "displayName": "F. K.",
+      "roles": "Former Peyrin Student, EECS/CS Undergrad Student, UC Berkeley Undergrad Student",
+      "comment": null
+    },
+    {
+      "displayName": "Erin Gray",
+      "roles": "University Faculty",
+      "comment": null
+    },
+    {
+      "displayName": "Sabrina",
+      "roles": "Current Peyrin Student (CS 61B / CS 188), UC Berkeley Undergrad Student, Community Member, University Undergrad/Grad Student",
+      "comment": null
+    },
+    {
+      "displayName": "R. S.",
+      "roles": "Former Peyrin Student, UC Berkeley Alum",
       "comment": null
     }
   ]
