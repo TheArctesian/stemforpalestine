@@ -4,11 +4,13 @@
 		organizations,
 		notableSignatories
 	} from '$lib/data/peyrin-letter';
+	import NotableSignatoriesCarousel from '$lib/components/NotableSignatoriesCarousel.svelte';
 
 	let { data } = $props();
 
 	const ITEMS_PER_PAGE = 25;
 	let currentPage = $state(1);
+	let signatoriesSection: HTMLElement | null = null;
 
 	// Sort signatories: those with comments first, then the rest
 	const sortedSignatories = $derived(
@@ -24,21 +26,30 @@
 		sortedSignatories.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE)
 	);
 
+	function scrollToSignatories() {
+		if (signatoriesSection) {
+			signatoriesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+		}
+	}
+
 	function nextPage() {
 		if (currentPage < totalPages) {
 			currentPage++;
+			setTimeout(scrollToSignatories, 100);
 		}
 	}
 
 	function prevPage() {
 		if (currentPage > 1) {
 			currentPage--;
+			setTimeout(scrollToSignatories, 100);
 		}
 	}
 
 	function goToPage(page: number) {
 		if (page >= 1 && page <= totalPages) {
 			currentPage = page;
+			setTimeout(scrollToSignatories, 100);
 		}
 	}
 </script>
@@ -90,26 +101,17 @@
 		</section>
 	{/if}
 
-	<!-- Notable Signatories Section -->
-	{#if notableSignatories.length > 0}
-		<section class="notable">
+	<!-- Notable Signatories Carousel Section -->
+	{#if data.notableSignatories && data.notableSignatories.length > 0}
+		<section class="notable-carousel">
 			<div class="container">
-				<h2>Notable Signatories</h2>
-				<div class="notable-grid">
-					{#each notableSignatories as signatory (signatory.name)}
-						<div class="notable-card">
-							<span class="notable-name">{signatory.name}</span>
-							<span class="notable-title">{signatory.title}</span>
-							<span class="notable-affiliation">{signatory.affiliation}</span>
-						</div>
-					{/each}
-				</div>
+				<NotableSignatoriesCarousel signatories={data.notableSignatories} />
 			</div>
 		</section>
 	{/if}
 
 	<!-- All Signatories Section -->
-	<section class="all-signatories">
+	<section class="all-signatories" bind:this={signatoriesSection}>
 		<div class="container">
 			<div class="section-header">
 				<h2>All Signatories ({data.totalCount} total)</h2>
@@ -121,17 +123,19 @@
 			</div>
 
 			{#if data.signatories.length > 0}
-				<div class="signatories-grid">
-					{#each paginatedSignatories as signatory, i (signatory.displayName ?? `anon-${i}`)}
-						<div class="signatory-card">
-							<span class="signatory-name">{signatory.displayName ?? 'Anonymous'}</span>
-							<span class="signatory-roles">{signatory.roles || '—'}</span>
-							{#if signatory.comment}
-								<blockquote class="signatory-comment">"{signatory.comment}"</blockquote>
-							{/if}
-						</div>
-					{/each}
-				</div>
+				{#key currentPage}
+					<div class="signatories-grid">
+						{#each paginatedSignatories as signatory, i (`${signatory.displayName ?? 'anon'}-${(currentPage - 1) * ITEMS_PER_PAGE + i}`)}
+							<div class="signatory-card" style="animation-delay: {i * 0.05}s;">
+								<span class="signatory-name">{signatory.displayName ?? 'Anonymous'}</span>
+								<span class="signatory-roles">{signatory.roles || '—'}</span>
+								{#if signatory.comment}
+									<blockquote class="signatory-comment">"{signatory.comment}"</blockquote>
+								{/if}
+							</div>
+						{/each}
+					</div>
+				{/key}
 
 				{#if totalPages > 1}
 					<div class="pagination">
@@ -173,7 +177,7 @@
 			<div class="container">
 				<h2>Organization Endorsements ({data.orgSignatories.length})</h2>
 				<div class="org-signatories-grid">
-					{#each data.orgSignatories as org, i (org.organization_name ?? `org-${i}`)}
+					{#each data.orgSignatories as org, i (`org-${i}-${org.organization_name ?? 'unnamed'}`)}
 						<div class="org-signatory-card">
 							<span class="org-signatory-name">{org.organization_name}</span>
 							{#if org.description}
@@ -325,57 +329,11 @@
 		color: #9a3412;
 	}
 
-	/* Notable Signatories Section */
-	.notable {
+	/* Notable Signatories Carousel Section */
+	.notable-carousel {
 		padding: 4rem 0;
 		background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-	}
-
-	.notable h2 {
-		text-align: center;
-		font-size: 2rem;
-		color: var(--color-primary, #009639);
-		margin-bottom: 2rem;
-	}
-
-	.notable-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 1.5rem;
-	}
-
-	.notable-card {
-		background: white;
-		padding: 1.5rem;
-		border-radius: 12px;
-		border: 2px solid #bbf7d0;
-		display: flex;
-		flex-direction: column;
-		gap: 0.25rem;
-		transition: all 0.3s;
-	}
-
-	.notable-card:hover {
-		border-color: var(--color-primary, #009639);
-		transform: translateY(-4px);
-		box-shadow: 0 10px 25px rgba(0, 150, 57, 0.15);
-	}
-
-	.notable-name {
-		font-weight: 700;
-		font-size: 1.1rem;
-		color: #166534;
-	}
-
-	.notable-title {
-		font-size: 0.95rem;
-		color: #4a5568;
-	}
-
-	.notable-affiliation {
-		font-size: 0.9rem;
-		color: #718096;
-		font-style: italic;
+		overflow: visible;
 	}
 
 	/* Organization Signatories Section */
@@ -461,6 +419,18 @@
 	.signatories-grid {
 		column-count: 4;
 		column-gap: 1.5rem;
+		animation: slideInFromLeft 0.4s ease-out;
+	}
+
+	@keyframes slideInFromLeft {
+		from {
+			opacity: 0;
+			transform: translateX(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 
 	@media (max-width: 1200px) {
@@ -477,6 +447,17 @@
 		}
 	}
 
+	@keyframes fadeInUp {
+		from {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
 	.signatory-card {
 		background: white;
 		padding: 1.5rem;
@@ -488,6 +469,7 @@
 		transition: all 0.3s;
 		break-inside: avoid;
 		margin-bottom: 1.5rem;
+		animation: fadeInUp 0.5s ease-out backwards;
 	}
 
 	.signatory-card:hover {
@@ -647,8 +629,7 @@
 			justify-content: center;
 		}
 
-		.org-grid,
-		.notable-grid {
+		.org-grid {
 			grid-template-columns: 1fr;
 		}
 
