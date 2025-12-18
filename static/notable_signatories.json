@@ -3,114 +3,174 @@
     "displayName": "Marshawn Lynch",
     "roles": "Community Member",
     "comment": "Go bears!",
-    "description": "Former NFL running back and Super Bowl champion with the Seattle Seahawks, known for his community activism and outspoken advocacy for social justice."
+    "description": "Former NFL running back and Super Bowl champion with the Seattle Seahawks, widely known public figure and UC Berkeley alumnus, with a long record of community engagement and social justice advocacy."
   },
   {
     "displayName": "Judith Butler",
     "roles": "University Faculty",
     "comment": null,
-    "description": "World-renowned philosopher and gender theorist, author of influential works including 'Gender Trouble' and leading scholar on ethics, politics, and social theory."
+    "description": "World-renowned philosopher and gender theorist, author of influential works including 'Gender Trouble' and a leading scholar on ethics, politics, and social theory."
   },
   {
     "displayName": "Mark LeVine",
-    "roles": "UC Irvine professor of History",
+    "roles": "UC Irvine Professor of History",
     "comment": null,
     "description": "Distinguished professor of Middle Eastern history at UC Irvine, author of multiple books on the region, and prominent public intellectual on Middle East politics."
   },
   {
     "displayName": "Juana María Rodríguez",
     "roles": "UC Berkeley Faculty",
-    "comment": "Provost Hermalin—your letter speaks against everything this campus represents—free speech, a commitment to teaching and learning, and our supposed share mission for creating a more just and ethical world.",
+    "comment": "Provost Hermalin—your letter speaks against everything this campus represents—free speech, a commitment to teaching and learning, and our supposed shared mission for creating a more just and ethical world.",
     "description": "UC Berkeley Professor of Gender and Women's Studies and Performance Studies, award-winning scholar of queer Latinx studies and sexual politics."
   },
   {
     "displayName": "Sunaura Taylor",
     "roles": "UC Berkeley Faculty",
     "comment": null,
-    "description": "UC Berkeley Professor, disability rights activist, artist, and author of 'Beasts of Burden,' exploring connections between disability rights and animal rights."
+    "description": "UC Berkeley professor, disability rights activist, artist, and author of 'Beasts of Burden,' whose work bridges disability justice, animal ethics, and political theory."
   },
   {
     "displayName": "Tina Sacks",
     "roles": "UC Berkeley Senate Faculty (Tenure-Track Professor)",
     "comment": null,
-    "description": "UC Berkeley Associate Professor in the School of Social Welfare, expert on health inequity, racism, and social policy affecting marginalized communities."
+    "description": "Associate Professor in UC Berkeley’s School of Social Welfare, specializing in health inequity, racism, and structural violence affecting marginalized communities."
   },
   {
     "displayName": "Adam Benkato",
     "roles": "UC Berkeley Senate Faculty (Tenure-Track Professor)",
     "comment": "UC Berkeley must allow its employees to exercise their free speech rights, to draw attention to genocide, and to uphold justice and solidarity.",
-    "description": "UC Berkeley Assistant Professor specializing in African and Middle Eastern studies, linguistics, and the cultural history of the Sahara."
+    "description": "UC Berkeley Assistant Professor whose research spans African and Middle Eastern studies, linguistics, and Saharan cultural history."
   },
   {
     "displayName": "Naoko Shibusawa",
     "roles": "UC Berkeley Alum, University Faculty",
-    "comment": "I am disgusted by the inhumanity of my alma mater's decision to punish Peyrin Kao for his principled stand against genocide. As Olmar El Akkad says, \"One Day, Everyone Will Have Always Been Against This [genocide]. For shame, UC Berkeley. What cowards you are.",
-    "description": "Professor of History and American Studies at Brown University, UC Berkeley alumna, and scholar of U.S.-Asia relations and American empire."
+    "comment": "I am disgusted by the inhumanity of my alma mater's decision to punish Peyrin Kao for his principled stand against genocide.",
+    "description": "Professor of History and American Studies at Brown University, UC Berkeley alumna, and scholar of U.S.–Asia relations, race, and empire."
   },
   {
     "displayName": "Meg Mills-Novoa",
     "roles": "UC Berkeley Faculty",
-    "comment": "The assertion that students' seeing the impact of a hunger strike on Peyrin was a violation of Regents Policy 2301 is a dangerous interpretation of that policy. Furthermore, Peyrin's comments regarding Palestine were made following class. The action against Peyrin seems aimed at limiting free speech and sanctioning a highly visible pro-Palestine voice in campus. Our job as STEM faculty is to encourage our colleagues and students to reckon with the ethical implications of science and technology. I see Peyrin's actions as doing just that.",
-    "description": "UC Berkeley Assistant Professor in Environmental Science, Policy and Management, researching water security, climate adaptation, and environmental justice."
+    "comment": "The action against Peyrin seems aimed at limiting free speech and sanctioning a highly visible pro‑Palestine voice on campus.",
+    "description": "UC Berkeley Assistant Professor in Environmental Science, Policy, and Management, researching water governance, climate adaptation, and environmental justice."
   },
   {
     "displayName": "Sohail Daulatzai",
     "roles": "University Faculty",
     "comment": null,
-    "description": "Professor and scholar of film and media studies, focusing on race, Islam, popular culture, and resistance movements in the Global South."
+    "description": "Professor and scholar of film and media studies whose work focuses on race, Islam, popular culture, and resistance movements in the Global South."
   },
   {
     "displayName": "Mary Nolan",
     "roles": "University Faculty",
     "comment": null,
-    "description": "Distinguished Professor Emerita of History at New York University, renowned scholar of modern European history, labor, and comparative political economy."
+    "description": "Distinguished Professor Emerita of History at New York University, internationally recognized scholar of modern European history, labor, and political economy."
   },
   {
     "displayName": "Jonah Rubin",
-    "roles": "University Faculty/Staff, Sr. Manager of Campus Organizing, Jewish Voice for Peace",
+    "roles": "University Faculty/Staff, Senior Manager of Campus Organizing, Jewish Voice for Peace",
     "comment": null,
-    "description": "Senior Manager of Campus Organizing at Jewish Voice for Peace, leading grassroots organizing efforts for Palestinian rights and justice on college campuses nationwide."
+    "description": "Senior national organizer with Jewish Voice for Peace, leading campus-based organizing for Palestinian human rights and academic freedom."
   },
   {
     "displayName": "Deborah Armintor",
-    "roles": "Member of Jewish Vouce for Peace Academic Council",
+    "roles": "Member of Jewish Voice for Peace Academic Council",
     "comment": null,
-    "description": "Member of the Jewish Voice for Peace Academic Council, advocating for Palestinian human rights and justice within academic communities."
+    "description": "Member of the Jewish Voice for Peace Academic Council, advocating for Palestinian human rights and academic freedom within higher education."
   },
   {
     "displayName": "Michael Ball",
-    "roles": "EECS/CS Lecturer, EECS/CS Faculty, UC Berkeley Faculty, UC Alum",
+    "roles": "EECS/CS Lecturer, UC Berkeley Faculty, UC Berkeley Alum",
     "comment": null,
-    "description": "UC Berkeley Teaching Professor in Computer Science, leader in CS education innovation, and co-creator of influential computing curricula reaching students worldwide."
+    "description": "UC Berkeley Teaching Professor in Computer Science, widely recognized for leadership in CS education and global curriculum development."
   },
   {
     "displayName": "Amber Kerr",
     "roles": "UC Berkeley Lecturer",
-    "comment": "Berkeley is world-famous for its role in the Free Speech Movement. Its current effort to chill free speech in accordance with the current federal government's priorities is deeply disappointing.  As a Berkeley lecturer myself, and also a PhD alum (ERG 2012), I intend to speak up against this new and unwelcome trend at every step.",
-    "description": "UC Berkeley Lecturer with PhD in Energy and Resources, specializing in environmental policy, climate science communication, and sustainability education."
+    "comment": "Berkeley is world-famous for its role in the Free Speech Movement. Its current effort to chill free speech is deeply disappointing.",
+    "description": "UC Berkeley Lecturer with a PhD in Energy and Resources, specializing in environmental policy, sustainability, and science communication."
   },
   {
     "displayName": "Brooke Lober",
-    "roles": "UC Berkeley Lecturer, UC Berkeley Faculty, UC Alum, Community Member, University Faculty/Staff",
+    "roles": "UC Berkeley Lecturer, UC Berkeley Faculty, UC Berkeley Alum",
     "comment": null,
-    "description": "UC Berkeley Lecturer and alumna, dedicated educator committed to academic freedom and supporting students in critical inquiry and social justice."
+    "description": "UC Berkeley Lecturer and alumna committed to academic freedom, critical pedagogy, and student-centered education."
   },
   {
     "displayName": "Nathaniel Shrage",
     "roles": "Professor of Animation and Visual Effects at New Mexico State University",
     "comment": null,
-    "description": "Professor of Animation and Visual Effects at New Mexico State University, bringing creative and technical expertise to digital media education."
+    "description": "Professor of Animation and Visual Effects, contributing to creative and technical education in digital media and visual storytelling."
   },
   {
     "displayName": "McKane Andrus",
-    "roles": "UC Alum, University Undergrad/Grad Student",
-    "comment": "If there was ever a clear line to be drawn for what 'ethical' technology is, it is whether or not the tech supports genocide. In my time at Berkeley (CS + ISF BA, EECS MS), I learned about the IBM punch cards that enabled the holocaust, and it was ok for my professors to say \"never again should our discipline be complicit in something like this.\" This was the absolute bare minimum of our \"tech ethics\" training. The AI and computing technologies being used to surveil Palestinians and mark them for death are most certainly built upon Berkeley innovations in computer vision, databases, etc. At the very least, then, now is the time for us computer scientists to recognize the evil our contributions are being used for and to stand against it. It is damning that the administration would choose to punish and silence the member of CS faculty with the greatest moral clarity around this, and I'm deeply ashamed of my alma mater. (And I'm sure when I visit campus in 30 years I'll be able to drop in on the \"Free Palestine\" Cafe, where there'll be a plaque honoring Peyrin's bravery so the administration can reap the reputational rewards of having always been against genocide once it is again politically convenient.)",
-    "description": "UC Berkeley alumnus with degrees in Computer Science and Interdisciplinary Studies, advocate for ethical technology and accountability in AI development."
+    "roles": "UC Berkeley Alum",
+    "comment": "If there was ever a clear line to be drawn for what ethical technology is, it is whether or not the tech supports genocide.",
+    "description": "UC Berkeley alumnus with degrees in Computer Science and Interdisciplinary Studies, outspoken advocate for ethical accountability in technology and AI."
   },
   {
     "displayName": "KD Thompson",
     "roles": "University Faculty",
-    "comment": "The suppression of Palestine advocacy on campuses is a litmus test for the integrity of higher education itself. If we cannot defend the right to oppose genocide without professional retaliation, we have already lost the core values universities claim to uphold.",
-    "description": "University faculty member and advocate for academic freedom, speaking out on the importance of protecting free speech and human rights in higher education."
+    "comment": "The suppression of Palestine advocacy on campuses is a litmus test for the integrity of higher education itself.",
+    "description": "University faculty member and public advocate for academic freedom and the protection of political speech in higher education."
+  },
+  {
+    "displayName": "Mike Madden",
+    "roles": "Anti-apartheid activist",
+    "comment": null,
+    "description": "Longtime anti‑apartheid and human rights activist whose work situates Palestinian liberation within broader global struggles against racialized oppression."
+  },
+  {
+    "displayName": "Alan Wald",
+    "roles": "Former UC Berkeley Faculty",
+    "comment": null,
+    "description": "Literary scholar who received his PhD at UC Berkeley and taught as an Associate Professor, with a long history of left intellectual and labor scholarship."
+  },
+  {
+    "displayName": "Steve Dickison",
+    "roles": "Director Emeritus, The Poetry Center, San Francisco State University",
+    "comment": null,
+    "description": "Cultural leader and educator, former Director of The Poetry Center at SFSU, with decades of influence in literary and academic communities."
+  },
+  {
+    "displayName": "Michael Letwin",
+    "roles": "Former President, UAW Local 2325",
+    "comment": null,
+    "description": "Former president of UAW Local 2325, representing higher‑education workers and a prominent labor voice in academic freedom and worker rights struggles."
+  },
+  {
+    "displayName": "Marianna Ritchey",
+    "roles": "University Faculty",
+    "comment": "The university's treatment of this principled, committed, and brave educator is shameful and shocking.",
+    "description": "Professor of music and interdisciplinary humanities, known for scholarship on politics, sound, and cultural power, and for public engagement on academic freedom."
+  },
+  {
+    "displayName": "Timothy Brennan",
+    "roles": "University Faculty",
+    "comment": "If we accept these blatantly unconstitutional acts, our freedom to speak out publicly will be gone forever.",
+    "description": "University faculty member whose work and public commentary address constitutional rights, academic freedom, and political repression."
+  },
+  {
+    "displayName": "Anneka Lenssen",
+    "roles": "UC Berkeley Faculty",
+    "comment": null,
+    "description": "UC Berkeley scholar of modern and contemporary Middle Eastern art and visual culture, with internationally recognized research on Palestine and the Arab world."
+  },
+  {
+    "displayName": "Andy Kim",
+    "roles": "UC Berkeley Senate Faculty (Tenure-Track Professor)",
+    "comment": null,
+    "description": "Tenure‑track UC Berkeley faculty member whose inclusion represents formal Senate‑level faculty support for free speech and academic freedom."
+  },
+  {
+    "displayName": "Ahlam Muhtaseb",
+    "roles": "University Faculty",
+    "comment": null,
+    "description": "Scholar, filmmaker, and academic whose work focuses on Palestine, media, memory, and representation, and who is widely recognized in public scholarship."
+  },
+  {
+    "displayName": "Jocelyn Goldsmith-De Sena",
+    "roles": "Unionist, Community Member, UC Family Member",
+    "comment": null,
+    "description": "Union organizer and community leader with deep multigenerational ties to the University of California system, speaking from a labor, family, and historical perspective."
   }
 ]
