@@ -1,4 +1,6 @@
 <div class="homepage">
+	
+	<!-- Stem4Palestine -->
 	<section class="hero">
 		<div class="container">
 			<div class="hero-content">
@@ -57,10 +59,14 @@
 		</div>
 	</section>
 
+
+	<!-- Get Involved -->
 	<section class="actions">
 		<div class="container">
 			<h2>Get Involved</h2>
 			<div class="action-grid">
+
+				<!-- Join -->
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
@@ -71,6 +77,8 @@
 						rel="noopener noreferrer">Sign Up →</a
 					>
 				</div>
+
+				<!-- Fundraiser for Deir Al-Balah
 				<div class="action-card">
 					<h3>Fundraiser for Deir al-Balah</h3>
 					<p>Support our mutual aid fundraiser for Gaza</p>
@@ -78,9 +86,25 @@
 						href="https://chuffed.org/project/151297-berkeley-eecsstem-4-palestine-mutual-aid-fundraiser-for-gaza"
 						class="action-link"
 						target="_blank"
-						rel="noopener noreferrer">Donate →</a
-					>
+						rel="noopener noreferrer">
+						Donate →
+					</a>
+				</div> -->
+
+				<!-- Fundraiser for Peyrin -->
+				<div class="action-card">
+					<h3>Fundraiser for Peyrin Kao</h3>
+					<p>Make back Peyrin's Salary for Palestine</p>
+					<a 
+						href="https://chuffed.org/project/157643-make-back-peyrins-salary"
+						class="action-link"
+						target="_blank"
+						rel="noopener noreferrer">
+						Donate →
+					</a>
 				</div>
+
+				<!-- Tech for Palestine Projects -->
 				<div class="action-card">
 					<h3>Tech for Palestine Incubator</h3>
 					<p>Volunteer your skills and start a project</p>
@@ -91,6 +115,8 @@
 						rel="noopener noreferrer">Get Involved →</a
 					>
 				</div>
+
+				<!-- Ethical Jobs -->
 				<div class="action-card">
 					<h3>Principled Careers</h3>
 					<p>Find a job with principled recruiting talent</p>
@@ -101,6 +127,8 @@
 						rel="noopener noreferrer">Find Jobs →</a
 					>
 				</div>
+
+				<!-- Boycott Defence Sector -->
 				<div class="action-card">
 					<h3>Defense Labor Boycott</h3>
 					<p>Make the pledge to boycott defense contractors</p>
@@ -115,6 +143,8 @@
 		</div>
 	</section>
 
+
+	<!-- Tech Worker Solidarity -->
 	<section class="solidarity" id="solidarity">
 		<div class="container">
 			<h2>Tech Worker Solidarity</h2>
@@ -195,6 +225,7 @@
 		</div>
 	</section>
 
+	<!-- Projects -->
 	<section class="projects" id="projects">
 		<div class="container">
 			<h2>UC Investments Research Projects</h2>
@@ -324,6 +355,7 @@
 	</section>
 </div>
 
+<!-- Style Section -->
 <style>
 	.homepage {
 		width: 100%;
