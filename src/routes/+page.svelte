@@ -1,10 +1,15 @@
+<script>
+	import justiceforpeyrin from '$lib/assets/justiceforpeyrin.jpg';
+	import s4pcareer from '$lib/assets/s4pcareer.jpeg';
+</script>
+
 <div class="homepage">
 	
 	<!-- Stem4Palestine -->
 	<section class="hero">
 		<div class="container">
 			<div class="hero-content">
-				<h1 class="hero-title">EECS4Palestine is now STEM4Palestine!</h1>
+				<h1 class="hero-title">STEM4Palestine</h1>
 				<p class="hero-subtitle">
 					We are Berkeley students who believe our labor and innovations should be used for social
 					good, and not for genocide & apartheid. STEM for Palestine stands for the absolute and
@@ -59,8 +64,21 @@
 		</div>
 	</section>
 
-
-	<!-- Get Involved -->
+	<!-- Justice for Peyrin Image -->
+	<section class="justice-for-peyrin" id="justice">
+		<div class="container">
+		  <img src={justiceforpeyrin} alt="Peyrin Speaks Out."/>
+		</div>
+		</section>
+	<!-- Career Fair Image 
+	<section class="s4pcareer" id="s4pcareer">
+		<div class="container">
+			<img src={s4pcareer} alt="HPE, Sandia National Laboratories, Skydio, and the NSA Are All Complicit in Genocide."/>
+		</div>
+	</section>
+	-->
+	
+		<!-- Get Involved -->
 	<section class="actions">
 		<div class="container">
 			<h2>Get Involved</h2>
@@ -103,6 +121,18 @@
 						Donate →
 					</a>
 				</div>
+
+				<!-- Peyrin Tinyurl -->
+				<div class="action-card">
+					<h3>Justice for Peyrin</h3>
+					<p>Sign the Letter his Reinstatement</p>
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSevB-bN08TJCa1aq2fVA8af6WFYaeK6Tbqi3czWofPkmMCPBg/viewform"
+						class="action-link"
+						target="_blank"
+						rel="noopener noreferrer">Sign →</a>
+				</div>
+
 
 				<!-- Tech for Palestine Projects -->
 				<div class="action-card">
@@ -372,6 +402,7 @@
 		background: #dc2626;
 		padding: 1rem 0;
 	}
+
 
 	.banner-link {
 		display: flex;
