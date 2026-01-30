@@ -1,6 +1,7 @@
 <script>
 	import justiceforpeyrin from '$lib/assets/justiceforpeyrin.jpg';
 	import s4pcareer from '$lib/assets/s4pcareer.jpeg';
+	import s4pICE from '$lib/assets/s4pICE.jpg';
 </script>
 
 <div class="homepage">
@@ -54,7 +55,31 @@
 		</div>
 	</section>
 
-	<!-- Open Letter Banner -->
+	
+
+<!-- Jan 30 Protest -->
+	
+	<section class="jan-30-protest" id="protest">
+		<div class="protest-container">
+		  <img src={s4pICE} alt="Flyer for Jan 30 Protest" class="right-side-image"/>
+		  <div class="ice-text">
+			
+			<h3>
+			  Stand in the fight against ICE.
+			</h3>
+			<p>
+			  Don't make purchases, don't go to class.
+			</p>
+
+			<p> 
+			  12pm crescent lawn	
+			</p>
+			
+		  </div>
+		</div>
+		</section>
+
+<!-- Open Letter Banner -->
 	<section class="open-letter-banner">
 		<div class="container">
 			<a href="/letter" target="_blank" rel="noopener noreferrer" class="banner-link">
@@ -66,10 +91,30 @@
 
 	<!-- Justice for Peyrin Image -->
 	<section class="justice-for-peyrin" id="justice">
-		<div class="container">
-		  <img src={justiceforpeyrin} alt="Peyrin Speaks Out."/>
+		<div class="peyrin-container">
+		  <img src={justiceforpeyrin} alt="Peyrin Speaks Out." class="side-image"/>
+		  <div class="justice-for-peyrin-text">
+			
+			<h3>
+			  The EECS department’s willingness to get rid of lecturers 
+			  like Peyrin Kao and Justin Yokota proves that the department has no regard for the quality of education 
+			  and will refuse to stand up for the people who make the department run.
+			</h3>
+			<p>
+			  Our open letter to reinstate Peyrin has 1800+ signatories, 
+			  including 151 who were students or course staff during the incidents cited.
+			</p>
+
+			<p> 
+				Fill out the form below to receive info about campus events and actions.
+			</p>
+			
+		  </div>
 		</div>
 		</section>
+
+
+	
 	<!-- Career Fair Image 
 	<section class="s4pcareer" id="s4pcareer">
 		<div class="container">
@@ -391,6 +436,8 @@
 		width: 100%;
 	}
 
+	
+
 	.container {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -401,6 +448,41 @@
 	.open-letter-banner {
 		background: #dc2626;
 		padding: 1rem 0;
+	}
+
+	.peyrin-container {
+		display: flex;
+	}
+
+	.justice-for-peyrin-text {
+		flex: 1;
+		align-items: center;
+		font-size: 25px;
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.side-image {
+		width: 700px;
+		height: auto;
+		border-radius: 8px;
+	}
+
+	.protest-container {
+		display: flex;
+	}
+
+	.right-side-image {
+		width: 600px;
+		height: auto;
+		margin-left: auto;
+		margin-right: 100px;
+	}
+
+	.ice-text {
+		flex: 1;
+		font-size: 80px;
+		margin-top: 40px;
 	}
 
 
@@ -432,11 +514,6 @@
 		text-align: center;
 	}
 
-	@media (max-width: 768px) {
-		.banner-link {
-			font-size: 1rem;
-		}
-	}
 
 	.hero {
 		background: linear-gradient(
@@ -1075,7 +1152,13 @@
 		font-size: 1.1rem;
 	}
 
+
+	/* For the Phone */ 
 	@media (max-width: 768px) {
+		.banner-link {
+			font-size: 1rem;
+		}
+		
 		.hero-title {
 			font-size: 2rem;
 		}
@@ -1100,5 +1183,8 @@
 			flex-direction: column;
 			align-items: center;
 		}
+
+		
+
 	}
 </style>
