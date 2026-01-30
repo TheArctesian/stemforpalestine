@@ -1184,6 +1184,28 @@
 			align-items: center;
 		}
 
+
+		.protest-container {
+			flex-direction: column;
+		}
+
+		.side-image {
+			width: 100vw;
+			max-width: 100%;
+		}
+
+		.right-side-image {
+			
+			width: 100vw;
+			max-width: 100%;
+			height: auto;
+	}
+
+		.ice-text {
+		font-size: 80px;
+		margin-top: 40px;
+	}
+
 		
 
 	}
