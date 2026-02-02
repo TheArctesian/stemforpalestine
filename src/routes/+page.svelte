@@ -1,5 +1,5 @@
 <script>
-	import justiceforpeyrin from '$lib/assets/justiceforpeyrin.jpg';
+	import justiceforpeyrin from '$lib/assets/justiceforpeyrin.png';
 	import s4pcareer from '$lib/assets/s4pcareer.jpeg';
 	import s4pICE from '$lib/assets/s4pICE.jpg';
 </script>
@@ -57,27 +57,7 @@
 
 	
 
-<!-- Jan 30 Protest -->
-	
-	<section class="jan-30-protest" id="protest">
-		<div class="protest-container">
-		  <img src={s4pICE} alt="Flyer for Jan 30 Protest" class="right-side-image"/>
-		  <div class="ice-text">
-			
-			<h3>
-			  Stand in the fight against ICE.
-			</h3>
-			<p>
-			  Don't make purchases, don't go to class.
-			</p>
 
-			<p> 
-			  12pm crescent lawn	
-			</p>
-			
-		  </div>
-		</div>
-		</section>
 
 <!-- Open Letter Banner -->
 	<section class="open-letter-banner">
@@ -106,9 +86,20 @@
 			</p>
 
 			<p> 
-				Fill out the form below to receive info about campus events and actions.
+				If you want to learn everything we know about Peyrin's case and how to advocate for him, fill out the form below.
 			</p>
 			
+			<!-- Peyrin Tinyurl -->
+				<div class="action-card">
+					<h3>Justice for Peyrin</h3>
+					<p>Join the fight</p>
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSevB-bN08TJCa1aq2fVA8af6WFYaeK6Tbqi3czWofPkmMCPBg/viewform"
+						class="action-link"
+						target="_blank"
+						rel="noopener noreferrer">Form →</a>
+				</div>
+
 		  </div>
 		</div>
 		</section>
@@ -141,19 +132,6 @@
 					>
 				</div>
 
-				<!-- Fundraiser for Deir Al-Balah
-				<div class="action-card">
-					<h3>Fundraiser for Deir al-Balah</h3>
-					<p>Support our mutual aid fundraiser for Gaza</p>
-					<a
-						href="https://chuffed.org/project/151297-berkeley-eecsstem-4-palestine-mutual-aid-fundraiser-for-gaza"
-						class="action-link"
-						target="_blank"
-						rel="noopener noreferrer">
-						Donate →
-					</a>
-				</div> -->
-
 				<!-- Fundraiser for Peyrin -->
 				<div class="action-card">
 					<h3>Fundraiser for Peyrin Kao</h3>
@@ -167,16 +145,10 @@
 					</a>
 				</div>
 
-				<!-- Peyrin Tinyurl -->
-				<div class="action-card">
-					<h3>Justice for Peyrin</h3>
-					<p>Sign the Letter his Reinstatement</p>
-					<a
-						href="https://docs.google.com/forms/d/e/1FAIpQLSevB-bN08TJCa1aq2fVA8af6WFYaeK6Tbqi3czWofPkmMCPBg/viewform"
-						class="action-link"
-						target="_blank"
-						rel="noopener noreferrer">Sign →</a>
-				</div>
+				
+
+
+
 
 
 				<!-- Tech for Palestine Projects -->
@@ -436,8 +408,6 @@
 		width: 100%;
 	}
 
-	
-
 	.container {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -466,23 +436,6 @@
 		width: 700px;
 		height: auto;
 		border-radius: 8px;
-	}
-
-	.protest-container {
-		display: flex;
-	}
-
-	.right-side-image {
-		width: 600px;
-		height: auto;
-		margin-left: auto;
-		margin-right: 100px;
-	}
-
-	.ice-text {
-		flex: 1;
-		font-size: 80px;
-		margin-top: 40px;
 	}
 
 
@@ -722,6 +675,7 @@
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		position: relative;
 		overflow: hidden;
+		margin-right: 5px;
 	}
 
 	.action-card::before {
@@ -1184,29 +1138,22 @@
 			align-items: center;
 		}
 
-
-		.protest-container {
+		.peyrin-container {
 			flex-direction: column;
 		}
-
+		
 		.side-image {
 			width: 100vw;
 			max-width: 100%;
+			height: auto;
 		}
 
-		.right-side-image {
-			
-			width: 100vw;
-			max-width: 100%;
-			height: auto;
-	}
-
-		.ice-text {
-		font-size: 80px;
-		margin-top: 40px;
-	}
-
-		
-
+		.justice-for-peyrin-text { 
+			font-size: 30px;
+			margin-top: 20px;
+			margin-left: 10px;
+			margin-right: auto;
+			margin-bottom: auto;
+		}
 	}
 </style>
