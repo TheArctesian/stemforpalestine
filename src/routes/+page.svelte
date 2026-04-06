@@ -4,6 +4,11 @@
 	import s4pICE from '$lib/assets/s4pICE.jpg';
 </script>
 
+<svelte:head>
+	<script async src="https://www.instagram.com/embed.js"></script>
+</svelte:head>
+
+
 <div class="homepage">
 	
 	<!-- Stem4Palestine -->
@@ -55,7 +60,28 @@
 		</div>
 	</section>
 
-	
+	<section class="instagram-embed">
+		<div class="container">
+			<h2>Latest Instagram Post</h2>
+			<blockquote
+				class="instagram-media"
+				data-instgrm-captioned
+				data-instgrm-permalink="https://www.instagram.com/p/DVeBEUFFIVp/"
+				data-instgrm-version="14"
+				style="background:#fff; border:0; border-radius:3px; margin: 0 auto; max-width:540px; min-width:326px; padding:0; width:100%;"
+			></blockquote>
+			<p class="instagram-fallback">
+				If the embed does not load, view it on Instagram:
+				<a
+					href="https://www.instagram.com/p/DVeBEUFFIVp/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Open post
+				</a>
+			</p>
+		</div>
+	</section>
 
 
 
@@ -414,11 +440,41 @@
 		padding: 0 1rem;
 	}
 
+	.instagram-embed {
+		padding: 3rem 0;
+		background: #f7fafc;
+	}
+	.instagram-embed h2 {
+		text-align: center;
+		color: #2d3748;
+		margin-bottom: 1.5rem;
+		font-size: 2rem;
+	}
+
+	.instagram-fallback {
+		margin-top: 1rem;
+		text-align: center;
+		color: #4a5568;
+	}
+
+	.instagram-fallback a {
+		color: var(--color-primary);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.instagram-fallback a:hover {
+		text-decoration: underline;
+	}
+
+
 	/* Open Letter Banner */
 	.open-letter-banner {
 		background: #dc2626;
 		padding: 1rem 0;
 	}
+
+
 
 	.peyrin-container {
 		display: flex;
@@ -1125,6 +1181,11 @@
 			flex-direction: column;
 			align-items: center;
 		}
+
+		.instagram-embed h2 {
+			font-size: 1.6rem;
+		}
+
 
 		.action-grid,
 		.solidarity-grid,
