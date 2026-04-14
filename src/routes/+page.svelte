@@ -63,23 +63,40 @@
 	<section class="instagram-embed">
 		<div class="container">
 			<h2>Latest Instagram Post</h2>
-			<blockquote
-				class="instagram-media"
-				data-instgrm-captioned
-				data-instgrm-permalink="https://www.instagram.com/p/DVeBEUFFIVp/"
-				data-instgrm-version="14"
-				style="background:#fff; border:0; border-radius:3px; margin: 0 auto; max-width:540px; min-width:326px; padding:0; width:100%;"
-			></blockquote>
-			<p class="instagram-fallback">
-				If the embed does not load, view it on Instagram:
-				<a
-					href="https://www.instagram.com/p/DVeBEUFFIVp/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Open post
-				</a>
-			</p>
+			<div class="instagram-layout">
+				<div class="instagram-post">
+					<blockquote
+						class="instagram-media"
+						data-instgrm-captioned
+						data-instgrm-permalink="https://www.instagram.com/p/DVeBEUFFIVp/"
+						data-instgrm-version="14"
+						style="background:#fff; border:0; border-radius:3px; margin: 0 auto; max-width:540px; min-width:326px; padding:0; width:100%;"
+					></blockquote>
+					<p class="instagram-fallback">
+						If the embed does not load, view it on Instagram:
+						<a
+							href="https://www.instagram.com/p/DVeBEUFFIVp/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Open post
+						</a>
+					</p>
+				</div>
+				<aside class="instagram-caption-panel">
+					<h3>Post Caption</h3>
+					<p>
+						Last week, UC Berkeley’s student government unanimously passed a resolution condemning the suspension of Peyrin Kao and in support of his immediate reinstatement, as well as the protection of academic discourse on campus. 
+
+WE MUST CONTINUE THE PRESSURE. JELANI NELSON, BENJAMIN HERMALIN, AND THE ACADEMIC SENATE TO LET THEM KNOW WE STAND WITH PEYRIN AND HIS DEMANDS FOR DIVESTMENT FROM GENOCIDE. 
+
+Our student government, 1900+ signatories, 300+ faculty and staff, and dozens of established campus organizations DEMAND justice for Peyrin Kao and the protection of anti-apartheid actions on our so-called free speech campus that prides itself in being the site of many monumental liberation moments.
+
+The email guide/template also has tips for bringing up this topic to your professors. It’s important for the EECS department to know how their faculty, staff, and students feel. Link: tinyurl.com/kaosuspensionemail
+					</p>
+					
+				</aside>
+			</div>
 		</div>
 	</section>
 
@@ -90,6 +107,16 @@
 		<div class="container">
 			<a href="/letter" target="_blank" rel="noopener noreferrer" class="banner-link">
 				<span class="banner-text">Sign the Open Letter for Peyrin's Reinstatement!</span>
+				<i class="fas fa-arrow-right"></i>
+			</a>
+		</div>
+	</section>
+
+	<!-- Divestment vote banner -->
+	<section class="divestment-banner">
+		<div class="container">
+			<a href="/divest" class="banner-link">
+				<span class="banner-text">Vote for Divestment April 13–15</span>
 				<i class="fas fa-arrow-right"></i>
 			</a>
 		</div>
@@ -451,6 +478,37 @@
 		font-size: 2rem;
 	}
 
+	.instagram-layout {
+		display: grid;
+		grid-template-columns: minmax(320px, 540px) minmax(260px, 1fr);
+		gap: 1.5rem;
+		align-items: start;
+		justify-content: center;
+	}
+
+	.instagram-post {
+		min-width: 0;
+	}
+
+	.instagram-caption-panel {
+		background: #ffffff;
+		border: 1px solid #e2e8f0;
+		border-radius: 12px;
+		padding: 1.25rem;
+		color: #2d3748;
+		line-height: 1.6;
+	}
+
+	.instagram-caption-panel h3 {
+		margin-bottom: 0.75rem;
+		font-size: 1.2rem;
+		color: var(--color-primary);
+	}
+
+	.instagram-caption-panel p + p {
+		margin-top: 0.75rem;
+	}
+
 	.instagram-fallback {
 		margin-top: 1rem;
 		text-align: center;
@@ -471,6 +529,11 @@
 	/* Open Letter Banner */
 	.open-letter-banner {
 		background: #dc2626;
+		padding: 1rem 0;
+	}
+
+	.divestment-banner {
+		background: var(--color-primary);
 		padding: 1rem 0;
 	}
 
@@ -1184,6 +1247,10 @@
 
 		.instagram-embed h2 {
 			font-size: 1.6rem;
+		}
+
+		.instagram-layout {
+			grid-template-columns: 1fr;
 		}
 
 

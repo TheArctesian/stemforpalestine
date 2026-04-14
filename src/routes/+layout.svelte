@@ -54,6 +54,7 @@
 				<!-- Navigation Links -->
 				<div class="nav-links" class:open={menuOpen}>
 					<a href="/letter" onclick={closeMenu}>Open Letter</a>
+					<a href="/divest" onclick={closeMenu}>Divestment Vote</a>
 					<a href="https://stem4pal.fillout.com/interest" target="_blank" rel="noopener noreferrer" onclick={closeMenu}>Get Involved</a>
 					<a href="/#projects" onclick={closeMenu}>Projects</a>
 				</div>
