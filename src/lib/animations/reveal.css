@@ -1,0 +1,20 @@
+/*
+ * Hide [data-reveal] elements from the server-rendered HTML until the reveal action takes over,
+ * so they don't flash in and then jump back out when GSAP starts. The `js` class comes from the
+ * inline script in app.html, so this never hides anything for visitors without JavaScript.
+ *
+ * Safety net: if the app never hydrates (a script error, say), the delayed animation shows the
+ * content anyway after 2.5s. Once the action adds .reveal-armed, neither rule applies any more.
+ */
+@media (prefers-reduced-motion: no-preference) {
+	.js [data-reveal]:not(.reveal-armed) {
+		opacity: 0;
+		animation: reveal-fallback 0s 2.5s forwards;
+	}
+}
+
+@keyframes reveal-fallback {
+	to {
+		opacity: 1;
+	}
+}
