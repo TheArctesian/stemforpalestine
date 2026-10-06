@@ -84,7 +84,14 @@
 			<div class="detail-card" data-reveal="up" use:reveal={0.1}>
 				<i class="fas fa-location-dot detail-icon"></i>
 				<h3>Where</h3>
-				<p>{event.venue.name}<br />{event.venue.address}</p>
+				<p>
+					{#if event.venue.url}
+						<a href={event.venue.url} target="_blank" rel="noopener noreferrer" class="venue-link">{event.venue.name}</a>
+					{:else}
+						{event.venue.name}
+					{/if}
+					<br />{event.venue.address}
+				</p>
 				<a href={mapUrl(event)} target="_blank" rel="noopener noreferrer" class="detail-link">Open in Maps →</a>
 			</div>
 			<div class="detail-card" data-reveal="up" use:reveal={0.2}>
@@ -343,6 +350,18 @@
 	.detail-card p {
 		color: var(--color-text-secondary, #4a5568);
 		margin-bottom: 0.75rem;
+	}
+
+	.venue-link {
+		color: var(--color-text-primary, #2d3748);
+		font-weight: 600;
+		text-decoration: underline;
+		text-decoration-color: var(--color-primary);
+		text-underline-offset: 3px;
+	}
+
+	.venue-link:hover {
+		color: var(--color-primary-dark);
 	}
 
 	.detail-link {

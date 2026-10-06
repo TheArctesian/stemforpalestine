@@ -19,6 +19,7 @@ export type StemEvent = {
 	venue: {
 		name: string;
 		address: string;
+		url?: string;
 	};
 	rsvpUrl: string;
 	poster: string;
@@ -49,7 +50,8 @@ export const events: StemEvent[] = [
 		end: '2026-10-08T21:00:00-07:00',
 		venue: {
 			name: 'Solidarity Collective (SoCo)',
-			address: '2170 Dwight Way, Berkeley, CA'
+			address: '2170 Dwight Way, Berkeley, CA',
+			url: 'https://www.soco.place/'
 		},
 		rsvpUrl: 'https://luma.com/koe7fxe6',
 		poster: principledInTech1008Poster,
@@ -65,7 +67,7 @@ export const events: StemEvent[] = [
 		partners: [
 			{ name: "Tech Workers' Coalition", url: 'https://techworkerscoalition.org' },
 			{ name: 'No Tech for Apartheid', url: 'https://www.notechforapartheid.com' },
-			{ name: 'Solidarity Collective' }
+			{ name: 'Solidarity Collective', url: 'https://www.soco.place/' }
 		],
 		notes: ['Dinner is provided if you RSVP', 'Open to students and community members']
 	}
