@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { reveal } from '$lib/animations/reveal';
+	import { tilt } from '$lib/animations/tilt';
 	import {
 		formatEventDate,
 		formatEventTime,
@@ -102,7 +103,7 @@
 	<section class="about">
 		<div class="container about-grid">
 			<figure class="poster" data-reveal="left" use:reveal>
-				<img src={event.poster} alt={event.posterAlt} width="1536" height="2048" loading="lazy" />
+				<img src={event.poster} alt={event.posterAlt} width="1536" height="2048" loading="lazy" use:tilt />
 				<figcaption>
 					{#if event.posterPdf}
 						<a href={event.posterPdf} target="_blank" rel="noopener noreferrer" download>
@@ -368,6 +369,7 @@
 	.poster {
 		position: sticky;
 		top: 6rem;
+		perspective: 1200px;
 	}
 
 	.poster img {
