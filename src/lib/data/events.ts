@@ -26,6 +26,8 @@ export type StemEvent = {
 	posterAlt: string;
 	/** Higher-resolution printable poster, served from /static. */
 	posterPdf?: string;
+	/** Run of show; times are display labels in the event's local time. */
+	agenda?: { time: string; title: string }[];
 	speakers: string[];
 	partners: EventLink[];
 	notes: string[];
@@ -58,6 +60,12 @@ export const events: StemEvent[] = [
 		posterAlt:
 			'Poster: STEM4Palestine presents Principled in Tech Networking Night, October 8th, 7–9 PM at Solidarity Collective, 2170 Dwight Way. RSVP at luma.com/koe7fxe6. Dinner is provided if you RSVP.',
 		posterPdf: '/events/principled-in-tech-10-08.pdf',
+		agenda: [
+			{ time: '7:00–7:15', title: 'Mingle, name tags and food' },
+			{ time: '7:15–8:15', title: 'Facilitated panel' },
+			{ time: '8:20–8:40', title: 'Small group discussion with provided questions' },
+			{ time: '8:40–9:00', title: 'Mingle and dinner' }
+		],
 		speakers: [
 			'Former Google and Amazon employees',
 			"Organizers with Tech Workers' Coalition and No Tech for Apartheid",

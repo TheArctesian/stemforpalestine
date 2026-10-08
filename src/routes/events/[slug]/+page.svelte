@@ -129,6 +129,18 @@
 					<p data-reveal="right" use:reveal={0.05 * (i + 1)}>{paragraph}</p>
 				{/each}
 
+				{#if event.agenda?.length}
+					<h3 data-reveal="right" use:reveal>Agenda</h3>
+					<ol class="agenda">
+						{#each event.agenda as item, i}
+							<li data-reveal="right" use:reveal={0.08 * i}>
+								<time>{item.time}</time>
+								<span>{item.title}</span>
+							</li>
+						{/each}
+					</ol>
+				{/if}
+
 				<h3 data-reveal="right" use:reveal>Speakers will include</h3>
 				<ul class="speakers">
 					{#each event.speakers as speaker, i}
@@ -439,6 +451,50 @@
 		color: var(--color-text-secondary, #4a5568);
 	}
 
+	/* Timeline: a line down the left with a dot per item. */
+	.agenda {
+		list-style: none;
+		position: relative;
+		padding-left: 1.5rem;
+	}
+
+	.agenda::before {
+		content: '';
+		position: absolute;
+		top: 0.6rem;
+		bottom: 0.6rem;
+		left: 0.35rem;
+		width: 2px;
+		background: var(--color-border-medium, #cbd5e0);
+	}
+
+	.agenda li {
+		position: relative;
+		display: grid;
+		grid-template-columns: 6.5rem 1fr;
+		gap: 0.75rem;
+		padding: 0.55rem 0;
+		color: var(--color-text-primary, #2d3748);
+	}
+
+	.agenda li::before {
+		content: '';
+		position: absolute;
+		left: -1.5rem;
+		top: 0.85rem;
+		width: 0.75rem;
+		height: 0.75rem;
+		border-radius: 50%;
+		background: #ffffff;
+		border: 3px solid var(--color-primary);
+	}
+
+	.agenda time {
+		font-weight: 700;
+		font-variant-numeric: tabular-nums;
+		color: var(--color-primary-dark);
+	}
+
 	.speakers {
 		list-style: none;
 		display: flex;
@@ -513,6 +569,11 @@
 
 		.hero-meta {
 			font-size: 1rem;
+		}
+
+		.agenda li {
+			grid-template-columns: 1fr;
+			gap: 0.1rem;
 		}
 
 		.banner-link {
