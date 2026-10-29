@@ -1,0 +1,331 @@
+/*
+ * Shared admin styles: page headers, cards, buttons, form fields, tables, badges and flash messages.
+ * Imported once by the admin layout and scoped under .admin, so nothing leaks into the public site.
+ */
+
+.admin {
+	--admin-radius: 10px;
+	--admin-danger: #b91c1c;
+	font-size: 0.95rem;
+}
+
+.admin .page-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin-bottom: 1.5rem;
+}
+
+.admin .page-header h1 {
+	font-size: 1.6rem;
+	margin-bottom: 0.25rem;
+}
+
+.admin .page-header p {
+	margin: 0;
+	color: var(--color-text-light);
+}
+
+.admin .back-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	color: var(--color-text-light);
+	font-weight: 500;
+	margin-bottom: 0.75rem;
+}
+
+.admin .back-link:hover {
+	color: var(--color-primary-dark);
+}
+
+.admin .card {
+	background: #ffffff;
+	border: 1px solid var(--color-border-light);
+	border-radius: var(--admin-radius);
+	padding: 1.5rem;
+	box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.admin .card + .card {
+	margin-top: 1.25rem;
+}
+
+.admin .card h2 {
+	font-size: 1.15rem;
+	margin-bottom: 1rem;
+}
+
+.admin .card-danger {
+	border-color: #fecaca;
+}
+
+/* Buttons */
+.admin .btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.45rem;
+	padding: 0.55rem 1rem;
+	border-radius: 8px;
+	border: 1px solid var(--color-border-medium);
+	background: #ffffff;
+	color: var(--color-text-primary);
+	font: inherit;
+	font-weight: 600;
+	line-height: 1.2;
+	white-space: nowrap;
+	cursor: pointer;
+	transition:
+		background-color 0.15s,
+		border-color 0.15s,
+		color 0.15s;
+}
+
+.admin .btn:hover {
+	border-color: var(--color-primary);
+	color: var(--color-primary-dark);
+}
+
+.admin .btn-primary {
+	background: var(--color-primary);
+	border-color: var(--color-primary);
+	color: #ffffff;
+}
+
+.admin .btn-primary:hover {
+	background: var(--color-primary-dark);
+	border-color: var(--color-primary-dark);
+	color: #ffffff;
+}
+
+.admin .btn-danger {
+	color: var(--admin-danger);
+	border-color: #fca5a5;
+}
+
+.admin .btn-danger:hover {
+	background: #fef2f2;
+	border-color: var(--admin-danger);
+	color: #991b1b;
+}
+
+.admin .btn-small {
+	padding: 0.3rem 0.65rem;
+	font-size: 0.85rem;
+}
+
+.admin .btn:disabled {
+	opacity: 0.55;
+	cursor: not-allowed;
+}
+
+.admin .actions {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+/* Form fields */
+.admin .form-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 0 1.25rem;
+}
+
+.admin .field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+	margin-bottom: 1rem;
+}
+
+.admin .field > label,
+.admin .field > .label {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.admin .hint {
+	font-size: 0.82rem;
+	color: var(--color-text-light);
+	margin: 0;
+}
+
+/* A hint that introduces a whole card, rather than sitting under one field. */
+.admin .card > .hint {
+	margin-bottom: 1rem;
+}
+
+.admin .field-error {
+	color: var(--admin-danger);
+	font-size: 0.85rem;
+	margin: 0;
+}
+
+.admin .check {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.admin
+	input:is(
+		[type='text'],
+		[type='email'],
+		[type='password'],
+		[type='url'],
+		[type='number'],
+		[type='search'],
+		[type='date'],
+		[type='time'],
+		[type='tel']
+	),
+.admin select,
+.admin textarea {
+	width: 100%;
+	padding: 0.55rem 0.7rem;
+	border: 1px solid var(--color-border-medium);
+	border-radius: 8px;
+	background: #ffffff;
+	color: var(--color-text-primary);
+	font: inherit;
+}
+
+.admin textarea {
+	resize: vertical;
+}
+
+.admin :is(input, select, textarea):focus-visible {
+	outline: 2px solid color-mix(in srgb, var(--color-primary) 35%, transparent);
+	outline-offset: 0;
+	border-color: var(--color-primary);
+}
+
+.admin [aria-invalid='true'] {
+	border-color: var(--admin-danger);
+}
+
+/* Flash messages */
+.admin .flash {
+	padding: 0.75rem 1rem;
+	border-radius: 8px;
+	margin-bottom: 1.25rem;
+	font-weight: 500;
+	border: 1px solid;
+}
+
+.admin .flash-success {
+	background: #ecfdf5;
+	color: #065f46;
+	border-color: #a7f3d0;
+}
+
+.admin .flash-error {
+	background: #fef2f2;
+	color: #991b1b;
+	border-color: #fecaca;
+}
+
+.admin .flash-info {
+	background: #eff6ff;
+	color: #1e3a8a;
+	border-color: #bfdbfe;
+}
+
+/* Tables */
+.admin .table-wrap {
+	/* relative, so absolutely positioned children (.visually-hidden) are clipped too. */
+	position: relative;
+	overflow-x: auto;
+}
+
+.admin table.list {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.admin table.list :is(th, td) {
+	text-align: left;
+	padding: 0.65rem 0.75rem;
+	border-bottom: 1px solid var(--color-border-light);
+	vertical-align: middle;
+}
+
+.admin table.list th {
+	font-size: 0.78rem;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--color-text-light);
+}
+
+.admin table.list tbody tr:hover {
+	background: var(--color-bg-secondary);
+}
+
+/* Badges */
+.admin .badge {
+	display: inline-block;
+	padding: 0.15rem 0.55rem;
+	border-radius: 999px;
+	font-size: 0.78rem;
+	font-weight: 600;
+	background: var(--color-bg-secondary);
+	color: var(--color-text-secondary);
+	border: 1px solid var(--color-border-light);
+}
+
+.admin .badge-green {
+	background: #ecfdf5;
+	color: #065f46;
+	border-color: #a7f3d0;
+}
+
+.admin .badge-amber {
+	background: #fffbeb;
+	color: #92400e;
+	border-color: #fde68a;
+}
+
+.admin .badge-red {
+	background: #fef2f2;
+	color: #991b1b;
+	border-color: #fecaca;
+}
+
+.admin .badge-blue {
+	background: #eff6ff;
+	color: #1e40af;
+	border-color: #bfdbfe;
+}
+
+.admin .muted {
+	color: var(--color-text-light);
+}
+
+.admin .empty-state {
+	text-align: center;
+	padding: 2.5rem 1rem;
+	color: var(--color-text-light);
+}
+
+.admin .empty-state i {
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+	color: var(--color-border-medium);
+}
+
+/* Hidden on screen but still read by screen readers. */
+.admin .visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
