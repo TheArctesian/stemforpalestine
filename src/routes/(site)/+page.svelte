@@ -47,12 +47,7 @@
 					>
 						<i class="fab fa-youtube"></i> YouTube
 					</a>
-					<a
-						href="https://stem4pal.fillout.com/interest"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="social-link join-us"
-					>
+					<a href="/interest" class="social-link join-us">
 						<i class="fas fa-users"></i> Join Us
 					</a>
 				</div>
@@ -177,12 +172,7 @@ The email guide/template also has tips for bringing up this topic to your profes
 				<div class="action-card">
 					<h3>Join Our Movement</h3>
 					<p>Become a STEM for Palestine member or join our mailing list</p>
-					<a
-						href="https://stem4pal.fillout.com/interest"
-						class="action-link"
-						target="_blank"
-						rel="noopener noreferrer">Sign Up →</a
-					>
+					<a href="/interest" class="action-link">Sign Up →</a>
 				</div>
 
 				<!-- Fundraiser for Peyrin -->
