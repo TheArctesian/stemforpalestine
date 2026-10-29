@@ -1,4 +1,6 @@
-import { index, integer, pgEnum, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
+import { index, integer, jsonb, pgEnum, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
+import type { Answers } from '$lib/forms/conditions';
+import type { Ending, Field } from '$lib/forms/definition';
 
 const timestamps = {
 	createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
@@ -47,5 +49,58 @@ export const rateLimits = pgTable('rate_limits', {
 	windowStart: timestamp('window_start', { withTimezone: true }).notNull().defaultNow()
 });
 
+export const formStatus = pgEnum('form_status', ['draft', 'open', 'closed']);
+
+/** A form built in the admin. Its questions live in `fields`; see $lib/forms/definition.ts. */
+export const forms = pgTable('forms', {
+	id: uuid('id').primaryKey().defaultRandom(),
+	/** Public address: /forms/<slug>. */
+	slug: text('slug').notNull().unique(),
+	title: text('title').notNull(),
+	status: formStatus('status').notNull().default('draft'),
+	submitLabel: text('submit_label').notNull().default('Submit'),
+	closedMessage: text('closed_message').notNull().default(''),
+	/** Which email question is the submitter's address (for the mailing list). */
+	emailFieldId: text('email_field_id'),
+	fields: jsonb('fields').$type<Field[]>().notNull().default([]),
+	endings: jsonb('endings').$type<Ending[]>().notNull().default([]),
+	createdBy: uuid('created_by').references(() => users.id, { onDelete: 'set null' }),
+	updatedBy: uuid('updated_by').references(() => users.id, { onDelete: 'set null' }),
+	...timestamps
+});
+
+export const submissionSource = pgEnum('submission_source', ['web', 'import']);
+
+export type SubmissionMetadata = {
+	userAgent?: string;
+	referrer?: string;
+	ipHash?: string;
+	/** Row number in the CSV, for imported submissions. */
+	importRow?: number;
+};
+
+export const formSubmissions = pgTable(
+	'form_submissions',
+	{
+		id: uuid('id').primaryKey().defaultRandom(),
+		formId: uuid('form_id')
+			.notNull()
+			.references(() => forms.id, { onDelete: 'cascade' }),
+		/** Answers keyed by field id (not key), so renaming a key keeps old answers attached. */
+		data: jsonb('data').$type<Answers>().notNull(),
+		/** The submitter's address, lowercased, copied out of `data` for the mailing list. */
+		email: text('email'),
+		source: submissionSource('source').notNull().default('web'),
+		metadata: jsonb('metadata').$type<SubmissionMetadata>().notNull().default({}),
+		submittedAt: timestamp('submitted_at', { withTimezone: true }).notNull().defaultNow()
+	},
+	(t) => [
+		index('form_submissions_form_id_submitted_at_idx').on(t.formId, t.submittedAt),
+		index('form_submissions_email_idx').on(t.email)
+	]
+);
+
 export type User = typeof users.$inferSelect;
 export type Session = typeof sessions.$inferSelect;
+export type Form = typeof forms.$inferSelect;
+export type FormSubmission = typeof formSubmissions.$inferSelect;

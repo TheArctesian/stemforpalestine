@@ -68,3 +68,16 @@ Database is accessed server-side only through `$env/dynamic/private` for environ
 ### Admin Auth
 
 Database sessions (`users`, `sessions` tables): the `s4p_session` cookie holds a random token and the database stores its SHA-256. `hooks.server.ts` rejects anyone who isn't a signed-in `admin` on every `/admin` path except `/admin/login`, which also covers form actions and `+server.ts` endpoints. Actions still call `requireAdmin(locals)` from `$lib/server/permissions`. `member` accounts can exist but have no admin access yet.
+
+### Forms
+
+Forms are built in the admin (`/admin/forms`) and served at `/forms/<slug>`. A form's questions are JSON in `forms.fields`, shaped by `src/lib/forms/definition.ts` (zod). The rest of `src/lib/forms/` has no zod and is shared by the public page, the builder and the server:
+
+- `conditions.ts` - Show/hide and ending rules (`evaluate`, `isVisible`); the email audience filters reuse it
+- `validate.ts` - `readFormData` → `validateSubmission`. Runs in the browser for instant errors and again on the server, which is what counts. Hidden questions are skipped and their answers dropped.
+- `templates.ts` - "New form" starting points, including the interest form as it was on Fillout
+- `import.ts` - Turning CSV cells into answers for the import page
+
+Answers (`form_submissions.data`) are keyed by field **id**, so they survive a question being reworded. A field's **key** is what email placeholders (`{{name}}`) and audience filters use. A question that already has answers can only be archived, not deleted. Rich text from the editor is cleaned with `sanitizeRichText` (`src/lib/server/sanitize.ts`) when saved, because it's rendered with `{@html}`.
+
+`/interest` (the site's sign-up link) redirects to the `interest` form while it's open, and to the old Fillout form otherwise.
