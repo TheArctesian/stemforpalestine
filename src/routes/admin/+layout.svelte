@@ -6,6 +6,7 @@
 
 	const nav = [
 		{ href: '/admin', label: 'Dashboard', icon: 'fa-gauge' },
+		{ href: '/admin/forms', label: 'Forms', icon: 'fa-clipboard-list' },
 		{ href: '/admin/users', label: 'Users', icon: 'fa-users' },
 		{ href: '/admin/account', label: 'Account', icon: 'fa-user-gear' }
 	];

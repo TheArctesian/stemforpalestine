@@ -67,7 +67,7 @@
 			{:else}
 				<p class="empty" data-reveal="up" use:reveal>
 					No upcoming events right now.
-					<a href="https://stem4pal.fillout.com/interest" target="_blank" rel="noopener noreferrer">Join our mailing list</a>
+					<a href="/interest">Join our mailing list</a>
 					to hear about the next one.
 				</p>
 			{/if}

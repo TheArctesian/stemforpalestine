@@ -3,6 +3,12 @@
 
 	const sections = [
 		{
+			href: '/admin/forms',
+			icon: 'fa-clipboard-list',
+			title: 'Forms',
+			description: 'Build sign-up forms and see who has filled them in.'
+		},
+		{
 			href: '/admin/users',
 			icon: 'fa-users',
 			title: 'Users',
@@ -29,6 +35,14 @@
 </header>
 
 <div class="stats">
+	<div class="card stat">
+		<span class="stat-value">{data.stats.submissionsThisWeek}</span>
+		<span class="stat-label">Submissions in the last 7 days</span>
+	</div>
+	<div class="card stat">
+		<span class="stat-value">{data.stats.openForms}</span>
+		<span class="stat-label">Open forms</span>
+	</div>
 	<div class="card stat">
 		<span class="stat-value">{data.stats.activeUsers}</span>
 		<span class="stat-label">Active accounts</span>
