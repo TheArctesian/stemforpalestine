@@ -42,6 +42,11 @@
 </svelte:head>
 
 <div class="event-page">
+	{#if data.preview}
+		<p class="draft-banner">
+			<i class="fas fa-eye"></i> Preview: this event is a draft. Only admins can see it.
+		</p>
+	{/if}
 	<section class="hero">
 		<div class="container">
 			<a href="/events" class="back-link" data-reveal="up" use:reveal>
@@ -64,9 +69,15 @@
 					<span class="past-badge">This event has ended</span>
 				{:else}
 					<a href={event.rsvpUrl} target="_blank" rel="noopener noreferrer" class="cta-button">
-						<i class="fas fa-ticket"></i> RSVP on Luma
+						<i class="fas fa-ticket"></i>
+						{event.rsvpLabel}
 					</a>
-					<a href={googleCalendarUrl(event)} target="_blank" rel="noopener noreferrer" class="ghost-button">
+					<a
+						href={googleCalendarUrl(event)}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="ghost-button"
+					>
 						<i class="fas fa-calendar-plus"></i> Add to calendar
 					</a>
 				{/if}
@@ -86,13 +97,17 @@
 				<h3>Where</h3>
 				<p>
 					{#if event.venue.url}
-						<a href={event.venue.url} target="_blank" rel="noopener noreferrer" class="venue-link">{event.venue.name}</a>
+						<a href={event.venue.url} target="_blank" rel="noopener noreferrer" class="venue-link"
+							>{event.venue.name}</a
+						>
 					{:else}
 						{event.venue.name}
 					{/if}
 					<br />{event.venue.address}
 				</p>
-				<a href={mapUrl(event)} target="_blank" rel="noopener noreferrer" class="detail-link">Open in Maps →</a>
+				<a href={mapUrl(event)} target="_blank" rel="noopener noreferrer" class="detail-link"
+					>Open in Maps →</a
+				>
 			</div>
 			<div class="detail-card" data-reveal="up" use:reveal={0.2}>
 				<i class="fas fa-utensils detail-icon"></i>
@@ -101,7 +116,9 @@
 					{#each event.notes as note, i}{note}{#if i < event.notes.length - 1}<br />{/if}{/each}
 				</p>
 				{#if !past}
-					<a href={event.rsvpUrl} target="_blank" rel="noopener noreferrer" class="detail-link">RSVP →</a>
+					<a href={event.rsvpUrl} target="_blank" rel="noopener noreferrer" class="detail-link"
+						>RSVP →</a
+					>
 				{/if}
 			</div>
 		</div>
@@ -110,7 +127,14 @@
 	<section class="about">
 		<div class="container about-grid">
 			<figure class="poster" data-reveal="left" use:reveal>
-				<img src={event.poster} alt={event.posterAlt} width="1536" height="2048" loading="lazy" use:tilt />
+				<img
+					src={event.poster}
+					alt={event.posterAlt}
+					width={event.posterWidth ?? 1536}
+					height={event.posterHeight ?? 2048}
+					loading="lazy"
+					use:tilt
+				/>
 				<figcaption>
 					{#if event.posterPdf}
 						<a href={event.posterPdf} target="_blank" rel="noopener noreferrer" download>
@@ -118,7 +142,8 @@
 						</a>
 					{/if}
 					<button type="button" class="share-button" onclick={share}>
-						<i class="fas fa-share-nodes"></i> {shareLabel}
+						<i class="fas fa-share-nodes"></i>
+						{shareLabel}
 					</button>
 				</figcaption>
 			</figure>
@@ -141,12 +166,14 @@
 					</ol>
 				{/if}
 
-				<h3 data-reveal="right" use:reveal>Speakers will include</h3>
-				<ul class="speakers">
-					{#each event.speakers as speaker, i}
-						<li data-reveal="right" use:reveal={0.08 * i}>{speaker}</li>
-					{/each}
-				</ul>
+				{#if event.speakers.length}
+					<h3 data-reveal="right" use:reveal>Speakers will include</h3>
+					<ul class="speakers">
+						{#each event.speakers as speaker, i}
+							<li data-reveal="right" use:reveal={0.08 * i}>{speaker}</li>
+						{/each}
+					</ul>
+				{/if}
 
 				{#if event.partners.length}
 					<h3 data-reveal="right" use:reveal>With</h3>
@@ -166,11 +193,40 @@
 		</div>
 	</section>
 
-	{#if !past}
+	{#if event.speakerCards?.length}
+		<section class="speaker-cards">
+			<div class="container">
+				<h2 data-reveal="up" use:reveal>Meet the speakers</h2>
+				<ul class="card-grid">
+					{#each event.speakerCards as speaker, i (i)}
+						<li class="speaker-card" data-reveal="up" use:reveal={0.08 * i}>
+							{#if speaker.imageUrl}
+								<img src={speaker.imageUrl} alt="" width="160" height="160" loading="lazy" />
+							{:else}
+								<span class="avatar" aria-hidden="true">{speaker.name.trim().charAt(0)}</span>
+							{/if}
+							<h3>{speaker.name}</h3>
+							{#if speaker.role}<p class="role">{speaker.role}</p>{/if}
+							{#if speaker.bio}<p class="bio">{speaker.bio}</p>{/if}
+						</li>
+					{/each}
+				</ul>
+			</div>
+		</section>
+	{/if}
+
+	{#if !past && event.rsvpBannerText}
 		<section class="rsvp-banner">
 			<div class="container">
-				<a href={event.rsvpUrl} target="_blank" rel="noopener noreferrer" class="banner-link" data-reveal="zoom" use:reveal>
-					<span>Dinner is provided if you RSVP. Save your spot</span>
+				<a
+					href={event.rsvpUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="banner-link"
+					data-reveal="zoom"
+					use:reveal
+				>
+					<span>{event.rsvpBannerText}</span>
 					<i class="fas fa-arrow-right"></i>
 				</a>
 			</div>
@@ -201,7 +257,12 @@
 		text-align: center;
 		background:
 			radial-gradient(ellipse at 50% 120%, rgba(0, 150, 57, 0.28) 0%, transparent 60%),
-			linear-gradient(160deg, var(--event-night) 0%, var(--event-night-light) 55%, var(--event-night) 100%);
+			linear-gradient(
+				160deg,
+				var(--event-night) 0%,
+				var(--event-night-light) 55%,
+				var(--event-night) 100%
+			);
 	}
 
 	.hero::before {
@@ -289,7 +350,10 @@
 		font-weight: 600;
 		padding: 0.85rem 1.5rem;
 		border-radius: 8px;
-		transition: filter 0.2s, transform 0.2s, background-color 0.2s;
+		transition:
+			filter 0.2s,
+			transform 0.2s,
+			background-color 0.2s;
 	}
 
 	.cta-button {
@@ -339,7 +403,9 @@
 		border-radius: 12px;
 		padding: 1.5rem;
 		box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
-		transition: border-color 0.3s, box-shadow 0.3s;
+		transition:
+			border-color 0.3s,
+			box-shadow 0.3s;
 	}
 
 	.detail-card:hover {
@@ -526,12 +592,98 @@
 		background: #ffffff;
 		font-weight: 500;
 		font-size: 0.95rem;
-		transition: border-color 0.2s, color 0.2s;
+		transition:
+			border-color 0.2s,
+			color 0.2s;
 	}
 
 	.partners a:hover {
 		border-color: var(--color-primary);
 		color: var(--color-primary-dark);
+	}
+
+	.draft-banner {
+		background: #fffbeb;
+		color: #92400e;
+		border-bottom: 1px solid #fde68a;
+		text-align: center;
+		font-weight: 600;
+		padding: 0.6rem 1rem;
+		margin: 0;
+	}
+
+	.speaker-cards {
+		background: var(--color-bg-secondary, #f7fafc);
+		padding: 0 0 4rem;
+	}
+
+	.speaker-cards h2 {
+		font-size: 1.85rem;
+		color: var(--color-text-primary, #2d3748);
+		margin-bottom: 1.5rem;
+	}
+
+	.card-grid {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+		gap: 1.25rem;
+	}
+
+	.speaker-card {
+		background: #ffffff;
+		border: 2px solid var(--color-border-light, #e2e8f0);
+		border-radius: 12px;
+		padding: 1.5rem;
+		text-align: center;
+		transition:
+			border-color 0.3s,
+			box-shadow 0.3s;
+	}
+
+	.speaker-card:hover {
+		border-color: var(--color-primary);
+		box-shadow: 0 10px 28px rgba(0, 150, 57, 0.15);
+	}
+
+	.speaker-card img,
+	.speaker-card .avatar {
+		display: block;
+		width: 7rem;
+		height: 7rem;
+		margin: 0 auto 1rem;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 3px solid var(--color-primary);
+	}
+
+	.speaker-card .avatar {
+		display: grid;
+		place-items: center;
+		background: var(--event-night-light);
+		color: #ffffff;
+		font-size: 2.5rem;
+		font-weight: 800;
+	}
+
+	.speaker-card h3 {
+		font-size: 1.15rem;
+		margin-bottom: 0.25rem;
+		color: var(--color-text-primary, #2d3748);
+	}
+
+	.speaker-card .role {
+		color: var(--color-primary-dark);
+		font-weight: 600;
+		font-size: 0.95rem;
+		margin-bottom: 0.6rem;
+	}
+
+	.speaker-card .bio {
+		color: var(--color-text-secondary, #4a5568);
+		font-size: 0.95rem;
+		line-height: 1.55;
+		margin: 0;
 	}
 
 	.rsvp-banner {

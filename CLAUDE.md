@@ -48,6 +48,7 @@ This is a SvelteKit application with Drizzle ORM for database management, using 
 - `src/lib/` - Shared library code
 - `src/lib/admin/` - Admin UI components and the shared `admin.css`
 - `src/lib/server/` - Server-only code: `auth.ts` (sessions), `password.ts` (argon2), `rate-limit.ts`
+- `src/lib/data/events.ts` - The `StemEvent` type and formatting helpers; events themselves live in the `events` table (`src/lib/server/events.ts` maps rows to `StemEvent`)
 - `src/lib/server/db/` - Database configuration and schema
   - `schema.ts` - Database schema definitions
   - `index.ts` - Database connection setup
@@ -89,3 +90,7 @@ Templates (`email_templates`) are linked to forms; their `{{key}}` placeholders 
 Sending (`src/lib/server/email/send.ts`) needs no job queue: starting a campaign writes one queued `email_messages` row per recipient, and the campaign page POSTs to `/admin/email/campaigns/[id]/send` repeatedly, each call claiming and sending up to 100. Claims older than 10 minutes are picked up again. With no `RESEND_API_KEY`, development logs emails to the console.
 
 SvelteKit's built-in CSRF check is turned off in `svelte.config.js` and done in `hooks.server.ts` instead, so `/api/email/unsubscribe` can accept one-click unsubscribes that mail apps POST without an `Origin` header. Keep the check in hooks if you touch it.
+
+### Events
+
+Events are edited at `/admin/events` and stored in the `events` table; drafts are visible only to admins. Times are entered and shown in Bay Area time (`EVENT_TIME_ZONE`), converted with `zonedToIso` / `isoToZoned`. The first event was moved into the database by a data migration (`drizzle/0004_seed-principled-in-tech.sql`). Its poster now lives in `static/events/`, while uploaded posters and speaker photos go to Vercel Blob through `/admin/uploads`. Public event pages send `s-maxage=60`, so edits can take a minute to show.

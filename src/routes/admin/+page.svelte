@@ -3,6 +3,12 @@
 
 	const sections = [
 		{
+			href: '/admin/events',
+			icon: 'fa-calendar-days',
+			title: 'Events',
+			description: 'Create and edit event pages, with agendas and speaker cards.'
+		},
+		{
 			href: '/admin/forms',
 			icon: 'fa-clipboard-list',
 			title: 'Forms',

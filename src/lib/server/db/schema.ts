@@ -221,6 +221,47 @@ export const emailSuppressions = pgTable('email_suppressions', {
 	createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
 });
 
+export const eventStatus = pgEnum('event_status', ['draft', 'published']);
+
+export type AgendaItem = { time: string; title: string };
+export type SpeakerCard = { name: string; role: string; bio: string; imageUrl: string };
+export type EventLink = { name: string; url?: string };
+
+/** An event page at /events/<slug>. Mirrors StemEvent in $lib/data/events.ts. */
+export const events = pgTable('events', {
+	id: uuid('id').primaryKey().defaultRandom(),
+	slug: text('slug').notNull().unique(),
+	title: text('title').notNull(),
+	subtitle: text('subtitle'),
+	summary: text('summary').notNull(),
+	description: text('description').array().notNull().default([]),
+	startAt: timestamp('start_at', { withTimezone: true }).notNull(),
+	endAt: timestamp('end_at', { withTimezone: true }).notNull(),
+	venueName: text('venue_name').notNull(),
+	venueAddress: text('venue_address').notNull(),
+	venueUrl: text('venue_url'),
+	rsvpUrl: text('rsvp_url').notNull(),
+	rsvpLabel: text('rsvp_label').notNull().default('RSVP'),
+	/** The green banner at the bottom of the page; none when empty. */
+	rsvpBannerText: text('rsvp_banner_text'),
+	posterUrl: text('poster_url').notNull(),
+	posterWidth: integer('poster_width'),
+	posterHeight: integer('poster_height'),
+	posterAlt: text('poster_alt').notNull(),
+	posterPdfUrl: text('poster_pdf_url'),
+	agenda: jsonb('agenda').$type<AgendaItem[]>().notNull().default([]),
+	/** The "Speakers will include" list. */
+	speakers: text('speakers').array().notNull().default([]),
+	/** The optional "Meet the speakers" cards. */
+	speakerCards: jsonb('speaker_cards').$type<SpeakerCard[]>().notNull().default([]),
+	partners: jsonb('partners').$type<EventLink[]>().notNull().default([]),
+	notes: text('notes').array().notNull().default([]),
+	status: eventStatus('status').notNull().default('draft'),
+	createdBy: uuid('created_by').references(() => users.id, { onDelete: 'set null' }),
+	updatedBy: uuid('updated_by').references(() => users.id, { onDelete: 'set null' }),
+	...timestamps
+});
+
 export type User = typeof users.$inferSelect;
 export type Session = typeof sessions.$inferSelect;
 export type Form = typeof forms.$inferSelect;
@@ -228,3 +269,4 @@ export type FormSubmission = typeof formSubmissions.$inferSelect;
 export type EmailTemplate = typeof emailTemplates.$inferSelect;
 export type EmailCampaign = typeof emailCampaigns.$inferSelect;
 export type EmailMessage = typeof emailMessages.$inferSelect;
+export type EventRow = typeof events.$inferSelect;
