@@ -81,3 +81,11 @@ Forms are built in the admin (`/admin/forms`) and served at `/forms/<slug>`. A f
 Answers (`form_submissions.data`) are keyed by field **id**, so they survive a question being reworded. A field's **key** is what email placeholders (`{{name}}`) and audience filters use. A question that already has answers can only be archived, not deleted. Rich text from the editor is cleaned with `sanitizeRichText` (`src/lib/server/sanitize.ts`) when saved, because it's rendered with `{@html}`.
 
 `/interest` (the site's sign-up link) redirects to the `interest` form while it's open, and to the old Fillout form otherwise.
+
+### Email
+
+Templates (`email_templates`) are linked to forms; their `{{key}}` placeholders are filled from each recipient's answers (`src/lib/email/placeholders.ts`). A campaign copies the template's subject and HTML when it's made, and its audience is forms plus rules by field key, resolved in `src/lib/email/audience.ts`: only each person's latest answer to a form counts, one email per address, and `email_suppressions` (unsubscribes, bounces, complaints, manual) are always left out.
+
+Sending (`src/lib/server/email/send.ts`) needs no job queue: starting a campaign writes one queued `email_messages` row per recipient, and the campaign page POSTs to `/admin/email/campaigns/[id]/send` repeatedly, each call claiming and sending up to 100. Claims older than 10 minutes are picked up again. With no `RESEND_API_KEY`, development logs emails to the console.
+
+SvelteKit's built-in CSRF check is turned off in `svelte.config.js` and done in `hooks.server.ts` instead, so `/api/email/unsubscribe` can accept one-click unsubscribes that mail apps POST without an `Origin` header. Keep the check in hooks if you touch it.

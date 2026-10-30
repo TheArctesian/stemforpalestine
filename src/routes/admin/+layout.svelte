@@ -7,6 +7,9 @@
 	const nav = [
 		{ href: '/admin', label: 'Dashboard', icon: 'fa-gauge' },
 		{ href: '/admin/forms', label: 'Forms', icon: 'fa-clipboard-list' },
+		{ href: '/admin/email/campaigns', label: 'Campaigns', icon: 'fa-paper-plane' },
+		{ href: '/admin/email/templates', label: 'Email templates', icon: 'fa-envelope-open-text' },
+		{ href: '/admin/email/suppressions', label: 'Unsubscribes', icon: 'fa-ban' },
 		{ href: '/admin/users', label: 'Users', icon: 'fa-users' },
 		{ href: '/admin/account', label: 'Account', icon: 'fa-user-gear' }
 	];

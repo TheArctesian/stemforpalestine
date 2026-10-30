@@ -3,11 +3,36 @@ import * as auth from '$lib/server/auth';
 
 const PUBLIC_ADMIN_PATHS = new Set(['/admin/login']);
 
+/** Accepts form POSTs from anywhere; safe because each request carries a signed link. */
+const CROSS_SITE_FORM_PATHS = new Set(['/api/email/unsubscribe']);
+const FORM_CONTENT_TYPES = [
+	'application/x-www-form-urlencoded',
+	'multipart/form-data',
+	'text/plain'
+];
+
+/**
+ * SvelteKit's own CSRF check (switched off in svelte.config.js): form submissions that change
+ * things must come from this site.
+ */
+function isCrossSiteForm(request: Request, url: URL): boolean {
+	if (!['POST', 'PUT', 'PATCH', 'DELETE'].includes(request.method)) return false;
+	const type = request.headers.get('content-type')?.split(';', 1)[0].trim().toLowerCase() ?? '';
+	if (!FORM_CONTENT_TYPES.includes(type)) return false;
+	return request.headers.get('origin') !== url.origin && !CROSS_SITE_FORM_PATHS.has(url.pathname);
+}
+
 function isAdminPath(pathname: string): boolean {
 	return pathname === '/admin' || pathname.startsWith('/admin/');
 }
 
 export const handle: Handle = async ({ event, resolve }) => {
+	if (isCrossSiteForm(event.request, event.url)) {
+		return new Response(`Cross-site ${event.request.method} form submissions are forbidden`, {
+			status: 403
+		});
+	}
+
 	const token = event.cookies.get(auth.SESSION_COOKIE);
 	if (token) {
 		const { session, user } = await auth.validateSessionToken(token);

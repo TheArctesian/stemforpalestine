@@ -1,5 +1,16 @@
-import { index, integer, jsonb, pgEnum, pgTable, text, timestamp, uuid } from 'drizzle-orm/pg-core';
-import type { Answers } from '$lib/forms/conditions';
+import {
+	index,
+	integer,
+	jsonb,
+	pgEnum,
+	pgTable,
+	primaryKey,
+	text,
+	timestamp,
+	uniqueIndex,
+	uuid
+} from 'drizzle-orm/pg-core';
+import type { Answers, Rule } from '$lib/forms/conditions';
 import type { Ending, Field } from '$lib/forms/definition';
 
 const timestamps = {
@@ -100,7 +111,120 @@ export const formSubmissions = pgTable(
 	]
 );
 
+export const emailTemplates = pgTable('email_templates', {
+	id: uuid('id').primaryKey().defaultRandom(),
+	name: text('name').notNull(),
+	/** Can use {{placeholders}} too. */
+	subject: text('subject').notNull(),
+	html: text('html').notNull().default(''),
+	createdBy: uuid('created_by').references(() => users.id, { onDelete: 'set null' }),
+	updatedBy: uuid('updated_by').references(() => users.id, { onDelete: 'set null' }),
+	...timestamps
+});
+
+/** Which forms' answers a template's {{placeholders}} come from, and who it can be sent to. */
+export const emailTemplateForms = pgTable(
+	'email_template_forms',
+	{
+		templateId: uuid('template_id')
+			.notNull()
+			.references(() => emailTemplates.id, { onDelete: 'cascade' }),
+		formId: uuid('form_id')
+			.notNull()
+			.references(() => forms.id, { onDelete: 'cascade' })
+	},
+	(t) => [primaryKey({ columns: [t.templateId, t.formId] })]
+);
+
+/** Who a campaign goes to: submissions of these forms whose answers match the rules (by field key). */
+export type Audience = {
+	formIds: string[];
+	match: 'all' | 'any';
+	rules: Rule[];
+	/** Addresses taken off by hand in the preview. */
+	excludedEmails: string[];
+};
+
+export const campaignStatus = pgEnum('campaign_status', ['draft', 'sending', 'sent', 'cancelled']);
+
+export const emailCampaigns = pgTable('email_campaigns', {
+	id: uuid('id').primaryKey().defaultRandom(),
+	name: text('name').notNull(),
+	templateId: uuid('template_id').references(() => emailTemplates.id, { onDelete: 'set null' }),
+	/** Copied from the template when the campaign is made, so later edits don't change it. */
+	subject: text('subject').notNull(),
+	html: text('html').notNull(),
+	audience: jsonb('audience').$type<Audience>().notNull(),
+	status: campaignStatus('status').notNull().default('draft'),
+	recipientCount: integer('recipient_count').notNull().default(0),
+	sentCount: integer('sent_count').notNull().default(0),
+	failedCount: integer('failed_count').notNull().default(0),
+	createdBy: uuid('created_by').references(() => users.id, { onDelete: 'set null' }),
+	startedAt: timestamp('started_at', { withTimezone: true }),
+	completedAt: timestamp('completed_at', { withTimezone: true }),
+	...timestamps
+});
+
+export const messageStatus = pgEnum('email_message_status', [
+	'queued',
+	'sending',
+	'sent',
+	'failed',
+	'bounced',
+	'complained'
+]);
+
+/** One recipient of a campaign. The unique index means nobody gets the same campaign twice. */
+export const emailMessages = pgTable(
+	'email_messages',
+	{
+		id: uuid('id').primaryKey().defaultRandom(),
+		campaignId: uuid('campaign_id')
+			.notNull()
+			.references(() => emailCampaigns.id, { onDelete: 'cascade' }),
+		email: text('email').notNull(),
+		submissionId: uuid('submission_id').references(() => formSubmissions.id, {
+			onDelete: 'set null'
+		}),
+		formId: uuid('form_id').references(() => forms.id, { onDelete: 'set null' }),
+		/** Placeholder values, fixed when the campaign starts. */
+		vars: jsonb('vars').$type<Record<string, string>>().notNull(),
+		status: messageStatus('status').notNull().default('queued'),
+		providerId: text('provider_id'),
+		error: text('error'),
+		attempts: integer('attempts').notNull().default(0),
+		/** When a send request claimed it; a claim older than a few minutes is abandoned. */
+		lockedAt: timestamp('locked_at', { withTimezone: true }),
+		sentAt: timestamp('sent_at', { withTimezone: true }),
+		createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
+	},
+	(t) => [
+		uniqueIndex('email_messages_campaign_email_idx').on(t.campaignId, t.email),
+		index('email_messages_campaign_status_idx').on(t.campaignId, t.status),
+		index('email_messages_provider_id_idx').on(t.providerId)
+	]
+);
+
+export const suppressionReason = pgEnum('suppression_reason', [
+	'unsubscribed',
+	'bounced',
+	'complained',
+	'manual'
+]);
+
+/** Addresses no campaign will ever send to again. */
+export const emailSuppressions = pgTable('email_suppressions', {
+	email: text('email').primaryKey(),
+	reason: suppressionReason('reason').notNull(),
+	campaignId: uuid('campaign_id').references(() => emailCampaigns.id, { onDelete: 'set null' }),
+	note: text('note'),
+	createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow()
+});
+
 export type User = typeof users.$inferSelect;
 export type Session = typeof sessions.$inferSelect;
 export type Form = typeof forms.$inferSelect;
 export type FormSubmission = typeof formSubmissions.$inferSelect;
+export type EmailTemplate = typeof emailTemplates.$inferSelect;
+export type EmailCampaign = typeof emailCampaigns.$inferSelect;
+export type EmailMessage = typeof emailMessages.$inferSelect;

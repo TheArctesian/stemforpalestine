@@ -15,6 +15,13 @@
       "when": 1793315254502,
       "tag": "0001_forms",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793317010989,
+      "tag": "0002_email",
+      "breakpoints": true
     }
   ]
 }

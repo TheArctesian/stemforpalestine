@@ -9,6 +9,12 @@
 			description: 'Build sign-up forms and see who has filled them in.'
 		},
 		{
+			href: '/admin/email/campaigns',
+			icon: 'fa-paper-plane',
+			title: 'Email',
+			description: 'Write emails with form answers filled in, and send them to who you choose.'
+		},
+		{
 			href: '/admin/users',
 			icon: 'fa-users',
 			title: 'Users',
