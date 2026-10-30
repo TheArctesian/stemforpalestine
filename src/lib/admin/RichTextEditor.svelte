@@ -57,7 +57,7 @@
 		label: string;
 		toolbar?: keyof typeof TOOLBARS;
 		height?: number;
-		/** Fields for the "Insert field" menu, which inserts {{key}}. */
+		/** Fields for the "Insert field" menu (full toolbar), which inserts {{key}}. */
 		placeholders?: Placeholder[];
 		/** Uploads a pasted or chosen image and resolves to its public URL. */
 		uploadImage?: (file: Blob, filename: string) => Promise<string>;
@@ -99,9 +99,9 @@
 					plugins: 'autolink code image link lists table',
 					toolbar: TOOLBARS[toolbar],
 					block_formats: 'Paragraph=p; Heading=h2; Subheading=h3; Small heading=h4',
-					// Full URLs: this HTML ends up on other pages and in emails.
-					relative_urls: false,
-					remove_script_host: false,
+					// Keep links exactly as written: converting them would turn {{unsubscribe_url}} into
+					// a URL under the admin. Uploaded images already come back as full URLs.
+					convert_urls: false,
 					link_default_target: '_blank',
 					automatic_uploads: true,
 					images_upload_handler: uploadImage
@@ -109,7 +109,8 @@
 						: undefined,
 					content_style: 'body { font-family: Inter, system-ui, sans-serif; font-size: 15px; }',
 					setup(ed) {
-						if (placeholders.length) {
+						// Read when the menu opens, so it follows changes to `placeholders`.
+						if (toolbar === 'full') {
 							ed.ui.registry.addMenuButton('placeholders', {
 								text: 'Insert field',
 								icon: 'code-sample',

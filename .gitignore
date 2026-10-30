@@ -21,3 +21,6 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Uploads made in development without a Vercel Blob token
+/static/uploads-dev/
