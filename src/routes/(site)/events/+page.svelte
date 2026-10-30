@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { reveal } from '$lib/animations/reveal';
 	import {
-		events,
 		eventDateBadge,
 		formatEventDate,
 		formatEventTime,
@@ -9,9 +8,11 @@
 		type StemEvent
 	} from '$lib/data/events';
 
+	let { data } = $props();
+
 	const byStart = (a: StemEvent, b: StemEvent) => a.start.localeCompare(b.start);
-	const upcoming = events.filter((event) => !isPast(event)).sort(byStart);
-	const past = events.filter((event) => isPast(event)).sort((a, b) => byStart(b, a));
+	const upcoming = $derived(data.events.filter((event) => !isPast(event)).sort(byStart));
+	const past = $derived(data.events.filter((event) => isPast(event)).sort((a, b) => byStart(b, a)));
 </script>
 
 <svelte:head>
@@ -26,7 +27,13 @@
 	{@const badge = eventDateBadge(event)}
 	<a href="/events/{event.slug}" class="event-card" data-reveal="up" use:reveal={0.1 * i}>
 		<div class="card-poster">
-			<img src={event.poster} alt="" width="1536" height="2048" loading="lazy" />
+			<img
+				src={event.poster}
+				alt=""
+				width={event.posterWidth ?? 1536}
+				height={event.posterHeight ?? 2048}
+				loading="lazy"
+			/>
 			<span class="date-badge">
 				<span class="badge-month">{badge.month}</span>
 				<span class="badge-day">{badge.day}</span>
@@ -35,7 +42,10 @@
 		<div class="card-body">
 			<h3>{[event.title, event.subtitle].filter(Boolean).join(' ')}</h3>
 			<p class="card-meta">
-				<span><i class="fas fa-calendar-day"></i> {formatEventDate(event)}, {formatEventTime(event)}</span>
+				<span
+					><i class="fas fa-calendar-day"></i>
+					{formatEventDate(event)}, {formatEventTime(event)}</span
+				>
 				<span><i class="fas fa-location-dot"></i> {event.venue.name}</span>
 			</p>
 			<p class="card-summary">{event.summary}</p>
@@ -49,8 +59,8 @@
 		<div class="container">
 			<h1 data-reveal="up" use:reveal>Events</h1>
 			<p class="lead" data-reveal="up" use:reveal={0.15}>
-				Panels, networking nights and gatherings where students, tech workers and community
-				members organize for a STEM industry that serves liberation, not genocide and apartheid.
+				Panels, networking nights and gatherings where students, tech workers and community members
+				organize for a STEM industry that serves liberation, not genocide and apartheid.
 			</p>
 		</div>
 	</section>

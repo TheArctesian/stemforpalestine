@@ -1,8 +1,15 @@
-import principledInTech1008Poster from '$lib/assets/events/principled-in-tech-10-08.jpg';
+import { TZDate } from '@date-fns/tz';
 
 export type EventLink = {
 	name: string;
 	url?: string;
+};
+
+export type SpeakerCard = {
+	name: string;
+	role: string;
+	bio: string;
+	imageUrl: string;
 };
 
 export type StemEvent = {
@@ -22,13 +29,23 @@ export type StemEvent = {
 		url?: string;
 	};
 	rsvpUrl: string;
+	/** The RSVP button's label, e.g. "RSVP on Luma". */
+	rsvpLabel: string;
+	/** The green banner at the bottom of the page; none if empty. */
+	rsvpBannerText?: string;
 	poster: string;
+	/** The poster's size in pixels, so the page doesn't jump while it loads. */
+	posterWidth?: number;
+	posterHeight?: number;
 	posterAlt: string;
 	/** Higher-resolution printable poster, served from /static. */
 	posterPdf?: string;
 	/** Run of show; times are display labels in the event's local time. */
 	agenda?: { time: string; title: string }[];
+	/** "Speakers will include": a simple list. */
 	speakers: string[];
+	/** "Meet the speakers": optional cards with a photo, name, role and short bio. */
+	speakerCards?: SpeakerCard[];
 	partners: EventLink[];
 	notes: string[];
 };
@@ -36,53 +53,21 @@ export type StemEvent = {
 /** All times are shown in the Bay Area's time zone, wherever the visitor is. */
 export const EVENT_TIME_ZONE = 'America/Los_Angeles';
 
-export const events: StemEvent[] = [
-	{
-		slug: 'principled-in-tech-10-08',
-		title: 'Principled in Tech',
-		subtitle: 'Networking Night',
-		summary:
-			'A panel and networking night where Bay Area tech workers with organizing experience connect with Berkeley students and community members.',
-		description: [
-			'Principled in Tech Night brings together tech workers in the Bay Area who have labor and political organizing experience with Berkeley students and community members, especially those planning on entering the tech or STEM industries.',
-			'Gain insight into how you can remain principled while employed, and how to leverage your power in the industry to make change.',
-			'This is the first in a monthly recurring series. Dinner will be provided, and there will be plenty of time to network with our speakers.'
-		],
-		start: '2026-10-08T19:00:00-07:00',
-		end: '2026-10-08T21:00:00-07:00',
-		venue: {
-			name: 'Solidarity Collective (SoCo)',
-			address: '2170 Dwight Way, Berkeley, CA',
-			url: 'https://www.soco.place/'
-		},
-		rsvpUrl: 'https://luma.com/koe7fxe6',
-		poster: principledInTech1008Poster,
-		posterAlt:
-			'Poster: STEM4Palestine presents Principled in Tech Networking Night, October 8th, 7–9 PM at Solidarity Collective, 2170 Dwight Way. RSVP at luma.com/koe7fxe6. Dinner is provided if you RSVP.',
-		posterPdf: '/events/principled-in-tech-10-08.pdf',
-		agenda: [
-			{ time: '7:00–7:15', title: 'Mingle, name tags and food' },
-			{ time: '7:15–8:15', title: 'Facilitated panel' },
-			{ time: '8:20–8:40', title: 'Small group discussion with provided questions' },
-			{ time: '8:40–9:00', title: 'Mingle and dinner' }
-		],
-		speakers: [
-			'Former Google and Amazon employees',
-			"Organizers with Tech Workers' Coalition and No Tech for Apartheid",
-			'A brief appearance from a current City Council candidate with Big Tech experience',
-			'And more!'
-		],
-		partners: [
-			{ name: "Tech Workers' Coalition", url: 'https://techworkerscoalition.org' },
-			{ name: 'No Tech for Apartheid', url: 'https://www.notechforapartheid.com' },
-			{ name: 'Solidarity Collective', url: 'https://www.soco.place/' }
-		],
-		notes: ['Dinner is provided if you RSVP', 'Open to students and community members']
-	}
-];
+/** A date and time typed in the admin ("2026-10-08", "19:00"), read as Bay Area time → ISO with offset. */
+export function zonedToIso(date: string, time: string): string {
+	const [y, m, d] = date.split('-').map(Number);
+	const [hh, mm] = time.split(':').map(Number);
+	return new TZDate(y, m - 1, d, hh, mm, EVENT_TIME_ZONE).toISOString();
+}
 
-export function getEvent(slug: string): StemEvent | undefined {
-	return events.find((event) => event.slug === slug);
+/** The other way: an instant → its Bay Area date and time, for the admin's inputs. */
+export function isoToZoned(iso: string | Date): { date: string; time: string } {
+	const t = new TZDate(new Date(iso).getTime(), EVENT_TIME_ZONE);
+	const pad = (n: number) => String(n).padStart(2, '0');
+	return {
+		date: `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`,
+		time: `${pad(t.getHours())}:${pad(t.getMinutes())}`
+	};
 }
 
 export function isPast(event: StemEvent, now = new Date()): boolean {
